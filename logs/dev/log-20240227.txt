@@ -1,0 +1,113 @@
+27/02/2024 09:06:18 [INF] HTTP GET /users responded 200 in 1462.8935 ms
+27/02/2024 09:09:34 [INF] HTTP POST /sign responded 200 in 572.8848 ms
+27/02/2024 09:09:39 [INF] HTTP GET /users responded 200 in 51.5798 ms
+27/02/2024 10:42:30 [INF] HTTP POST /login responded 200 in 2511.6845 ms
+27/02/2024 10:42:36 [INF] HTTP POST /login responded 200 in 287.7814 ms
+27/02/2024 14:20:33 [INF] HTTP GET /users responded 200 in 1312.2789 ms
+27/02/2024 14:20:59 [ERR] HTTP POST /CreateGroup responded 500 in 460.1174 ms
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+GroupMenberReq -> GroupMember
+chat_app_service.Domain.Request.GroupMenberReq -> chat_app_service.Domain.Entities.GroupMember
+   at lambda_method117(Closure, Object, GroupMember, ResolutionContext)
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\chat_app_service\Infrastructure\Repositories\MessageRepository.cs:line 70
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\chat_app_service\Infrastructure\Repositories\MessageRepository.cs:line 91
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_1>d.MoveNext() in D:\service\chat_app_service\Routers\MessageRouter.cs:line 38
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\chat_app_service\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+27/02/2024 14:24:34 [ERR] HTTP POST /CreateGroup responded 500 in 1483.5809 ms
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+GroupMenberReq -> GroupMember
+chat_app_service.Domain.Request.GroupMenberReq -> chat_app_service.Domain.Entities.GroupMember
+   at lambda_method114(Closure, Object, GroupMember, ResolutionContext)
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\chat_app_service\Infrastructure\Repositories\MessageRepository.cs:line 70
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\chat_app_service\Infrastructure\Repositories\MessageRepository.cs:line 91
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_1>d.MoveNext() in D:\service\chat_app_service\Routers\MessageRouter.cs:line 38
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\chat_app_service\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+27/02/2024 14:26:14 [ERR] HTTP POST /CreateGroup responded 500 in 1686.1459 ms
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+GroupMenberReq -> GroupMember
+chat_app_service.Domain.Request.GroupMenberReq -> chat_app_service.Domain.Entities.GroupMember
+   at lambda_method114(Closure, Object, GroupMember, ResolutionContext)
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\chat_app_service\Infrastructure\Repositories\MessageRepository.cs:line 70
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\chat_app_service\Infrastructure\Repositories\MessageRepository.cs:line 91
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_1>d.MoveNext() in D:\service\chat_app_service\Routers\MessageRouter.cs:line 38
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\chat_app_service\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+27/02/2024 14:26:41 [ERR] HTTP POST /CreateGroup responded 500 in 171.7195 ms
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+GroupMenberReq -> GroupMember
+chat_app_service.Domain.Request.GroupMenberReq -> chat_app_service.Domain.Entities.GroupMember
+   at lambda_method114(Closure, Object, GroupMember, ResolutionContext)
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\chat_app_service\Infrastructure\Repositories\MessageRepository.cs:line 70
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\chat_app_service\Infrastructure\Repositories\MessageRepository.cs:line 91
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_1>d.MoveNext() in D:\service\chat_app_service\Routers\MessageRouter.cs:line 38
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\chat_app_service\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+27/02/2024 14:28:38 [INF] HTTP POST /CreateGroup responded 200 in 1279.8189 ms
+27/02/2024 14:49:14 [INF] HTTP POST /CreateGroup responded 200 in 29480.9328 ms
+27/02/2024 14:49:50 [INF] HTTP POST /Message responded 200 in 78.9866 ms
+27/02/2024 14:50:49 [INF] HTTP POST /CreateGroup responded 200 in 55.0633 ms
+27/02/2024 14:55:40 [ERR] HTTP POST /CreateGroup responded 500 in 1425.3818 ms
+System.InvalidOperationException: Unable to track an instance of type 'GroupMember' because it does not have a primary key. Only entity types with a primary key may be tracked.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity, IEntityType entityType)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityStates(IEnumerable`1 entities, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.AddRange(IEnumerable`1 entities)
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\chat_app_service\Infrastructure\Repositories\MessageRepository.cs:line 77
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\chat_app_service\Infrastructure\Repositories\MessageRepository.cs:line 91
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_1>d.MoveNext() in D:\service\chat_app_service\Routers\MessageRouter.cs:line 38
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\chat_app_service\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+27/02/2024 14:57:59 [ERR] HTTP POST /CreateGroup responded 500 in 1378.2520 ms
+System.InvalidOperationException: Unable to track an instance of type 'GroupMember' because it does not have a primary key. Only entity types with a primary key may be tracked.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity, IEntityType entityType)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityStates(IEnumerable`1 entities, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.AddRange(IEnumerable`1 entities)
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\chat_app_service\Infrastructure\Repositories\MessageRepository.cs:line 77
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\chat_app_service\Infrastructure\Repositories\MessageRepository.cs:line 91
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_1>d.MoveNext() in D:\service\chat_app_service\Routers\MessageRouter.cs:line 38
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\chat_app_service\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+27/02/2024 15:05:03 [ERR] HTTP POST /CreateGroup responded 500 in 1512.4272 ms
+System.InvalidOperationException: Unable to track an instance of type 'GroupMember' because it does not have a primary key. Only entity types with a primary key may be tracked.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity, IEntityType entityType)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityStates(IEnumerable`1 entities, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.AddRange(IEnumerable`1 entities)
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\chat_app_service\Infrastructure\Repositories\MessageRepository.cs:line 77
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\chat_app_service\Infrastructure\Repositories\MessageRepository.cs:line 91
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_1>d.MoveNext() in D:\service\chat_app_service\Routers\MessageRouter.cs:line 38
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\chat_app_service\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+27/02/2024 15:26:48 [INF] HTTP POST /CreateGroup responded 200 in 1336.9725 ms
+27/02/2024 15:28:53 [INF] HTTP POST /CreateGroup responded 200 in 1262.4327 ms
+27/02/2024 16:27:47 [INF] HTTP GET /Groups/1 responded 200 in 1565.7408 ms
+27/02/2024 16:28:02 [INF] HTTP GET /Messages/12 responded 200 in 39.2814 ms
