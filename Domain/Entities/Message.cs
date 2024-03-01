@@ -11,6 +11,8 @@ public partial class Message
 
     public int? ReceiverId { get; set; }
 
+    public int? GroupId { get; set; }
+
     public string? Content { get; set; }
 
     public int? Type { get; set; }
@@ -19,11 +21,9 @@ public partial class Message
 
     public DateTime? CreatedAt { get; set; }
 
-    public int? GroupId { get; set; }
-
-    public virtual Group? Group { get; set; }
-
     public virtual ICollection<Group> Groups { get; set; } = new List<Group>();
+
+    public virtual User? Receiver { get; set; }
 
     public virtual User? Sender { get; set; }
 }

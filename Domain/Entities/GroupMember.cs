@@ -5,7 +5,7 @@ namespace chat_app_service.Domain.Entities;
 
 public partial class GroupMember
 {
-    public int GroupsId { get; set; }
+    public int GroupId { get; set; }
 
     public int Userid { get; set; }
 
@@ -13,7 +13,7 @@ public partial class GroupMember
 
     public DateTime? LeftAt { get; set; }
 
-    public virtual Group Groups { get; set; } = null!;
+    public virtual Group Group { get; set; } = null!;
 
     public virtual User User { get; set; } = null!;
 }

@@ -38,14 +38,26 @@
       },
       "publishAllPorts": true,
       "useSSL": true
+    },
+    "ISS DeBug [DEV]": {
+      "commandName": "IIS",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost:8024",
+      "sslPort": 0
+    },
     "iisExpress": {
-      "applicationUrl": "http://localhost:28055",
+      "applicationUrl": "http://localhost:8024/ERS/",
       "sslPort": 44340
     }
   }

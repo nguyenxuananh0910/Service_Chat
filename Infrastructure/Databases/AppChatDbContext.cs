@@ -22,17 +22,18 @@ public partial class AppChatDbContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Group>(entity =>
         {
-            entity.HasKey(e => e.GroupsId).HasName("PK__Groups__D47062D28F8623F0");
+            entity.HasKey(e => e.GroupId).HasName("PK__Groups__88C1034D4F8177E2");
 
-            entity.Property(e => e.GroupsId).HasColumnName("groupsId");
+            entity.Property(e => e.GroupId).HasColumnName("groupId");
             entity.Property(e => e.CreatedAt)
                 .HasColumnType("datetime")
-                .HasColumnName("createdAt");
-            entity.Property(e => e.CreatedBy).HasColumnName("createdBy");
+                .HasColumnName("created_at");
+            entity.Property(e => e.CreatedBy).HasColumnName("created_by");
             entity.Property(e => e.LastMessageId).HasColumnName("LastMessageID");
             entity.Property(e => e.Name)
                 .HasMaxLength(255)
@@ -49,9 +50,9 @@ public partial class AppChatDbContext : DbContext
 
         modelBuilder.Entity<GroupMember>(entity =>
         {
-            entity.HasKey(e => new { e.GroupsId, e.Userid });
+            entity.HasKey(e => new { e.GroupId, e.Userid });
 
-            entity.Property(e => e.GroupsId).HasColumnName("groupsId");
+            entity.Property(e => e.GroupId).HasColumnName("groupId");
             entity.Property(e => e.Userid).HasColumnName("userid");
             entity.Property(e => e.JoinedAt)
                 .HasColumnType("datetime")
@@ -60,8 +61,8 @@ public partial class AppChatDbContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("left_at");
 
-            entity.HasOne(d => d.Groups).WithMany(p => p.GroupMembers)
-                .HasForeignKey(d => d.GroupsId)
+            entity.HasOne(d => d.Group).WithMany(p => p.GroupMembers)
+                .HasForeignKey(d => d.GroupId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Group_ID");
 
@@ -73,35 +74,35 @@ public partial class AppChatDbContext : DbContext
 
         modelBuilder.Entity<Message>(entity =>
         {
-            entity.HasKey(e => e.MessageId).HasName("PK__Messages__4808B9938AB2969F");
+            entity.HasKey(e => e.MessageId).HasName("PK__Messages__4808B99332F48055");
 
             entity.Property(e => e.MessageId).HasColumnName("messageId");
             entity.Property(e => e.Content).HasColumnName("content");
             entity.Property(e => e.CreatedAt)
                 .HasColumnType("datetime")
-                .HasColumnName("createdAt");
+                .HasColumnName("created_at");
             entity.Property(e => e.GroupId).HasColumnName("groupId");
             entity.Property(e => e.ReceiverId).HasColumnName("receiverId");
             entity.Property(e => e.SenderId).HasColumnName("senderId");
             entity.Property(e => e.Status).HasColumnName("status");
             entity.Property(e => e.Type).HasColumnName("type");
 
-            entity.HasOne(d => d.Group).WithMany(p => p.Messages)
-                .HasForeignKey(d => d.GroupId)
-                .HasConstraintName("FK__Messages__groupI__6383C8BA");
-
-            entity.HasOne(d => d.Sender).WithMany(p => p.Messages)
-                .HasForeignKey(d => d.SenderId)
+            entity.HasOne(d => d.Receiver).WithMany(p => p.MessageReceivers)
+                .HasForeignKey(d => d.ReceiverId)
                 .HasConstraintName("FK_Receiver");
+
+            entity.HasOne(d => d.Sender).WithMany(p => p.MessageSenders)
+                .HasForeignKey(d => d.SenderId)
+                .HasConstraintName("FK_Sender");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.Userid).HasName("PK__Users__CBA1B257E58DD307");
+            entity.HasKey(e => e.Userid).HasName("PK__Users__CBA1B2573BB855CE");
 
-            entity.HasIndex(e => e.Fullname, "UQ__Users__D316D6C1463A8F6A").IsUnique();
+            entity.HasIndex(e => e.Fullname, "UQ__Users__D316D6C19339D07B").IsUnique();
 
-            entity.HasIndex(e => e.Username, "UQ__Users__F3DBC5726A16527F").IsUnique();
+            entity.HasIndex(e => e.Username, "UQ__Users__F3DBC572C0F565B4").IsUnique();
 
             entity.Property(e => e.Userid).HasColumnName("userid");
             entity.Property(e => e.CreatedAt)

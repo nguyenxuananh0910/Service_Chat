@@ -2,6 +2,7 @@
 using chat_app_service.Core.Hubs;
 using chat_app_service.Domain.DTOs;
 using chat_app_service.Domain.Entities;
+using chat_app_service.Domain.Exceptions;
 using chat_app_service.Domain.Request;
 using chat_app_service.Domain.Services;
 using chat_app_service.Infrastructure.Databases;
@@ -42,6 +43,25 @@ public class MessageRepository : IMessageService
 
             await _hubContext.Clients.All.SendAsync("ReceiveMessage", req);
 
+            /// add last message
+            var group = await _databaseContext.Groups.FindAsync(message.GroupId);
+
+            if (group != null && group.LastMessage != null)
+            {
+                // So sánh timestamp hoặc ID để xác định tin nhắn nào mới hơn
+                if (message.CreatedAt > group.LastMessage.CreatedAt)
+                {
+                    group.LastMessageId = message.MessageId;
+                }
+
+                await _databaseContext.SaveChangesAsync();
+            }
+            else
+            {
+                group!.LastMessageId = message.MessageId;
+                await _databaseContext.SaveChangesAsync();
+            }
+
             return _mapper.Map<MessageDTO>(message);
         }
         catch (Exception)
@@ -65,17 +85,21 @@ public class MessageRepository : IMessageService
                 await _databaseContext.SaveChangesAsync();
 
                 List<GroupMember> groupMembers = new List<GroupMember>();
-                foreach (var groupMembersReq in req.Menber!)
+                if (req.Members != null && req.Members.Any())
                 {
-                    var groupMember = _mapper.Map<GroupMember>(groupMembersReq);
-                    groupMember.GroupsId = group.GroupsId;
-                    groupMember.JoinedAt = group.CreatedAt;
-                    groupMember.Userid = groupMembersReq.Userid ?? -1;
+                    foreach (var groupMembersReq in req.Members)
+                    {
+                        var groupMember = _mapper.Map<GroupMember>(groupMembersReq);
+                        groupMember.GroupId = group.GroupId;
+                        groupMember.JoinedAt = group.CreatedAt;
+                        groupMember.Userid = groupMembersReq.Userid ?? -1;
 
-                    groupMembers.Add(groupMember);
+                        groupMembers.Add(groupMember);
+                    }
                 }
 
                 group.GroupMembers = groupMembers;
+
                 _databaseContext.GroupMembers.AddRange(groupMembers);
                 await _databaseContext.SaveChangesAsync();
                 await transaction.CommitAsync();
@@ -98,20 +122,64 @@ public class MessageRepository : IMessageService
     {
         try
         {
-            if (!_databaseContext.Users.Any(u => u.Userid == userId))
+            var user = await _databaseContext.Users.FirstOrDefaultAsync(u => u.Userid == userId);
+            if (user == null)
             {
-                throw new BadHttpRequestException(message: "User Không tồn tại");
+                throw new NotFoundException("User does not exist");
             }
 
-            var groups = await _databaseContext.GroupMembers
-            .Include(gm => gm.Groups)
-            .Where(gm => gm.Userid == userId)
-            .Select(g => g.Groups)
-            .ToListAsync();
+            // Retrieve groups and eager-load members using optimized query
+            var groups = await _databaseContext.Groups
+                .Where(g => g.GroupMembers.Any(gm => gm.Userid == userId))
+                .Include(g => g.GroupMembers)
+                .ToListAsync();
 
             if (groups.Count == 0) return new List<GroupDTO>();
 
-            return _mapper.Map<List<GroupDTO>>(groups);
+
+            //  Map groups to DTOs
+            var groupDTOs = groups.Select(g => new GroupDTO
+            {
+                GroupsId = g.GroupId,
+                Name = g.Name,
+                LastMessageId = g.LastMessageId,
+                CreatedBy = g.CreatedBy,
+                CreatedAt = g.CreatedAt,
+                Menbers = g.GroupMembers.Select(gm => new GroupMenberDTO
+                {
+                    GroupsId = gm.GroupId,
+                    Userid = gm.Userid,
+                    JoinedAt = gm.JoinedAt,
+                    LeftAt = gm.LeftAt
+                }).ToList()
+            }).ToList();
+
+            // var groups = await _databaseContext.Groups
+            //.Where(g => g.GroupMembers.Any(gm => gm.Userid == userId))
+            //.Include(g => g.GroupMembers)
+            //.ThenInclude(gm => gm.User)
+            //.Select(g => new GroupDTO
+            //{
+            //    GroupsId = g.GroupId,
+            //    Name = g.Name,
+            //    LastMessageId = g.LastMessageId,
+            //    CreatedBy = g.CreatedBy,
+            //    CreatedAt = g.CreatedAt,
+            //    Members = g.GroupMembers.Select(gm => new GroupMenberDTO
+            //    {
+            //        GroupsId = gm.GroupId,
+            //        JoinedAt = gm.JoinedAt,
+            //        LeftAt = gm.LeftAt,
+            //        Users = new UserDTO
+            //        {
+            //            Userid = gm.User.Userid,
+            //            Fullname = gm.User.Fullname,
+            //        }
+            //    }).ToList()
+            //})
+            //.ToListAsync();
+
+            return _mapper.Map<List<GroupDTO>>(groupDTOs);
         }
         catch
         {
@@ -123,7 +191,7 @@ public class MessageRepository : IMessageService
     {
         try
         {
-            if (!_databaseContext.Groups.Any(u => u.GroupsId == groupId))
+            if (!_databaseContext.Groups.Any(u => u.GroupId == groupId))
             {
                 throw new BadHttpRequestException(message: "group Không tồn tại");
             }

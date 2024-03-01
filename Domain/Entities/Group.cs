@@ -5,7 +5,7 @@ namespace chat_app_service.Domain.Entities;
 
 public partial class Group
 {
-    public int GroupsId { get; set; }
+    public int GroupId { get; set; }
 
     public string? Name { get; set; }
 
@@ -20,6 +20,4 @@ public partial class Group
     public virtual ICollection<GroupMember> GroupMembers { get; set; } = new List<GroupMember>();
 
     public virtual Message? LastMessage { get; set; }
-
-    public virtual ICollection<Message> Messages { get; set; } = new List<Message>();
 }

@@ -1,5 +1,4 @@
 ﻿using chat_app_service.Domain.DTOs;
-using chat_app_service.Domain.DTOs.Core;
 using chat_app_service.Domain.Exceptions;
 using chat_app_service.Domain.Request;
 using chat_app_service.Domain.Services;
@@ -66,6 +65,16 @@ public static class UserRouter
         }).WithTags(tag).WithName("GetUsers")
       .Produces<BaseResponse<List<UserDTO>>>();
 
+        app.MapGet("/user" + "/{userId}", async ([FromServices] IUserService userService, long userId) =>
+        {
+            var results = await userService.GetUser(userId);
+
+            return Results.Ok(new BaseResponse<UserDTO>
+            {
+                data = results
+            });
+        }).WithTags(tag).WithName("GetUser")
+      .Produces<BaseResponse<UserDTO>>();
     }
 }
 

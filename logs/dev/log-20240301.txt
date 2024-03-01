@@ -1,0 +1,294 @@
+01/03/2024 09:15:34 [INF] HTTP GET /users responded 200 in 1848.7353 ms
+01/03/2024 09:33:47 [ERR] HTTP POST /sign responded 500 in 18764.5984 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: Tài khoản đã được đăng ký
+   at chat_app_service.Infrastructure.Repositories.UserRepository.Sign(PostSignReq req) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 40
+   at chat_app_service.Infrastructure.Repositories.UserRepository.Sign(PostSignReq req) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 66
+   at Travel_Ease.Routers.UserRouter.<>c.<<MapUserRoute>b__0_0>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 21
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 09:34:04 [INF] HTTP POST /sign responded 200 in 6780.5151 ms
+01/03/2024 09:37:48 [INF] HTTP POST /login responded 200 in 223.6302 ms
+01/03/2024 09:46:06 [INF] HTTP POST /sign responded 200 in 187.7962 ms
+01/03/2024 09:46:37 [INF] HTTP POST /login responded 200 in 148.8286 ms
+01/03/2024 09:57:50 [INF] HTTP GET /user?userId=4 responded 200 in 1744.9252 ms
+01/03/2024 10:16:35 [ERR] HTTP POST /login responded 500 in 599.2862 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: Email hoặc password không đúng
+   at chat_app_service.Infrastructure.Repositories.UserRepository.Login(PostLoginReq req) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 83
+   at Travel_Ease.Routers.UserRouter.<>c.<<MapUserRoute>b__0_1>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 41
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 10:16:53 [INF] HTTP POST /login responded 200 in 358.6390 ms
+01/03/2024 11:13:52 [INF] HTTP GET /users responded 200 in 1766.2528 ms
+01/03/2024 11:16:45 [INF] HTTP GET /users responded 200 in 44.9164 ms
+01/03/2024 11:23:07 [INF] HTTP GET /users responded 200 in 77.4541 ms
+01/03/2024 11:27:08 [INF] HTTP GET /users responded 200 in 16.9620 ms
+01/03/2024 11:27:11 [INF] HTTP GET /users responded 200 in 9.3089 ms
+01/03/2024 11:33:58 [INF] HTTP GET /users responded 200 in 16.2438 ms
+01/03/2024 13:13:16 [INF] HTTP GET /users responded 200 in 1433.1614 ms
+01/03/2024 13:14:09 [INF] HTTP GET /users responded 200 in 55.0100 ms
+01/03/2024 13:14:17 [INF] HTTP GET /users responded 200 in 89.7168 ms
+01/03/2024 13:15:14 [INF] HTTP GET /users responded 200 in 16.4310 ms
+01/03/2024 13:15:16 [INF] HTTP GET /users responded 200 in 3.3571 ms
+01/03/2024 13:19:09 [INF] HTTP GET /Groups/1 responded 200 in 325.8738 ms
+01/03/2024 13:19:14 [INF] HTTP GET /Groups/2 responded 200 in 12.8563 ms
+01/03/2024 13:19:17 [INF] HTTP GET /Groups/4 responded 200 in 14.0010 ms
+01/03/2024 13:19:22 [ERR] HTTP GET /Groups/5 responded 500 in 167.9422 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User does not exist
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetGroups(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 128
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_2>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 14:02:14 [ERR] HTTP GET /Messages/12 responded 500 in 1626.8206 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: group Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetMessages(Int64 groupId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 173
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_3>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 69
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 14:11:21 [INF] HTTP GET /CheckIfUsersMessaged/%7BuserAId%20%7D/%7BuserBId%20%7D?userAId=1&userBId=2 responded 200 in 166.4662 ms
+01/03/2024 14:13:11 [INF] HTTP GET /CheckIfUsersMessaged/%7BuserAId%20%7D/%7BuserBId%20%7D?userAId=1&userBId=2 responded 200 in 1386.1441 ms
+01/03/2024 14:14:31 [INF] HTTP GET /CheckIfUsersMessaged/%7BuserAId%20%7D/%7BuserBId%20%7D?userAId=1&userBId=2 responded 200 in 1499.4837 ms
+01/03/2024 14:16:49 [INF] HTTP GET /CheckIfUsersMessaged/%7BuserAId%20%7D/%7BuserBId%20%7D?userAId=1&userBId=2 responded 200 in 1596.0704 ms
+01/03/2024 14:17:15 [INF] HTTP GET /CheckIfUsersMessaged/1/2 responded 200 in 1544.3137 ms
+01/03/2024 14:29:06 [INF] HTTP GET /users responded 200 in 84.9140 ms
+01/03/2024 14:29:15 [INF] HTTP GET /users responded 200 in 59.5979 ms
+01/03/2024 14:45:31 [INF] HTTP GET /users responded 200 in 15.4238 ms
+01/03/2024 14:46:19 [INF] HTTP GET /users responded 200 in 17.1393 ms
+01/03/2024 14:49:03 [INF] HTTP GET /users responded 200 in 10.0061 ms
+01/03/2024 14:50:01 [INF] HTTP GET /users responded 200 in 17.5042 ms
+01/03/2024 14:50:37 [INF] HTTP GET /Groups/2 responded 200 in 204.7249 ms
+01/03/2024 14:50:55 [INF] HTTP GET /users responded 200 in 4.0746 ms
+01/03/2024 14:52:18 [INF] HTTP GET /users responded 200 in 15.6496 ms
+01/03/2024 14:53:29 [INF] HTTP GET /users responded 200 in 13.5394 ms
+01/03/2024 14:59:09 [INF] HTTP GET /Groups?userId=0 responded 404 in 0.1757 ms
+01/03/2024 14:59:45 [INF] HTTP GET /Groups?userId=0 responded 404 in 0.0179 ms
+01/03/2024 14:59:45 [INF] HTTP GET /users responded 200 in 40.0901 ms
+01/03/2024 15:00:35 [INF] HTTP GET /users responded 200 in 18.5706 ms
+01/03/2024 15:00:35 [INF] HTTP GET /Groups?userId=0 responded 404 in 0.0072 ms
+01/03/2024 15:00:43 [INF] HTTP POST /login responded 200 in 350.7178 ms
+01/03/2024 15:00:43 [INF] HTTP GET /users responded 200 in 8.2731 ms
+01/03/2024 15:00:44 [INF] HTTP GET /Groups?userId=0 responded 404 in 0.0382 ms
+01/03/2024 15:06:18 [INF] HTTP GET /Groups?userId=0 responded 404 in 0.0068 ms
+01/03/2024 15:06:18 [INF] HTTP GET /users responded 200 in 27.7597 ms
+01/03/2024 15:06:26 [INF] HTTP POST /login responded 200 in 152.2698 ms
+01/03/2024 15:06:27 [INF] HTTP GET /users responded 200 in 12.2926 ms
+01/03/2024 15:06:27 [INF] HTTP GET /Groups?userId=0 responded 404 in 0.0099 ms
+01/03/2024 15:08:38 [INF] HTTP GET /Groups?userId=2 responded 404 in 0.0106 ms
+01/03/2024 15:08:38 [INF] HTTP GET /users responded 200 in 9.9516 ms
+01/03/2024 15:08:38 [ERR] HTTP GET /user responded 500 in 75.1266 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: Required parameter "long userId" was not provided from query string.
+   at lambda_method21(Closure, Object, HttpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:08:52 [INF] HTTP GET /Groups?userId=2 responded 404 in 0.0348 ms
+01/03/2024 15:10:17 [ERR] HTTP GET /user responded 500 in 54.9720 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: Required parameter "long userId" was not provided from query string.
+   at lambda_method21(Closure, Object, HttpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:10:18 [INF] HTTP GET /Groups?userId=2 responded 404 in 0.0205 ms
+01/03/2024 15:10:18 [INF] HTTP GET /users responded 200 in 17.5960 ms
+01/03/2024 15:10:36 [INF] HTTP GET /Groups?userId=2 responded 404 in 0.0144 ms
+01/03/2024 15:10:38 [INF] HTTP GET /Groups?userId=2 responded 404 in 0.0081 ms
+01/03/2024 15:10:58 [INF] HTTP GET /Groups/2 responded 200 in 13.3674 ms
+01/03/2024 15:11:15 [INF] HTTP GET /Groups/2 responded 200 in 15.0753 ms
+01/03/2024 15:11:20 [INF] HTTP GET /Groups/2 responded 200 in 6.3737 ms
+01/03/2024 15:12:47 [ERR] HTTP GET /user responded 500 in 35.0383 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: Required parameter "long userId" was not provided from query string.
+   at lambda_method21(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:12:47 [INF] HTTP GET /Groups/2 responded 200 in 23.2344 ms
+01/03/2024 15:12:47 [INF] HTTP GET /users responded 200 in 28.1325 ms
+01/03/2024 15:15:37 [INF] HTTP GET /users responded 200 in 23.5554 ms
+01/03/2024 15:16:49 [ERR] HTTP GET /user responded 500 in 19.6775 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: Required parameter "long userId" was not provided from query string.
+   at lambda_method21(Closure, Object, HttpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:16:49 [INF] HTTP GET /users responded 200 in 23.8633 ms
+01/03/2024 15:16:49 [INF] HTTP GET /Groups/2 responded 200 in 39.4395 ms
+01/03/2024 15:23:48 [INF] HTTP GET /user responded 404 in 0.1273 ms
+01/03/2024 15:23:48 [INF] HTTP GET /user responded 404 in 0.1343 ms
+01/03/2024 15:23:49 [INF] HTTP GET /users responded 200 in 1553.9292 ms
+01/03/2024 15:23:49 [INF] HTTP GET /Groups/2 responded 200 in 1695.8361 ms
+01/03/2024 15:25:43 [INF] HTTP GET /user/2 responded 200 in 177.5469 ms
+01/03/2024 15:25:43 [INF] HTTP GET /users responded 200 in 126.3782 ms
+01/03/2024 15:25:43 [INF] HTTP GET /Groups/2 responded 200 in 106.5251 ms
+01/03/2024 15:25:43 [ERR] HTTP GET /user/0 responded 500 in 275.5112 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.GetUser(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 145
+   at Travel_Ease.Routers.UserRouter.<>c.<<MapUserRoute>b__0_3>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 71
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:29:25 [INF] HTTP GET /users responded 200 in 11.4730 ms
+01/03/2024 15:34:14 [INF] HTTP GET /users responded 200 in 87.9820 ms
+01/03/2024 15:34:14 [ERR] HTTP GET /Groups/0 responded 500 in 277.7587 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User does not exist
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetGroups(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 128
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_2>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:34:17 [INF] HTTP GET /users responded 200 in 3.8393 ms
+01/03/2024 15:34:18 [ERR] HTTP GET /user/0 responded 500 in 141.5976 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.GetUser(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 145
+   at Travel_Ease.Routers.UserRouter.<>c.<<MapUserRoute>b__0_3>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 71
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:34:36 [INF] HTTP GET /users responded 200 in 13.1352 ms
+01/03/2024 15:34:36 [ERR] HTTP GET /Groups/0 responded 500 in 144.7096 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User does not exist
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetGroups(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 128
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_2>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:34:52 [ERR] HTTP GET /user/0 responded 500 in 106.0721 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.GetUser(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 145
+   at Travel_Ease.Routers.UserRouter.<>c.<<MapUserRoute>b__0_3>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 71
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:35:37 [INF] HTTP GET /users responded 200 in 65.3618 ms
+01/03/2024 15:35:37 [ERR] HTTP GET /Groups/0 responded 500 in 148.0156 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User does not exist
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetGroups(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 128
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_2>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:35:52 [INF] HTTP GET /users responded 200 in 9.0949 ms
+01/03/2024 15:35:52 [INF] HTTP GET /Groups/2 responded 200 in 18.6465 ms
+01/03/2024 15:36:00 [INF] HTTP GET /user/2 responded 200 in 3.8940 ms
+01/03/2024 15:39:10 [INF] HTTP GET /users responded 200 in 12.3404 ms
+01/03/2024 15:39:10 [INF] HTTP GET /users responded 200 in 10.5844 ms
+01/03/2024 15:39:49 [INF] HTTP GET /users responded 200 in 19.4761 ms
+01/03/2024 15:39:49 [INF] HTTP GET /Groups/2 responded 200 in 22.8703 ms
+01/03/2024 15:39:50 [INF] HTTP GET /users responded 200 in 4.7008 ms
+01/03/2024 15:39:52 [INF] HTTP GET /user/2 responded 200 in 4.3323 ms
+01/03/2024 15:50:39 [INF] HTTP POST /sign responded 200 in 533.7794 ms
+01/03/2024 15:51:03 [INF] HTTP POST /sign responded 200 in 165.4248 ms
+01/03/2024 15:51:54 [INF] HTTP POST /sign responded 200 in 165.3514 ms
+01/03/2024 15:52:10 [INF] HTTP GET /users responded 200 in 64.2227 ms
+01/03/2024 15:52:10 [ERR] HTTP GET /Groups/2 responded 500 in 141.0425 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User does not exist
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetGroups(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 128
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_2>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:52:11 [ERR] HTTP GET /user/2 responded 500 in 132.3431 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.GetUser(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 145
+   at Travel_Ease.Routers.UserRouter.<>c.<<MapUserRoute>b__0_3>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 71
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:52:59 [INF] HTTP GET /users responded 200 in 13.8161 ms
+01/03/2024 15:52:59 [ERR] HTTP GET /Groups/2 responded 500 in 98.6670 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User does not exist
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetGroups(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 128
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_2>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:53:09 [ERR] HTTP GET /user/2 responded 500 in 92.6157 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.GetUser(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 145
+   at Travel_Ease.Routers.UserRouter.<>c.<<MapUserRoute>b__0_3>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 71
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:53:19 [INF] HTTP GET /users responded 200 in 14.7405 ms
+01/03/2024 15:53:19 [ERR] HTTP GET /Groups/2 responded 500 in 95.9099 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User does not exist
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetGroups(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 128
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_2>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:53:44 [INF] HTTP GET /users responded 200 in 29.0520 ms
+01/03/2024 15:53:44 [ERR] HTTP GET /Groups/2 responded 500 in 102.1414 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User does not exist
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetGroups(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 128
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_2>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:55:39 [INF] HTTP GET /users responded 200 in 7.4294 ms
+01/03/2024 15:55:40 [ERR] HTTP GET /Groups/2 responded 500 in 93.5463 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User does not exist
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetGroups(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 128
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_2>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:55:54 [ERR] HTTP GET /user/2 responded 500 in 139.2293 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.GetUser(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 145
+   at Travel_Ease.Routers.UserRouter.<>c.<<MapUserRoute>b__0_3>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 71
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:56:32 [ERR] HTTP POST /login responded 500 in 124.2853 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.Login(PostLoginReq req) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 79
+   at Travel_Ease.Routers.UserRouter.<>c.<<MapUserRoute>b__0_1>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 41
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:57:08 [INF] HTTP POST /login responded 200 in 177.3864 ms
+01/03/2024 15:57:08 [INF] HTTP GET /users responded 200 in 3.6691 ms
+01/03/2024 15:57:08 [ERR] HTTP GET /Groups/-1 responded 500 in 137.3169 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User does not exist
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetGroups(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 128
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_2>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+01/03/2024 15:59:42 [INF] HTTP GET /users responded 200 in 23.5609 ms
+01/03/2024 15:59:42 [INF] HTTP GET /Groups/5 responded 200 in 38.0652 ms
+01/03/2024 16:02:12 [INF] HTTP GET /users responded 200 in 18.7084 ms
+01/03/2024 16:02:45 [INF] HTTP POST /CreateGroup responded 200 in 126.5712 ms
+01/03/2024 16:02:54 [INF] HTTP POST /CreateGroup responded 200 in 14.5218 ms
+01/03/2024 16:03:06 [INF] HTTP GET /users responded 200 in 10.9034 ms
+01/03/2024 16:03:06 [INF] HTTP GET /Groups/5 responded 200 in 41.7190 ms
+01/03/2024 16:03:40 [INF] HTTP GET /Groups/5 responded 200 in 16.7549 ms
+01/03/2024 16:07:04 [INF] HTTP GET /users responded 200 in 18.0301 ms
+01/03/2024 16:07:04 [INF] HTTP GET /Groups/5 responded 200 in 29.0967 ms
+01/03/2024 16:08:45 [INF] HTTP GET /users responded 200 in 24.5194 ms
+01/03/2024 16:08:45 [INF] HTTP GET /Groups/5 responded 200 in 29.7522 ms
+01/03/2024 16:10:55 [INF] HTTP GET /users responded 200 in 19.8598 ms
+01/03/2024 16:10:55 [INF] HTTP GET /Groups/5 responded 200 in 32.9716 ms
+01/03/2024 16:13:55 [INF] HTTP GET /users responded 200 in 15.6088 ms
+01/03/2024 16:13:55 [INF] HTTP GET /Groups/5 responded 200 in 27.6994 ms
+01/03/2024 16:28:21 [INF] HTTP GET /users responded 200 in 88.1475 ms
+01/03/2024 16:28:21 [INF] HTTP GET /Groups/5 responded 200 in 118.1315 ms
+01/03/2024 16:28:37 [INF] HTTP GET /users responded 200 in 10.7246 ms
+01/03/2024 16:28:37 [INF] HTTP GET /Groups/5 responded 200 in 18.7455 ms
+01/03/2024 16:29:08 [INF] HTTP GET /users responded 200 in 26.9604 ms
+01/03/2024 16:29:08 [INF] HTTP GET /Groups/5 responded 200 in 29.6216 ms
+01/03/2024 16:29:39 [INF] HTTP GET /users responded 200 in 16.6127 ms
+01/03/2024 16:29:39 [INF] HTTP GET /Groups/5 responded 200 in 19.3175 ms
+01/03/2024 16:30:59 [INF] HTTP GET /users responded 200 in 15.5921 ms
+01/03/2024 16:30:59 [INF] HTTP GET /Groups/5 responded 200 in 22.9963 ms
+01/03/2024 16:31:57 [INF] HTTP GET /users responded 200 in 15.1076 ms
+01/03/2024 16:31:57 [INF] HTTP GET /Groups/5 responded 200 in 19.3753 ms
+01/03/2024 16:34:42 [INF] HTTP GET /Groups/5 responded 200 in 19.9785 ms
+01/03/2024 16:50:19 [INF] HTTP GET /Groups/5 responded 200 in 1810.5083 ms
+01/03/2024 16:52:35 [INF] HTTP GET /Groups/5 responded 200 in 2666.1904 ms
+01/03/2024 16:58:43 [INF] HTTP GET /Groups/5 responded 200 in 1745.4288 ms
+01/03/2024 17:09:23 [INF] HTTP GET /Groups/5 responded 200 in 1463.4102 ms
+01/03/2024 17:16:36 [INF] HTTP GET /Groups/5 responded 200 in 1643.0736 ms

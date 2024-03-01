@@ -55,7 +55,9 @@ string _connectionString = EnvironmentExt.getVariable<string>(EnviromentValueKey
 builder.Services.AddDbContext<AppChatDbContext>(
     options =>
     {
-        options.UseSqlServer(_connectionString);
+        options.UseSqlServer(_connectionString
+   );
+
     },
     contextLifetime: ServiceLifetime.Transient
 );

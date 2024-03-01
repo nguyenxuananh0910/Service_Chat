@@ -2,9 +2,9 @@
 
 public class PostCreateGroupReq
 {
-    public string? Name { get; set; }
+    public string? GroupName { get; set; }
 
     public int? CreatedBy { get; set; }
 
-    public List<GroupMenberReq>? Menber { get; set; }
+    public List<GroupMenberReq>? Members { get; set; }
 }

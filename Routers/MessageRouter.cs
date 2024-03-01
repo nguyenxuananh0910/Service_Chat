@@ -76,7 +76,7 @@ public static class MessageRouter
        .Produces<BaseResponse<List<MessageDTO>>>();
 
 
-        app.MapGet("/CheckIfUsersMessaged" + "/{userAId }" + "/{userBId }", async ([FromServices] IMessageService messageService, long userAId, long userBId) =>
+        app.MapGet("/CheckIfUsersMessaged" + "/{userAId}" + "/{userBId}", async (IMessageService messageService, long userAId, long userBId) =>
         {
             var results = await messageService.GetMessagesBetweenUsers(userAId, userBId);
 

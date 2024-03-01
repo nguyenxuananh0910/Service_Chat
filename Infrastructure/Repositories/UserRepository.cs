@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using chat_app_service.Domain.DTOs;
-using chat_app_service.Domain.DTOs.Core;
 using chat_app_service.Domain.Entities;
+using chat_app_service.Domain.Exceptions;
 using chat_app_service.Domain.Request;
 using chat_app_service.Domain.Services;
 using chat_app_service.Infrastructure.Databases;
@@ -131,5 +131,24 @@ public class UserRepository : IUserService
 
     }
 
+    public async Task<UserDTO> GetUser(long userId)
+    {
+        try
+        {
+            var user = await _databaseContext.Users.AsNoTracking()
+          .Where(e => e.Userid == userId)
+          .FirstOrDefaultAsync();
 
+            if (user == null)
+            {
+                throw new NotFoundException("User Không tồn tại");
+            }
+
+            return _mapper.Map<UserDTO>(user);
+        }
+        catch
+        {
+            throw;
+        }
+    }
 }

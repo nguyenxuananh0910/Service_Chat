@@ -9,4 +9,6 @@ public class GroupMenberDTO
     public DateTime? JoinedAt { get; set; }
 
     public DateTime? LeftAt { get; set; }
+
+    //public UserDTO? Users { get; set; } = new UserDTO();
 }
