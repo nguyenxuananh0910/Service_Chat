@@ -100,9 +100,9 @@ public class UserRepository : IUserService
             throw;
         }
     }
-    public async Task<List<UserDTO>> GetUsers()
+    public async Task<List<UserDTO>> GetUsers(long userId)
     {
-        var user = await _databaseContext.Users.AsNoTracking().ToListAsync();
+        var user = await _databaseContext.Users.Where(u => u.Userid != userId).AsNoTracking().ToListAsync();
 
         return _mapper.Map<List<UserDTO>>(user);
     }

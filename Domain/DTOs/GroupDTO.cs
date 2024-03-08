@@ -2,7 +2,7 @@
 
 public class GroupDTO
 {
-    public int GroupsId { get; set; }
+    public int GroupId { get; set; }
 
     public string? Name { get; set; }
 
@@ -12,5 +12,7 @@ public class GroupDTO
 
     public DateTime? CreatedAt { get; set; }
 
-    public List<GroupMenberDTO> Menbers { get; set; } = new List<GroupMenberDTO>();
+    public List<GroupMemberDTO> Members { get; set; } = new List<GroupMemberDTO>();
+
+    public MessageDTO? LastMessage { get; set; } = new MessageDTO();
 }

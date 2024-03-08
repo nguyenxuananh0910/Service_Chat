@@ -19,16 +19,20 @@ public class MapperProfile : Profile
         CreateMap<Message, MessageDTO>();
         CreateMap<MessageDTO, PostSendMessageReq>();
         CreateMap<Group, GroupDTO>()
-         .ForMember(dest => dest.Menbers,
+         .ForMember(dest => dest.Members,
            opt => opt.MapFrom((src, dest, i, context) =>
            {
-               if (src.GroupMembers.IsNullOrEmpty()) return new List<GroupMenberDTO>();
+               if (src.GroupMembers.IsNullOrEmpty()) return new List<GroupMemberDTO>();
 
-               return context.Mapper.Map<List<GroupMenberDTO>>(src.GroupMembers);
+               return context.Mapper.Map<List<GroupMemberDTO>>(src.GroupMembers);
+           })).ForMember(dest => dest.LastMessage,
+           opt => opt.MapFrom((src, dest, i, context) =>
+           {
+               return context.Mapper.Map<MessageDTO>(src.LastMessage);
            }));
         CreateMap<GroupDTO, PostCreateGroupReq>();
-        CreateMap<GroupMember, GroupMenberDTO>();
-        CreateMap<GroupMenberDTO, GroupMenberReq>();
+        CreateMap<GroupMember, GroupMemberDTO>();
+        CreateMap<GroupMemberDTO, GroupMenberReq>();
         CreateMap<GroupMenberReq, GroupMember>();
     }
 }

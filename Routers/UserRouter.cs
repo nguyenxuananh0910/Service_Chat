@@ -54,9 +54,9 @@ public static class UserRouter
      .WithName("LoginUser")
      .Produces<BaseResponse<LoginDTO>>();
 
-        app.MapGet("/users", async ([FromServices] IUserService userService) =>
+        app.MapGet("/users", async ([FromServices] IUserService userService, long userId) =>
         {
-            var results = await userService.GetUsers();
+            var results = await userService.GetUsers(userId);
 
             return Results.Ok(new BaseResponse<List<UserDTO>>
             {

@@ -103,8 +103,6 @@ builder.Services.Configure<Microsoft.AspNetCore.Mvc.JsonOptions>(options =>
 builder.Services.Configure<RouteHandlerOptions>(o => o.ThrowOnBadRequest = true);
 
 
-
-
 var app = builder.Build();
 
 
@@ -114,8 +112,7 @@ if (app.Environment.IsDevelopment() || app.Environment.IsStaging())
     app.UseSwaggerUI();
 }
 
-// Configure the HTTP request pipeline.
-app.MapHub<MessageHub>("/messagehub");
+
 
 #region Mapping Routes
 
@@ -123,10 +120,10 @@ app.UseMiddleware<CustomExceptionHandlerMiddleware>();
 app.MapHealthChecks("/");
 app.MapUserRoute();
 app.MapMessageRouter();
+// Configure the HTTP request pipeline.
+app.MapHub<MessageHub>("/message-hub");
+
 #endregion
-
-
-
 
 
 app.Run();

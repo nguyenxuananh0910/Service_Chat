@@ -31,5 +31,7 @@ public static class DependencyInjection
 
         services.AddScoped<IUserService, UserRepository>();
         services.AddScoped<IMessageService, MessageRepository>();
+        //services.AddSingleton<MessageHub>();
+
     }
 }

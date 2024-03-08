@@ -10,5 +10,5 @@ public interface IUserService
     public Task<SignDTO> Sign(PostSignReq req);
 
     public Task<UserDTO> GetUser(long userId);
-    public Task<List<UserDTO>> GetUsers();
+    public Task<List<UserDTO>> GetUsers(long userId);
 }

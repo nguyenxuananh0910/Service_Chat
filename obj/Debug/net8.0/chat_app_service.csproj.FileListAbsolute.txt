@@ -306,3 +306,12 @@ D:\service\Service_Chat\obj\Debug\net8.0\chat_app_service.pdb
 D:\service\Service_Chat\obj\Debug\net8.0\chat_app_service.genruntimeconfig.cache
 D:\service\Service_Chat\obj\Debug\net8.0\ref\chat_app_service.dll
 D:\service\Service_Chat\bin\Debug\net8.0\web.config
+D:\service\Service_Chat\bin\Debug\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Common.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Microsoft.Extensions.Features.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

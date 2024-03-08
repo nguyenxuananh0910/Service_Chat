@@ -1,0 +1,836 @@
+06/03/2024 08:56:37 [INF] HTTP GET /message-hub responded 400 in 4.7668 ms
+06/03/2024 08:56:45 [INF] HTTP GET /message-hub responded 400 in 0.4823 ms
+06/03/2024 08:57:38 [INF] HTTP GET /users responded 200 in 1504.8411 ms
+06/03/2024 09:25:13 [INF] HTTP GET /message-hub responded 101 in 10145.9207 ms
+06/03/2024 09:25:24 [INF] HTTP GET /message-hub responded 101 in 4909.1721 ms
+06/03/2024 09:45:06 [INF] HTTP GET /users responded 200 in 8191.1212 ms
+06/03/2024 09:45:07 [INF] HTTP GET /Groups/5 responded 200 in 9304.6333 ms
+06/03/2024 10:16:23 [INF] HTTP GET /users responded 200 in 1337.3582 ms
+06/03/2024 10:16:24 [INF] HTTP GET /Groups/5 responded 200 in 1496.6695 ms
+06/03/2024 10:16:26 [INF] HTTP GET /Messages/23 responded 200 in 79.3887 ms
+06/03/2024 10:16:26 [INF] HTTP POST /negotiate?negotiateVersion=1 responded 404 in 0.1329 ms
+06/03/2024 10:16:30 [INF] HTTP POST /Message responded 200 in 207.5344 ms
+06/03/2024 10:17:12 [INF] HTTP POST /negotiate?negotiateVersion=1 responded 404 in 0.0134 ms
+06/03/2024 10:17:12 [INF] HTTP GET /Messages/23 responded 200 in 19.2169 ms
+06/03/2024 10:17:34 [INF] HTTP GET /users responded 200 in 13.7954 ms
+06/03/2024 10:17:34 [INF] HTTP GET /Groups/5 responded 200 in 20.0126 ms
+06/03/2024 10:17:38 [INF] HTTP GET /Messages/23 responded 200 in 5.0362 ms
+06/03/2024 10:17:39 [INF] HTTP POST /negotiate?negotiateVersion=1 responded 404 in 0.0130 ms
+06/03/2024 10:18:45 [INF] HTTP POST /negotiate?negotiateVersion=1 responded 404 in 0.0147 ms
+06/03/2024 10:18:45 [INF] HTTP GET /Messages/23 responded 200 in 14.8067 ms
+06/03/2024 10:19:02 [INF] HTTP GET /message-hub responded 101 in 96749.2861 ms
+06/03/2024 10:22:10 [INF] HTTP GET /users responded 200 in 19.1386 ms
+06/03/2024 10:22:10 [INF] HTTP GET /Groups/5 responded 200 in 24.4954 ms
+06/03/2024 10:22:27 [INF] HTTP GET /Messages/23 responded 200 in 15.5921 ms
+06/03/2024 10:23:02 [INF] HTTP GET /Messages/23 responded 200 in 10.1469 ms
+06/03/2024 10:23:30 [INF] HTTP GET /users responded 200 in 58.3804 ms
+06/03/2024 10:23:30 [INF] HTTP GET /Groups/5 responded 200 in 62.5966 ms
+06/03/2024 10:23:37 [INF] HTTP GET /Messages/23 responded 200 in 7.1641 ms
+06/03/2024 10:23:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 13.7176 ms
+06/03/2024 10:24:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7419 ms
+06/03/2024 10:24:17 [INF] HTTP GET /Messages/23 responded 200 in 10.3495 ms
+06/03/2024 10:24:34 [INF] HTTP POST /Message responded 200 in 27.7767 ms
+06/03/2024 10:24:34 [INF] HTTP GET /message-hub?id=vk3-uEA3aOWAZtV_MEdNVw responded 101 in 15361.1011 ms
+06/03/2024 10:24:34 [INF] HTTP GET /message-hub?id=u1bXXAA9gP4VP0qENf4JTg responded 101 in 55638.2175 ms
+06/03/2024 10:24:40 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6278 ms
+06/03/2024 10:24:40 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6536 ms
+06/03/2024 10:24:42 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5730 ms
+06/03/2024 10:24:42 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4677 ms
+06/03/2024 10:26:10 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6110 ms
+06/03/2024 10:26:10 [INF] HTTP GET /Messages/23 responded 200 in 9.5386 ms
+06/03/2024 10:27:22 [INF] HTTP GET /message-hub?id=9K2QvBEZA6eO8Nvhg_3OPg responded 101 in 159094.1482 ms
+06/03/2024 10:27:22 [INF] HTTP GET /message-hub?id=ig6W6AHipprV4h7HmO5zYA responded 101 in 158085.6012 ms
+06/03/2024 10:27:22 [INF] HTTP GET /message-hub?id=nfT23Vlgb6zTMGYTZcplDQ responded 101 in 71107.6165 ms
+06/03/2024 10:27:22 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4913 ms
+06/03/2024 10:27:22 [INF] HTTP GET /Messages/23 responded 200 in 12.2141 ms
+06/03/2024 10:27:27 [INF] HTTP GET /users responded 200 in 6.1606 ms
+06/03/2024 10:27:27 [INF] HTTP GET /Groups/5 responded 200 in 9.2852 ms
+06/03/2024 10:27:33 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7802 ms
+06/03/2024 10:27:33 [INF] HTTP GET /Messages/23 responded 200 in 4.4627 ms
+06/03/2024 10:28:00 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7144 ms
+06/03/2024 10:28:00 [INF] HTTP GET /Messages/23 responded 200 in 8.1812 ms
+06/03/2024 10:28:20 [INF] HTTP POST /Message responded 200 in 11.9177 ms
+06/03/2024 10:29:17 [INF] HTTP GET /message-hub?id=I86M3BtEaWOp8314g3ZOYg responded 101 in 103361.8942 ms
+06/03/2024 10:29:17 [INF] HTTP GET /message-hub?id=IRQEow6-EFzuobarwomgGg responded 101 in 77309.4200 ms
+06/03/2024 10:29:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.2911 ms
+06/03/2024 10:29:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.4491 ms
+06/03/2024 10:33:10 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7289 ms
+06/03/2024 10:33:10 [INF] HTTP GET /Messages/23 responded 200 in 16.2173 ms
+06/03/2024 10:36:06 [INF] HTTP GET /message-hub?id=UHh6UrXcdo4a8DV1epu1oA responded 101 in 403495.3302 ms
+06/03/2024 10:36:06 [INF] HTTP GET /message-hub?id=4AmDGk1104ysYdRdvu6BdA responded 101 in 403495.3971 ms
+06/03/2024 10:36:11 [INF] HTTP GET /message-hub?id=5kS2i_lOGvpPrX-LnAcZiQ responded 101 in 178584.9502 ms
+06/03/2024 10:38:35 [INF] HTTP GET /users responded 200 in 1863.2034 ms
+06/03/2024 10:38:35 [INF] HTTP GET /Groups/5 responded 200 in 2027.9675 ms
+06/03/2024 10:39:36 [INF] HTTP GET /users responded 200 in 1350.8047 ms
+06/03/2024 10:39:36 [INF] HTTP GET /Groups/5 responded 200 in 1507.4238 ms
+06/03/2024 10:39:41 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 17.2508 ms
+06/03/2024 10:39:41 [INF] HTTP GET /Messages/23 responded 200 in 111.6061 ms
+06/03/2024 10:40:01 [INF] HTTP GET /message-hub?id=PqBeDSrd6JvRMICm_adkkw responded 101 in 18741.5119 ms
+06/03/2024 10:40:01 [INF] HTTP POST /Message responded 200 in 7601.7227 ms
+06/03/2024 10:40:01 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.2454 ms
+06/03/2024 10:42:17 [INF] HTTP GET /message-hub?id=aeLzYAUKs8T_YS_Q2X7PEw responded 101 in 112039.6998 ms
+06/03/2024 10:42:21 [INF] HTTP GET /users responded 200 in 27.0530 ms
+06/03/2024 10:42:21 [INF] HTTP GET /Groups/5 responded 200 in 35.0238 ms
+06/03/2024 10:42:51 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5251 ms
+06/03/2024 10:42:51 [INF] HTTP GET /Messages/23 responded 200 in 11.0498 ms
+06/03/2024 10:43:03 [INF] HTTP POST /Message responded 200 in 14.6745 ms
+06/03/2024 10:43:03 [INF] HTTP GET /message-hub?id=1_798-Rdca2txHw7v-0PMg responded 101 in 12425.5671 ms
+06/03/2024 10:43:58 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.9400 ms
+06/03/2024 10:44:00 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5040 ms
+06/03/2024 10:44:06 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7768 ms
+06/03/2024 10:44:06 [INF] HTTP GET /Messages/23 responded 200 in 9.6894 ms
+06/03/2024 10:44:19 [INF] HTTP POST /Message responded 200 in 13.6314 ms
+06/03/2024 10:44:20 [INF] HTTP GET /message-hub?id=RIf5Zh5cg3A-E8V_dE7S7A responded 101 in 12628.3307 ms
+06/03/2024 10:44:20 [INF] HTTP GET /message-hub?id=haHIZ8w_dsaPxDMEgfeSig responded 101 in 19042.8127 ms
+06/03/2024 10:44:26 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6788 ms
+06/03/2024 10:44:26 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7061 ms
+06/03/2024 10:44:29 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.8077 ms
+06/03/2024 10:44:29 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7747 ms
+06/03/2024 10:46:47 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5499 ms
+06/03/2024 10:46:47 [INF] HTTP GET /Messages/23 responded 200 in 12.9222 ms
+06/03/2024 10:47:06 [INF] HTTP GET /message-hub?id=krqP-XEX9UpKOfH9wslTZA responded 101 in 157671.8457 ms
+06/03/2024 10:47:06 [INF] HTTP GET /message-hub?id=byZ5gB5Ey9axXPVbv7eGIQ responded 101 in 18258.8357 ms
+06/03/2024 10:47:06 [INF] HTTP GET /message-hub?id=1q5cJFu0NtI16OLv8jqScA responded 101 in 157681.7563 ms
+06/03/2024 10:47:06 [INF] HTTP POST /Message responded 200 in 13.5944 ms
+06/03/2024 10:47:11 [INF] HTTP GET /Groups/5 responded 200 in 11.0445 ms
+06/03/2024 10:47:11 [INF] HTTP GET /users responded 200 in 19.4446 ms
+06/03/2024 10:48:33 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 4.6572 ms
+06/03/2024 10:48:33 [INF] HTTP GET /Messages/23 responded 200 in 17.4746 ms
+06/03/2024 10:48:34 [INF] HTTP GET /Messages/23 responded 200 in 4.8226 ms
+06/03/2024 10:48:45 [INF] HTTP GET /message-hub?id=RuDs72V04bJYWz9WIcWrmg responded 101 in 12468.6855 ms
+06/03/2024 10:48:49 [INF] HTTP GET /users responded 200 in 10.2693 ms
+06/03/2024 10:48:49 [INF] HTTP GET /Groups/5 responded 200 in 13.2537 ms
+06/03/2024 10:48:57 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5957 ms
+06/03/2024 10:48:57 [INF] HTTP GET /Messages/23 responded 200 in 6.7582 ms
+06/03/2024 10:48:57 [INF] HTTP GET /Messages/23 responded 200 in 13.5314 ms
+06/03/2024 10:49:37 [INF] HTTP GET /Messages/23 responded 200 in 15.6589 ms
+06/03/2024 10:51:29 [INF] HTTP GET /users responded 200 in 19.0270 ms
+06/03/2024 10:51:29 [INF] HTTP GET /Groups/5 responded 200 in 25.2678 ms
+06/03/2024 10:51:42 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6324 ms
+06/03/2024 10:51:42 [INF] HTTP GET /Messages/23 responded 200 in 8.1583 ms
+06/03/2024 10:51:43 [INF] HTTP GET /Messages/23 responded 200 in 8.3037 ms
+06/03/2024 10:54:35 [INF] HTTP GET /message-hub?id=gj0MIibHvJPt6q8IQDuL1A responded 101 in 171277.4847 ms
+06/03/2024 10:54:39 [INF] HTTP GET /users responded 200 in 10.2450 ms
+06/03/2024 10:54:39 [INF] HTTP GET /Groups/5 responded 200 in 13.2900 ms
+06/03/2024 10:54:44 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4767 ms
+06/03/2024 10:54:44 [INF] HTTP GET /Messages/23 responded 200 in 8.0096 ms
+06/03/2024 10:54:44 [INF] HTTP GET /Messages/23 responded 200 in 5.1838 ms
+06/03/2024 10:56:22 [INF] HTTP GET /message-hub?id=fyXGomUsytl-tkpismTZNA responded 101 in 98319.2051 ms
+06/03/2024 10:56:27 [INF] HTTP GET /users responded 200 in 6.3810 ms
+06/03/2024 10:56:27 [INF] HTTP GET /Groups/5 responded 200 in 8.9716 ms
+06/03/2024 10:56:31 [INF] HTTP GET /Messages/23 responded 200 in 13.5040 ms
+06/03/2024 10:56:31 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4245 ms
+06/03/2024 10:56:48 [INF] HTTP GET /Messages/23 responded 200 in 32.8555 ms
+06/03/2024 10:57:18 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5976 ms
+06/03/2024 10:57:18 [INF] HTTP GET /Messages/23 responded 200 in 4.3148 ms
+06/03/2024 10:57:22 [INF] HTTP GET /Messages/23 responded 200 in 4.9731 ms
+06/03/2024 10:58:23 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.9490 ms
+06/03/2024 10:58:23 [INF] HTTP GET /Messages/23 responded 200 in 6.5047 ms
+06/03/2024 10:59:41 [INF] HTTP GET /message-hub?id=QLXESbvsr73mxT9MxqEAmg responded 101 in 172924.4600 ms
+06/03/2024 10:59:41 [INF] HTTP GET /message-hub?id=Sq1ZByWD550xeLfrgXrykQ responded 101 in 142816.6485 ms
+06/03/2024 10:59:41 [INF] HTTP GET /message-hub?id=QU8VeuDID6N9n0SAyL0ZJA responded 101 in 75240.7256 ms
+06/03/2024 10:59:41 [INF] HTTP GET /Messages/23 responded 200 in 12.4479 ms
+06/03/2024 11:01:10 [INF] HTTP GET /users responded 200 in 38.1111 ms
+06/03/2024 11:01:10 [INF] HTTP GET /Groups/5 responded 200 in 23.4899 ms
+06/03/2024 11:01:21 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.8916 ms
+06/03/2024 11:01:21 [INF] HTTP GET /Messages/23 responded 200 in 6.5652 ms
+06/03/2024 11:01:55 [INF] HTTP GET /Messages/23 responded 200 in 7.1321 ms
+06/03/2024 11:01:55 [INF] HTTP GET /message-hub?id=ZYadX6Z-SOahk6rVQQ8LjQ responded 101 in 459.1166 ms
+06/03/2024 11:02:31 [INF] HTTP GET /users responded 200 in 16.2405 ms
+06/03/2024 11:02:31 [INF] HTTP GET /Groups/5 responded 200 in 18.7888 ms
+06/03/2024 11:03:18 [INF] HTTP GET /users responded 200 in 5.9711 ms
+06/03/2024 11:03:18 [INF] HTTP GET /Groups/5 responded 200 in 32.6622 ms
+06/03/2024 11:03:25 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.9910 ms
+06/03/2024 11:03:25 [INF] HTTP GET /Messages/23 responded 200 in 7.7728 ms
+06/03/2024 11:03:26 [INF] HTTP GET /Messages/23 responded 200 in 4.0853 ms
+06/03/2024 11:03:58 [INF] HTTP GET /users responded 200 in 10.0234 ms
+06/03/2024 11:03:58 [INF] HTTP GET /Groups/5 responded 200 in 20.4323 ms
+06/03/2024 11:04:05 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6406 ms
+06/03/2024 11:04:05 [INF] HTTP GET /Messages/23 responded 200 in 4.5727 ms
+06/03/2024 11:04:07 [INF] HTTP GET /Messages/23 responded 200 in 4.7810 ms
+06/03/2024 11:04:23 [INF] HTTP GET /message-hub?id=-O_r2RD65kYfZSVttt4OuA responded 101 in 16120.3969 ms
+06/03/2024 11:04:28 [INF] HTTP GET /users responded 200 in 5.3597 ms
+06/03/2024 11:04:28 [INF] HTTP GET /Groups/5 responded 200 in 6.8810 ms
+06/03/2024 11:04:40 [INF] HTTP GET /Messages/23 responded 200 in 5.9971 ms
+06/03/2024 11:04:40 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4572 ms
+06/03/2024 11:04:49 [INF] HTTP GET /Messages/23 responded 200 in 3.5593 ms
+06/03/2024 11:06:32 [INF] HTTP GET /message-hub?id=Krec0UY9PaD5vg7HTSDPDQ responded 101 in 103711.4406 ms
+06/03/2024 11:06:37 [INF] HTTP GET /users responded 200 in 9.8781 ms
+06/03/2024 11:06:37 [INF] HTTP GET /Groups/5 responded 200 in 12.2759 ms
+06/03/2024 11:06:53 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6123 ms
+06/03/2024 11:06:53 [INF] HTTP GET /Messages/23 responded 200 in 6.6378 ms
+06/03/2024 11:07:22 [INF] HTTP GET /Messages/23 responded 200 in 9.6239 ms
+06/03/2024 11:08:05 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5739 ms
+06/03/2024 11:08:05 [INF] HTTP GET /Messages/23 responded 200 in 12.8106 ms
+06/03/2024 11:08:28 [INF] HTTP GET /message-hub?id=111UvjC_NPEqkOg7To72yw responded 101 in 22161.8955 ms
+06/03/2024 11:08:28 [INF] HTTP GET /message-hub?id=O6e9K_CCVL3-4c8iZocdYQ responded 101 in 65841.8773 ms
+06/03/2024 11:08:31 [INF] HTTP GET /users responded 200 in 5.8698 ms
+06/03/2024 11:08:32 [INF] HTTP GET /Groups/5 responded 200 in 8.0512 ms
+06/03/2024 11:13:58 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7240 ms
+06/03/2024 11:13:58 [INF] HTTP GET /Messages/23 responded 200 in 13.1839 ms
+06/03/2024 11:14:00 [INF] HTTP GET /Messages/23 responded 200 in 7.3097 ms
+06/03/2024 11:14:30 [INF] HTTP GET /message-hub?id=NO2ejPt04fK3XNL7HGOWwg responded 101 in 32780.4579 ms
+06/03/2024 11:14:35 [INF] HTTP GET /users responded 200 in 9.4904 ms
+06/03/2024 11:14:35 [INF] HTTP GET /Groups/5 responded 200 in 14.6958 ms
+06/03/2024 11:14:42 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5767 ms
+06/03/2024 11:14:42 [INF] HTTP GET /Messages/23 responded 200 in 6.2591 ms
+06/03/2024 11:14:43 [INF] HTTP GET /Messages/23 responded 200 in 8.2914 ms
+06/03/2024 11:16:13 [INF] HTTP GET /message-hub?id=2PdIDn9Sa7GSyD7b5Y49ow responded 101 in 89283.5155 ms
+06/03/2024 11:16:33 [INF] HTTP GET /users responded 200 in 97.2585 ms
+06/03/2024 11:16:33 [INF] HTTP GET /Groups/5 responded 200 in 100.7482 ms
+06/03/2024 11:16:35 [INF] HTTP GET /Messages/23 responded 200 in 11.8556 ms
+06/03/2024 11:16:36 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4753 ms
+06/03/2024 11:16:36 [INF] HTTP GET /Messages/23 responded 200 in 14.4926 ms
+06/03/2024 11:17:16 [INF] HTTP GET /message-hub?id=-mGYS32tUcnnBAQNzwxMLw responded 101 in 38084.4251 ms
+06/03/2024 11:17:21 [INF] HTTP GET /users responded 200 in 5.1532 ms
+06/03/2024 11:17:21 [INF] HTTP GET /Groups/5 responded 200 in 11.0598 ms
+06/03/2024 11:17:25 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5135 ms
+06/03/2024 11:17:25 [INF] HTTP GET /Messages/23 responded 200 in 3.9112 ms
+06/03/2024 11:17:26 [INF] HTTP GET /Messages/23 responded 200 in 3.3145 ms
+06/03/2024 11:20:47 [INF] HTTP GET /message-hub?id=genPjwtn9Qv9DOliTVZcEg responded 101 in 201688.6864 ms
+06/03/2024 11:20:52 [INF] HTTP GET /users responded 200 in 21.0821 ms
+06/03/2024 11:20:52 [INF] HTTP GET /Groups/5 responded 200 in 27.6709 ms
+06/03/2024 11:21:10 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6142 ms
+06/03/2024 11:21:10 [INF] HTTP GET /Messages/23 responded 200 in 12.7191 ms
+06/03/2024 11:21:13 [INF] HTTP GET /Messages/23 responded 200 in 3.7751 ms
+06/03/2024 11:21:48 [INF] HTTP GET /users responded 200 in 4.8602 ms
+06/03/2024 11:21:48 [INF] HTTP GET /Groups/5 responded 200 in 7.6732 ms
+06/03/2024 11:21:50 [INF] HTTP GET /Messages/23 responded 200 in 4.6370 ms
+06/03/2024 11:21:50 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5346 ms
+06/03/2024 11:21:51 [INF] HTTP GET /Messages/23 responded 200 in 4.4881 ms
+06/03/2024 11:23:17 [INF] HTTP GET /message-hub?id=qyaAlRNLF5RrTVcNNGGQFw responded 101 in 86186.3776 ms
+06/03/2024 11:23:23 [INF] HTTP GET /users responded 200 in 10.6132 ms
+06/03/2024 11:23:23 [INF] HTTP GET /Groups/5 responded 200 in 6.6714 ms
+06/03/2024 11:23:29 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.8140 ms
+06/03/2024 11:23:29 [INF] HTTP GET /Messages/23 responded 200 in 5.2829 ms
+06/03/2024 11:23:29 [INF] HTTP GET /Messages/23 responded 200 in 4.3180 ms
+06/03/2024 11:23:31 [INF] HTTP GET /Messages/23 responded 200 in 3.5691 ms
+06/03/2024 11:23:33 [INF] HTTP GET /Messages/23 responded 200 in 3.2528 ms
+06/03/2024 11:23:33 [INF] HTTP GET /Messages/23 responded 200 in 3.5556 ms
+06/03/2024 11:23:35 [INF] HTTP GET /Messages/23 responded 200 in 4.0662 ms
+06/03/2024 11:23:36 [INF] HTTP GET /Messages/23 responded 200 in 3.7825 ms
+06/03/2024 11:24:09 [INF] HTTP GET /message-hub?id=2zt5pRbtRNy_QEY1sMc2kw responded 101 in 39330.3936 ms
+06/03/2024 11:24:20 [INF] HTTP GET /users responded 200 in 10.8949 ms
+06/03/2024 11:24:20 [INF] HTTP GET /Groups/5 responded 200 in 14.0340 ms
+06/03/2024 11:25:00 [INF] HTTP GET /users responded 200 in 15.8257 ms
+06/03/2024 11:25:00 [INF] HTTP GET /Groups/5 responded 200 in 22.2085 ms
+06/03/2024 11:25:05 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.9763 ms
+06/03/2024 11:25:05 [INF] HTTP GET /Messages/23 responded 200 in 6.6113 ms
+06/03/2024 11:25:05 [INF] HTTP GET /Messages/23 responded 200 in 3.6516 ms
+06/03/2024 11:25:09 [INF] HTTP GET /Messages/23 responded 200 in 3.3858 ms
+06/03/2024 11:25:10 [INF] HTTP GET /Messages/23 responded 200 in 4.5362 ms
+06/03/2024 11:25:12 [INF] HTTP GET /Messages/23 responded 200 in 3.3796 ms
+06/03/2024 11:25:12 [INF] HTTP GET /Messages/23 responded 200 in 3.8311 ms
+06/03/2024 11:25:15 [INF] HTTP GET /Messages/23 responded 200 in 3.2655 ms
+06/03/2024 11:25:18 [INF] HTTP GET /Messages/23 responded 200 in 12.3651 ms
+06/03/2024 11:27:08 [INF] HTTP GET /message-hub?id=8VXyWBuDsl0EzZTRQkGTwA responded 101 in 122809.4802 ms
+06/03/2024 11:27:14 [INF] HTTP GET /users responded 200 in 5.3068 ms
+06/03/2024 11:27:14 [INF] HTTP GET /Groups/5 responded 200 in 7.3779 ms
+06/03/2024 11:27:27 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5152 ms
+06/03/2024 11:27:27 [INF] HTTP GET /Messages/23 responded 200 in 5.1753 ms
+06/03/2024 11:27:30 [INF] HTTP GET /Messages/23 responded 200 in 7.8652 ms
+06/03/2024 11:27:40 [INF] HTTP GET /Messages/23 responded 200 in 5.2896 ms
+06/03/2024 11:27:42 [INF] HTTP GET /Messages/23 responded 200 in 4.2692 ms
+06/03/2024 11:27:45 [INF] HTTP GET /Messages/23 responded 200 in 3.9257 ms
+06/03/2024 11:27:50 [INF] HTTP GET /Messages/23 responded 200 in 3.4645 ms
+06/03/2024 11:28:17 [INF] HTTP GET /Messages/23 responded 200 in 3.7858 ms
+06/03/2024 11:28:46 [INF] HTTP GET /message-hub?id=NirZSHeP28h2fC4VJdn4jQ responded 101 in 75927.4571 ms
+06/03/2024 11:28:50 [INF] HTTP GET /users responded 200 in 4.6647 ms
+06/03/2024 11:28:50 [INF] HTTP GET /Groups/5 responded 200 in 10.9433 ms
+06/03/2024 11:28:58 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7021 ms
+06/03/2024 11:28:58 [INF] HTTP GET /Messages/23 responded 200 in 5.7126 ms
+06/03/2024 11:29:58 [INF] HTTP GET /message-hub?id=dhQnmILiakWy-BWSV93SyA responded 101 in 59117.7081 ms
+06/03/2024 11:30:01 [INF] HTTP GET /users responded 200 in 10.1844 ms
+06/03/2024 11:30:01 [INF] HTTP GET /Groups/5 responded 200 in 14.2200 ms
+06/03/2024 11:30:10 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7851 ms
+06/03/2024 11:30:10 [INF] HTTP GET /Messages/23 responded 200 in 7.5164 ms
+06/03/2024 11:30:44 [INF] HTTP GET /message-hub?id=sy39BdU4g4F-ISm6s4jd6Q responded 101 in 31826.5043 ms
+06/03/2024 11:30:49 [INF] HTTP GET /users responded 200 in 11.0599 ms
+06/03/2024 11:30:49 [INF] HTTP GET /Groups/5 responded 200 in 14.0648 ms
+06/03/2024 11:30:59 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7954 ms
+06/03/2024 11:30:59 [INF] HTTP GET /Messages/23 responded 200 in 13.0123 ms
+06/03/2024 11:31:28 [INF] HTTP GET /Messages/23 responded 200 in 5.4658 ms
+06/03/2024 11:32:23 [INF] HTTP GET /users responded 200 in 11.2841 ms
+06/03/2024 11:32:23 [INF] HTTP GET /Groups/5 responded 200 in 17.0608 ms
+06/03/2024 11:32:44 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.5528 ms
+06/03/2024 11:32:44 [INF] HTTP GET /Messages/23 responded 200 in 10.8013 ms
+06/03/2024 11:33:02 [INF] HTTP GET /users responded 200 in 8.6390 ms
+06/03/2024 11:33:02 [INF] HTTP GET /Groups/5 responded 200 in 6.2995 ms
+06/03/2024 11:33:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3449 ms
+06/03/2024 11:33:17 [INF] HTTP GET /Messages/23 responded 200 in 12.3287 ms
+06/03/2024 11:33:40 [INF] HTTP POST /Message responded 200 in 13.8043 ms
+06/03/2024 11:33:40 [INF] HTTP GET /message-hub?id=lx6PToHIecX66ySu12xfSA responded 101 in 22134.3150 ms
+06/03/2024 11:33:45 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5450 ms
+06/03/2024 11:33:45 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6872 ms
+06/03/2024 11:33:51 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4940 ms
+06/03/2024 11:33:51 [INF] HTTP GET /Messages/23 responded 200 in 4.4097 ms
+06/03/2024 11:34:00 [INF] HTTP GET /Messages/23 responded 200 in 3.1901 ms
+06/03/2024 11:34:52 [INF] HTTP GET /Messages/23 responded 200 in 11.0531 ms
+06/03/2024 11:37:12 [INF] HTTP GET /message-hub?id=lCI4SNGMPNGYx_fVP_YZkg responded 101 in 206013.0061 ms
+06/03/2024 11:37:16 [INF] HTTP GET /users responded 200 in 10.5028 ms
+06/03/2024 11:37:16 [INF] HTTP GET /Groups/5 responded 200 in 19.5097 ms
+06/03/2024 11:37:18 [INF] HTTP GET /Messages/23 responded 200 in 7.6433 ms
+06/03/2024 11:37:18 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4419 ms
+06/03/2024 11:37:55 [INF] HTTP GET /message-hub?id=QPJX3r88PQOm4jGsUVtQhQ responded 101 in 36476.2094 ms
+06/03/2024 11:38:00 [INF] HTTP GET /users responded 200 in 9.4262 ms
+06/03/2024 11:38:00 [INF] HTTP GET /Groups/5 responded 200 in 11.3235 ms
+06/03/2024 11:38:02 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6354 ms
+06/03/2024 11:38:02 [INF] HTTP GET /Messages/23 responded 200 in 6.6758 ms
+06/03/2024 11:42:10 [INF] HTTP GET /message-hub?id=-jlOPy4KygeCkZG9BeRXeQ responded 101 in 247245.5636 ms
+06/03/2024 11:42:16 [INF] HTTP GET /users responded 200 in 9.3912 ms
+06/03/2024 11:42:16 [INF] HTTP GET /Groups/5 responded 200 in 11.6139 ms
+06/03/2024 11:42:31 [INF] HTTP POST /Message responded 200 in 13.6797 ms
+06/03/2024 11:42:36 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5668 ms
+06/03/2024 11:42:36 [INF] HTTP GET /Messages/23 responded 200 in 5.6312 ms
+06/03/2024 11:42:43 [INF] HTTP POST /Message responded 200 in 8.3794 ms
+06/03/2024 11:43:07 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4677 ms
+06/03/2024 11:43:07 [INF] HTTP GET /Messages/23 responded 200 in 13.2857 ms
+06/03/2024 11:43:18 [INF] HTTP POST /Message responded 200 in 13.4265 ms
+06/03/2024 11:43:18 [INF] HTTP GET /message-hub?id=_Advw_qr-UjXERU3volpFQ responded 101 in 10034.7404 ms
+06/03/2024 11:43:19 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3205 ms
+06/03/2024 11:45:09 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7076 ms
+06/03/2024 11:45:09 [INF] HTTP GET /Messages/23 responded 200 in 12.6039 ms
+06/03/2024 11:45:40 [INF] HTTP GET /message-hub responded 101 in 3048.6302 ms
+06/03/2024 11:46:25 [INF] HTTP GET /message-hub responded 101 in 38243.1569 ms
+06/03/2024 12:04:53 [INF] HTTP GET /message-hub?id=CjcEaWulPflNvJtqnG3V1w responded 101 in 1293572.1126 ms
+06/03/2024 12:04:53 [INF] HTTP GET /message-hub?id=zWvhD995xgC3FoG6rjaQTw responded 101 in 1184187.5802 ms
+06/03/2024 13:06:45 [INF] HTTP GET /users responded 200 in 1867.4368 ms
+06/03/2024 13:06:45 [INF] HTTP GET /Groups/5 responded 200 in 1993.9408 ms
+06/03/2024 13:06:54 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 11.6580 ms
+06/03/2024 13:06:54 [INF] HTTP GET /Messages/23 responded 200 in 81.3927 ms
+06/03/2024 13:07:20 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.9200 ms
+06/03/2024 13:07:20 [INF] HTTP GET /Messages/23 responded 200 in 6.6924 ms
+06/03/2024 13:18:55 [INF] HTTP GET /message-hub?id=kr1xO9OiSziI5_AlsEP7kA responded 101 in 719154.8589 ms
+06/03/2024 13:19:04 [INF] HTTP GET /message-hub responded 101 in 464405.2330 ms
+06/03/2024 13:19:04 [INF] HTTP GET /message-hub?id=Cb8DV5n5d_tGMplzPNB0Rg responded 101 in 704453.4809 ms
+06/03/2024 13:21:09 [ERR] HTTP POST /Message responded 500 in 33575.6768 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.SendMessage(PostSendMessageReq req) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 61
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_0>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+06/03/2024 13:24:49 [INF] HTTP POST /Message responded 200 in 82168.4896 ms
+06/03/2024 13:25:11 [INF] HTTP GET /users responded 200 in 86.3610 ms
+06/03/2024 13:25:11 [INF] HTTP GET /Groups/5 responded 200 in 192.1014 ms
+06/03/2024 13:25:30 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 18.5891 ms
+06/03/2024 13:25:30 [INF] HTTP GET /Messages/23 responded 200 in 69.5340 ms
+06/03/2024 13:26:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 4.1039 ms
+06/03/2024 13:26:37 [INF] HTTP GET /Messages/23 responded 200 in 20.1264 ms
+06/03/2024 13:28:49 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 4.4272 ms
+06/03/2024 13:28:49 [INF] HTTP POST /Message responded 200 in 95429.9885 ms
+06/03/2024 13:28:49 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.1106 ms
+06/03/2024 13:28:49 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.5155 ms
+06/03/2024 13:28:49 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5132 ms
+06/03/2024 13:28:49 [INF] HTTP GET /message-hub?id=k8zA9rg0SBbcThQp0kX9Vg responded 101 in 130922.8201 ms
+06/03/2024 13:31:21 [INF] HTTP POST /Message responded 200 in 124857.5993 ms
+06/03/2024 13:32:03 [INF] HTTP POST /Message responded 200 in 19.0787 ms
+06/03/2024 13:32:29 [INF] HTTP POST /Message responded 200 in 13.6612 ms
+06/03/2024 13:32:48 [INF] HTTP GET /users responded 200 in 20.0715 ms
+06/03/2024 13:32:48 [INF] HTTP GET /Groups/5 responded 200 in 23.7198 ms
+06/03/2024 13:33:11 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6802 ms
+06/03/2024 13:33:11 [INF] HTTP GET /Messages/23 responded 200 in 7.2656 ms
+06/03/2024 13:33:26 [INF] HTTP POST /Message responded 200 in 13.2364 ms
+06/03/2024 13:33:52 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6832 ms
+06/03/2024 13:33:53 [INF] HTTP GET /Messages/23 responded 200 in 7.7493 ms
+06/03/2024 13:39:43 [INF] HTTP GET /message-hub responded 400 in 11.7289 ms
+06/03/2024 13:39:43 [INF] HTTP GET /favicon.ico responded 404 in 0.0974 ms
+06/03/2024 13:54:08 [INF] HTTP POST /Message responded 200 in 11542.8817 ms
+06/03/2024 13:59:32 [ERR] HTTP POST /Message responded 500 in 18576.3973 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at chat_app_service.Core.Hubs.MessageHub.SendMessage(MessageDTO message) in D:\service\Service_Chat\Core\Hubs\MessageHub .cs:line 9
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.SendMessage(PostSendMessageReq req) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 66
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_0>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+06/03/2024 14:01:16 [ERR] HTTP POST /Message responded 500 in 17433.2669 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at chat_app_service.Core.Hubs.MessageHub.SendMessage(PostSendMessageReq message) in D:\service\Service_Chat\Core\Hubs\MessageHub .cs:line 9
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.SendMessage(PostSendMessageReq req) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 44
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_0>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+06/03/2024 14:06:35 [INF] HTTP GET /message-hub responded 400 in 9.2053 ms
+06/03/2024 14:08:29 [INF] HTTP POST /Message responded 200 in 1182.6061 ms
+06/03/2024 14:11:44 [INF] HTTP GET /message-hub responded 101 in 15038.6537 ms
+06/03/2024 14:14:23 [INF] HTTP GET /message-hub responded 101 in 54021.7756 ms
+06/03/2024 14:14:37 [INF] HTTP GET /message-hub responded 101 in 11432.9980 ms
+06/03/2024 14:14:43 [INF] HTTP GET /message-hub responded 101 in 1827.0117 ms
+06/03/2024 14:14:50 [INF] HTTP GET /message-hub responded 101 in 4163.9772 ms
+06/03/2024 14:15:47 [INF] HTTP GET /message-hub responded 101 in 52617.3391 ms
+06/03/2024 14:16:00 [INF] HTTP GET /message-hub responded 101 in 12100.5532 ms
+06/03/2024 14:16:17 [INF] HTTP GET /message-hub responded 101 in 15245.5967 ms
+06/03/2024 14:16:23 [INF] HTTP GET /message-hub responded 101 in 3906.8917 ms
+06/03/2024 14:16:25 [INF] HTTP GET /message-hub responded 101 in 1382.5317 ms
+06/03/2024 14:20:12 [INF] HTTP GET /message-hub responded 101 in 60282.0325 ms
+06/03/2024 14:20:28 [INF] HTTP GET /message-hub responded 101 in 1726.4714 ms
+06/03/2024 14:25:18 [INF] HTTP GET /message-hub responded 101 in 1386.1350 ms
+06/03/2024 14:26:21 [INF] HTTP GET /message-hub responded 101 in 1208.0478 ms
+06/03/2024 14:29:39 [INF] HTTP GET /message-hub responded 101 in 770.9609 ms
+06/03/2024 14:29:43 [INF] HTTP GET /message-hub responded 101 in 36.1191 ms
+06/03/2024 14:29:44 [INF] HTTP GET /message-hub responded 101 in 48.7596 ms
+06/03/2024 14:29:44 [INF] HTTP GET /message-hub responded 101 in 41.1853 ms
+06/03/2024 14:29:45 [INF] HTTP GET /message-hub responded 101 in 39.1690 ms
+06/03/2024 14:29:45 [INF] HTTP GET /message-hub responded 101 in 36.4431 ms
+06/03/2024 14:29:47 [INF] HTTP GET /message-hub responded 101 in 1940.3613 ms
+06/03/2024 14:31:03 [INF] HTTP GET /message-hub responded 101 in 3013.5954 ms
+06/03/2024 14:31:04 [INF] HTTP GET /message-hub responded 101 in 32.4889 ms
+06/03/2024 14:31:04 [INF] HTTP GET /message-hub responded 101 in 34.4092 ms
+06/03/2024 14:31:05 [INF] HTTP GET /message-hub responded 101 in 37.6335 ms
+06/03/2024 14:31:05 [INF] HTTP GET /message-hub responded 101 in 36.8037 ms
+06/03/2024 14:31:06 [INF] HTTP GET /message-hub responded 101 in 55.4378 ms
+06/03/2024 14:31:06 [INF] HTTP GET /message-hub responded 101 in 30.6760 ms
+06/03/2024 14:31:06 [INF] HTTP GET /message-hub responded 101 in 36.5320 ms
+06/03/2024 14:31:06 [INF] HTTP GET /message-hub responded 101 in 33.2831 ms
+06/03/2024 14:34:18 [INF] HTTP GET /message-hub responded 101 in 157827.1596 ms
+06/03/2024 14:35:08 [INF] HTTP POST /Message responded 200 in 1459.1660 ms
+06/03/2024 14:35:29 [INF] HTTP POST /Message responded 200 in 76.2685 ms
+06/03/2024 14:37:53 [INF] HTTP POST /Message responded 200 in 4519.9033 ms
+06/03/2024 14:39:36 [INF] HTTP GET /message-hub responded 101 in 131493.4375 ms
+06/03/2024 14:51:01 [INF] HTTP POST /Message responded 200 in 7067.0915 ms
+06/03/2024 15:01:14 [INF] HTTP GET /users responded 200 in 1902.4511 ms
+06/03/2024 15:01:14 [INF] HTTP GET /Groups/5 responded 200 in 2138.9151 ms
+06/03/2024 15:03:09 [INF] HTTP GET /message-hub responded 101 in 89006.5268 ms
+06/03/2024 15:05:15 [INF] HTTP GET /message-hub responded 101 in 4785.3975 ms
+06/03/2024 15:05:19 [INF] HTTP GET /message-hub responded 101 in 2725.4872 ms
+06/03/2024 15:05:46 [INF] HTTP POST /Message responded 200 in 4398.0528 ms
+06/03/2024 15:13:33 [INF] HTTP GET /message-hub responded 101 in 99471.7396 ms
+06/03/2024 15:24:04 [INF] HTTP GET /message-hub responded 101 in 78950.2692 ms
+06/03/2024 15:24:53 [INF] HTTP GET /message-hub responded 101 in 43450.4029 ms
+06/03/2024 15:24:57 [INF] HTTP GET /message-hub responded 101 in 1142.3816 ms
+06/03/2024 15:25:03 [INF] HTTP GET /message-hub responded 101 in 941.5594 ms
+06/03/2024 15:25:21 [INF] HTTP GET /message-hub responded 101 in 15956.3264 ms
+06/03/2024 15:25:24 [INF] HTTP GET /message-hub responded 101 in 1279.1936 ms
+06/03/2024 15:25:34 [INF] HTTP GET /message-hub responded 101 in 5710.8904 ms
+06/03/2024 15:27:16 [INF] HTTP GET /message-hub responded 101 in 960.0660 ms
+06/03/2024 15:31:02 [INF] HTTP GET /message-hub responded 101 in 1164.9588 ms
+06/03/2024 15:32:38 [INF] HTTP POST /Message responded 200 in 1472.2725 ms
+06/03/2024 15:34:01 [INF] HTTP POST /Message responded 200 in 1479.0227 ms
+06/03/2024 15:34:14 [INF] HTTP GET /message-hub responded 101 in 34468.2074 ms
+06/03/2024 15:37:22 [INF] HTTP GET /users responded 200 in 99.9484 ms
+06/03/2024 15:37:22 [INF] HTTP GET /Groups/5 responded 200 in 205.5713 ms
+06/03/2024 15:37:32 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 9.1159 ms
+06/03/2024 15:37:32 [INF] HTTP GET /Messages/23 responded 200 in 43.5780 ms
+06/03/2024 15:37:48 [INF] HTTP POST /Message responded 200 in 22.1838 ms
+06/03/2024 15:38:12 [INF] HTTP GET /message-hub?id=a7WMCmADB6zQnQ7qhTk8ag responded 101 in 38209.7837 ms
+06/03/2024 15:38:13 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5932 ms
+06/03/2024 15:41:52 [INF] HTTP POST /Message responded 200 in 16.2846 ms
+06/03/2024 15:41:52 [INF] HTTP GET /message-hub?id=AYVnY0Ny2Hy8tpsZiuoYOA responded 101 in 219215.5864 ms
+06/03/2024 15:41:53 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7359 ms
+06/03/2024 15:42:14 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4833 ms
+06/03/2024 15:42:14 [INF] HTTP GET /Messages/23 responded 200 in 7.7063 ms
+06/03/2024 15:42:17 [INF] HTTP POST /Message responded 200 in 9.4130 ms
+06/03/2024 15:42:17 [INF] HTTP GET /message-hub?id=UnfgzVS2qcuLoyO9MiGlXQ responded 101 in 2938.6290 ms
+06/03/2024 15:42:17 [INF] HTTP GET /message-hub?id=1mbfKnpv_VhJQVJdNAhIGQ responded 101 in 23272.4477 ms
+06/03/2024 15:42:18 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4817 ms
+06/03/2024 15:42:18 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6201 ms
+06/03/2024 15:42:34 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6745 ms
+06/03/2024 15:42:34 [INF] HTTP GET /Messages/23 responded 200 in 4.8395 ms
+06/03/2024 15:43:15 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 43.7865 ms
+06/03/2024 15:43:15 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 43.7775 ms
+06/03/2024 15:43:15 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7011 ms
+06/03/2024 15:43:24 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 2.3568 ms
+06/03/2024 15:43:24 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6237 ms
+06/03/2024 15:43:24 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5598 ms
+06/03/2024 15:44:23 [INF] HTTP GET /message-hub responded 101 in 62021.8438 ms
+06/03/2024 15:44:23 [INF] HTTP GET /message-hub?id=d0YTV6PEismxt7uaZrJLNA responded 101 in 58205.4213 ms
+06/03/2024 15:44:23 [INF] HTTP GET /message-hub?id=tYWyynDJx8uIXZMeoxT39A responded 101 in 58205.4547 ms
+06/03/2024 15:45:48 [INF] HTTP POST /Message responded 200 in 1560.3048 ms
+06/03/2024 15:46:00 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 8.9777 ms
+06/03/2024 15:46:00 [INF] HTTP GET /Messages/23 responded 200 in 102.6179 ms
+06/03/2024 15:46:06 [INF] HTTP POST /Message responded 200 in 28.9969 ms
+06/03/2024 15:46:41 [INF] HTTP GET /message-hub?id=m1ldOZVUW4WQhRrWznCzzQ responded 101 in 41407.7262 ms
+06/03/2024 15:46:41 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7045 ms
+06/03/2024 15:47:06 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5749 ms
+06/03/2024 15:47:06 [INF] HTTP GET /Messages/23 responded 200 in 17.0817 ms
+06/03/2024 15:47:46 [INF] HTTP GET /message-hub responded 101 in 123843.9635 ms
+06/03/2024 15:47:47 [INF] HTTP POST /Message responded 200 in 12.1939 ms
+06/03/2024 15:48:43 [INF] HTTP GET /message-hub?id=hK7t6SRHlyzqVD71eLU1ZA responded 101 in 120821.3078 ms
+06/03/2024 15:48:43 [INF] HTTP GET /message-hub?id=R4BBzNw_sxSLS_ZD5G-0Pw responded 101 in 96481.9965 ms
+06/03/2024 15:51:10 [INF] HTTP GET /users responded 200 in 24.6619 ms
+06/03/2024 15:51:10 [INF] HTTP GET /Groups/5 responded 200 in 100.1476 ms
+06/03/2024 15:51:48 [INF] HTTP POST /Message responded 200 in 1597.1114 ms
+06/03/2024 15:51:54 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 18.4055 ms
+06/03/2024 15:51:54 [INF] HTTP GET /Messages/23 responded 200 in 185.7935 ms
+06/03/2024 15:52:11 [INF] HTTP POST /Message responded 200 in 27.5999 ms
+06/03/2024 15:52:20 [INF] HTTP GET /Messages/23 responded 200 in 7.0418 ms
+06/03/2024 15:54:00 [INF] HTTP POST /Message responded 200 in 26.4811 ms
+06/03/2024 15:54:01 [INF] HTTP GET /Messages/23 responded 200 in 7.5902 ms
+06/03/2024 15:54:07 [INF] HTTP GET /message-hub?id=O-EGoYlComaVQquENP9mjg responded 101 in 132582.0647 ms
+06/03/2024 15:54:11 [INF] HTTP GET /users responded 200 in 36.3180 ms
+06/03/2024 15:54:11 [INF] HTTP GET /Groups/5 responded 200 in 128.9410 ms
+06/03/2024 15:54:14 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.8478 ms
+06/03/2024 15:54:14 [INF] HTTP GET /Messages/23 responded 200 in 5.4354 ms
+06/03/2024 15:54:22 [INF] HTTP POST /Message responded 200 in 14.8902 ms
+06/03/2024 15:54:41 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.9191 ms
+06/03/2024 15:54:41 [INF] HTTP GET /Messages/23 responded 200 in 7.5116 ms
+06/03/2024 15:54:57 [INF] HTTP GET /message-hub responded 101 in 210313.7195 ms
+06/03/2024 15:54:57 [INF] HTTP POST /Message responded 200 in 10.6496 ms
+06/03/2024 15:54:57 [INF] HTTP GET /Messages/23 responded 200 in 5.7188 ms
+06/03/2024 15:55:29 [INF] HTTP GET /message-hub responded 101 in 25011.1720 ms
+06/03/2024 15:55:29 [INF] HTTP POST /Message responded 200 in 8.3705 ms
+06/03/2024 15:55:29 [INF] HTTP GET /Messages/23 responded 200 in 4.3164 ms
+06/03/2024 15:55:39 [INF] HTTP POST /Message responded 200 in 10.9097 ms
+06/03/2024 15:55:39 [INF] HTTP GET /Messages/23 responded 200 in 5.2034 ms
+06/03/2024 15:55:44 [INF] HTTP POST /Message responded 200 in 9.0276 ms
+06/03/2024 15:55:44 [INF] HTTP GET /Messages/23 responded 200 in 4.7675 ms
+06/03/2024 15:55:49 [INF] HTTP POST /Message responded 200 in 7.9238 ms
+06/03/2024 15:55:50 [INF] HTTP GET /Messages/23 responded 200 in 5.3327 ms
+06/03/2024 15:58:27 [INF] HTTP GET /message-hub?id=xcLxFC5Z9a8vGvYYh_0clw responded 101 in 252064.5310 ms
+06/03/2024 15:58:27 [INF] HTTP GET /message-hub?id=SR0kSeR6DR4_-L6Wah1vhA responded 101 in 225106.3640 ms
+06/03/2024 15:58:30 [INF] HTTP GET /users responded 200 in 3.7324 ms
+06/03/2024 15:58:30 [INF] HTTP GET /Groups/5 responded 200 in 6.8991 ms
+06/03/2024 15:58:35 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3245 ms
+06/03/2024 15:59:08 [INF] HTTP GET /message-hub?id=PvU3pG5vHC6C0jP3mFl1Ug responded 101 in 32658.9350 ms
+06/03/2024 15:59:26 [INF] HTTP GET /Groups/5 responded 200 in 6.0458 ms
+06/03/2024 15:59:26 [INF] HTTP GET /users responded 200 in 9.3606 ms
+06/03/2024 15:59:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2814 ms
+06/03/2024 15:59:56 [INF] HTTP GET /message-hub?id=XiCLjbA_ChcXa1rXdimwoA responded 101 in 14587.4979 ms
+06/03/2024 16:00:00 [INF] HTTP GET /users responded 200 in 6.5808 ms
+06/03/2024 16:00:00 [INF] HTTP GET /Groups/5 responded 200 in 7.6011 ms
+06/03/2024 16:00:05 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2645 ms
+06/03/2024 16:00:05 [INF] HTTP GET /Messages/23 responded 200 in 5.1442 ms
+06/03/2024 16:00:56 [INF] HTTP GET /message-hub?id=RNtdKlTlcds0uJpBMkkZwA responded 101 in 50575.5532 ms
+06/03/2024 16:01:35 [INF] HTTP GET /users responded 200 in 7.4114 ms
+06/03/2024 16:01:35 [INF] HTTP GET /Groups/5 responded 200 in 9.3418 ms
+06/03/2024 16:02:41 [INF] HTTP GET /users responded 200 in 13.0062 ms
+06/03/2024 16:02:41 [INF] HTTP GET /Groups/5 responded 200 in 15.6034 ms
+06/03/2024 16:03:21 [INF] HTTP GET /users responded 200 in 8.5075 ms
+06/03/2024 16:03:21 [INF] HTTP GET /Groups/5 responded 200 in 10.5796 ms
+06/03/2024 16:03:24 [INF] HTTP GET /Messages/23 responded 200 in 8.2388 ms
+06/03/2024 16:03:24 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5318 ms
+06/03/2024 16:05:51 [INF] HTTP GET /message-hub?id=KQ7i2cX9oCqfJ5tni2rAXA responded 101 in 146702.4282 ms
+06/03/2024 16:05:56 [INF] HTTP GET /users responded 200 in 8.5761 ms
+06/03/2024 16:05:56 [INF] HTTP GET /Groups/5 responded 200 in 10.7494 ms
+06/03/2024 16:05:57 [INF] HTTP GET /Messages/23 responded 200 in 7.2611 ms
+06/03/2024 16:05:58 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5214 ms
+06/03/2024 16:06:56 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5742 ms
+06/03/2024 16:06:56 [INF] HTTP GET /Messages/23 responded 200 in 9.6793 ms
+06/03/2024 16:07:47 [INF] HTTP GET /message-hub?id=suf2VXhs3T4vfzs8faY9vg responded 101 in 107552.0788 ms
+06/03/2024 16:07:47 [INF] HTTP GET /message-hub?id=JmXZlQm_GiSaiBekSAD8xA responded 101 in 49586.6368 ms
+06/03/2024 16:07:51 [INF] HTTP GET /users responded 200 in 8.9886 ms
+06/03/2024 16:07:51 [INF] HTTP GET /Groups/5 responded 200 in 11.2677 ms
+06/03/2024 16:07:55 [INF] HTTP GET /Messages/23 responded 200 in 6.9308 ms
+06/03/2024 16:07:55 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2964 ms
+06/03/2024 16:08:03 [INF] HTTP GET /message-hub responded 101 in 317661.4904 ms
+06/03/2024 16:08:20 [ERR] HTTP POST /Message responded 500 in 59.2025 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: Failed to read parameter "PostSendMessageReq body" from the request body as JSON.
+ ---> System.Text.Json.JsonException: '"' is invalid after a value. Expected either ',', '}', or ']'. Path: $ | LineNumber: 2 | BytePositionInLine: 2.
+ ---> System.Text.Json.JsonReaderException: '"' is invalid after a value. Expected either ',', '}', or ']'. LineNumber: 2 | BytePositionInLine: 2.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsObjectAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.HttpRequestJsonExtensions.ReadFromJsonAsync(HttpRequest request, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.Log.InvalidJsonRequestBody(HttpContext httpContext, String parameterTypeName, String parameterName, Exception exception, Boolean shouldThrow)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<HandleRequestBodyAndCompileRequestDelegateForJson>g__TryReadBodyAsync|102_0(HttpContext httpContext, Type bodyType, String parameterTypeName, String parameterName, Boolean allowEmptyRequestBody, Boolean throwOnBadRequest, JsonTypeInfo jsonTypeInfo)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+06/03/2024 16:08:38 [INF] HTTP POST /Message responded 200 in 25.2663 ms
+06/03/2024 16:08:44 [INF] HTTP POST /Message responded 200 in 12.5203 ms
+06/03/2024 16:08:54 [INF] HTTP POST /Message responded 200 in 10.5096 ms
+06/03/2024 16:09:18 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3855 ms
+06/03/2024 16:09:18 [INF] HTTP GET /Messages/23 responded 200 in 5.9773 ms
+06/03/2024 16:09:46 [INF] HTTP GET /message-hub responded 101 in 102685.8075 ms
+06/03/2024 16:09:46 [INF] HTTP POST /Message responded 200 in 11.1657 ms
+06/03/2024 16:10:50 [INF] HTTP GET /message-hub?id=fubgfddAiQ4U7seO4IfvMQ responded 101 in 91908.5151 ms
+06/03/2024 16:10:50 [INF] HTTP GET /message-hub?id=j-WmLMHYZGa7FhnIOWIA6g responded 101 in 174169.7739 ms
+06/03/2024 16:10:50 [INF] HTTP POST /Message responded 200 in 18.2318 ms
+06/03/2024 16:10:50 [INF] HTTP POST /Message responded 200 in 21.8342 ms
+06/03/2024 16:10:50 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3421 ms
+06/03/2024 16:10:50 [INF] HTTP GET /Messages/23 responded 200 in 7.6200 ms
+06/03/2024 16:10:55 [INF] HTTP GET /users responded 200 in 9.5186 ms
+06/03/2024 16:10:55 [INF] HTTP GET /Groups/5 responded 200 in 12.0216 ms
+06/03/2024 16:10:59 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4233 ms
+06/03/2024 16:10:59 [INF] HTTP GET /Messages/23 responded 200 in 4.1200 ms
+06/03/2024 16:11:05 [INF] HTTP POST /Message responded 200 in 6.8083 ms
+06/03/2024 16:11:51 [INF] HTTP GET /message-hub?id=AYC7Kw1zADB5Yhj12SS27g responded 101 in 51593.0229 ms
+06/03/2024 16:11:56 [INF] HTTP GET /users responded 200 in 5.4778 ms
+06/03/2024 16:11:56 [INF] HTTP GET /Groups/5 responded 200 in 7.8332 ms
+06/03/2024 16:12:22 [INF] HTTP GET /users responded 200 in 6.0635 ms
+06/03/2024 16:12:22 [INF] HTTP GET /Groups/5 responded 200 in 11.3116 ms
+06/03/2024 16:12:25 [INF] HTTP GET /Messages/23 responded 200 in 5.9034 ms
+06/03/2024 16:12:26 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5203 ms
+06/03/2024 16:12:53 [INF] HTTP GET /message-hub?id=lBybAHbWhYfErprTjkCRuQ responded 101 in 24745.1693 ms
+06/03/2024 16:12:58 [INF] HTTP GET /users responded 200 in 14.1877 ms
+06/03/2024 16:12:58 [INF] HTTP GET /Groups/5 responded 200 in 16.5857 ms
+06/03/2024 16:13:59 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.8102 ms
+06/03/2024 16:13:59 [INF] HTTP GET /Messages/23 responded 200 in 13.0633 ms
+06/03/2024 16:14:08 [INF] HTTP POST /Message responded 200 in 10.4791 ms
+06/03/2024 16:14:40 [INF] HTTP GET /message-hub?id=68MFjE3s6z7XG4ZOmiLHqw responded 101 in 40067.8048 ms
+06/03/2024 16:14:45 [INF] HTTP GET /users responded 200 in 10.2683 ms
+06/03/2024 16:14:45 [INF] HTTP GET /Groups/5 responded 200 in 12.3515 ms
+06/03/2024 16:14:51 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4094 ms
+06/03/2024 16:14:51 [INF] HTTP GET /Messages/23 responded 200 in 13.5829 ms
+06/03/2024 16:15:20 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 10.7967 ms
+06/03/2024 16:15:22 [INF] HTTP GET /Messages/23 responded 200 in 1241.3335 ms
+06/03/2024 16:15:28 [INF] HTTP POST /Message responded 200 in 245.9730 ms
+06/03/2024 16:15:46 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6836 ms
+06/03/2024 16:15:47 [INF] HTTP GET /Messages/23 responded 200 in 53.6179 ms
+06/03/2024 16:15:51 [INF] HTTP POST /Message responded 200 in 23.1714 ms
+06/03/2024 16:16:12 [INF] HTTP GET /message-hub?id=zQsfbdjzgFKOnWhacpnlxQ responded 101 in 25779.0618 ms
+06/03/2024 16:16:17 [INF] HTTP GET /users responded 200 in 30.2178 ms
+06/03/2024 16:16:17 [INF] HTTP GET /Groups/5 responded 200 in 115.3799 ms
+06/03/2024 16:17:19 [INF] HTTP GET /users responded 200 in 9.9398 ms
+06/03/2024 16:17:19 [INF] HTTP GET /Groups/5 responded 200 in 5.4360 ms
+06/03/2024 16:17:22 [INF] HTTP GET /Messages/23 responded 200 in 6.2190 ms
+06/03/2024 16:17:22 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2688 ms
+06/03/2024 16:18:05 [INF] HTTP GET /message-hub?id=J5qvHvm9i1N0Pso7SotbJw responded 101 in 42351.5279 ms
+06/03/2024 16:18:09 [INF] HTTP GET /Groups/5 responded 200 in 24.2955 ms
+06/03/2024 16:18:09 [INF] HTTP GET /users responded 200 in 24.5492 ms
+06/03/2024 16:18:14 [INF] HTTP GET /message-hub responded 101 in 151022.0595 ms
+06/03/2024 16:18:21 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2090 ms
+06/03/2024 16:18:21 [INF] HTTP GET /Messages/23 responded 200 in 5.8674 ms
+06/03/2024 16:18:27 [INF] HTTP POST /Message responded 200 in 11.7170 ms
+06/03/2024 16:18:44 [INF] HTTP GET /message-hub responded 101 in 28974.4070 ms
+06/03/2024 16:21:36 [INF] HTTP GET /message-hub?id=lAaJ525NFMikRgC1jyYRng responded 101 in 195030.1739 ms
+06/03/2024 16:21:40 [INF] HTTP GET /users responded 200 in 16.3953 ms
+06/03/2024 16:21:40 [INF] HTTP GET /Groups/5 responded 200 in 19.5504 ms
+06/03/2024 16:21:46 [INF] HTTP GET /users responded 200 in 8.7168 ms
+06/03/2024 16:21:46 [INF] HTTP GET /Groups/5 responded 200 in 13.3149 ms
+06/03/2024 16:23:19 [INF] HTTP POST /login responded 200 in 602.8973 ms
+06/03/2024 16:23:20 [INF] HTTP GET /users responded 200 in 5.5822 ms
+06/03/2024 16:23:20 [INF] HTTP GET /Groups/6 responded 200 in 7.3821 ms
+06/03/2024 16:23:22 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4133 ms
+06/03/2024 16:23:23 [INF] HTTP GET /Messages/23 responded 200 in 9.7696 ms
+06/03/2024 16:23:26 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5544 ms
+06/03/2024 16:23:27 [INF] HTTP GET /Messages/23 responded 200 in 6.9621 ms
+06/03/2024 16:23:58 [INF] HTTP GET /message-hub responded 101 in 30339.5755 ms
+06/03/2024 16:23:58 [INF] HTTP POST /Message responded 200 in 16.9409 ms
+06/03/2024 16:23:58 [INF] HTTP POST /Message responded 200 in 8.0058 ms
+06/03/2024 16:24:32 [INF] HTTP GET /message-hub?id=VrkHdJq3nVQTwrxBOMzSkA responded 101 in 69572.7582 ms
+06/03/2024 16:24:32 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4111 ms
+06/03/2024 16:24:32 [INF] HTTP GET /Messages/23 responded 200 in 12.6431 ms
+06/03/2024 16:24:32 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 11.9805 ms
+06/03/2024 16:24:32 [INF] HTTP GET /Messages/23 responded 200 in 62.7075 ms
+06/03/2024 16:24:36 [INF] HTTP GET /message-hub responded 101 in 33232.8677 ms
+06/03/2024 16:25:14 [INF] HTTP GET /users responded 200 in 21.6845 ms
+06/03/2024 16:25:14 [INF] HTTP GET /Groups/6 responded 200 in 10.0178 ms
+06/03/2024 16:25:30 [INF] HTTP GET /message-hub?id=xnQNdcikiLApfIeV7mkJRg responded 101 in 123722.9919 ms
+06/03/2024 16:25:50 [INF] HTTP GET /users responded 200 in 5.6093 ms
+06/03/2024 16:25:51 [INF] HTTP GET /Groups/5 responded 200 in 3.0718 ms
+06/03/2024 16:26:09 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4871 ms
+06/03/2024 16:26:09 [INF] HTTP GET /Messages/23 responded 200 in 12.2738 ms
+06/03/2024 16:26:13 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7078 ms
+06/03/2024 16:26:13 [INF] HTTP GET /Messages/23 responded 200 in 10.9806 ms
+06/03/2024 16:27:09 [INF] HTTP GET /message-hub?id=_IhdySnpPuKvXJOG1vEjqQ responded 101 in 59650.7877 ms
+06/03/2024 16:27:09 [INF] HTTP POST /Message responded 200 in 72.8003 ms
+06/03/2024 16:27:09 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.0459 ms
+06/03/2024 16:27:09 [INF] HTTP GET /Messages/23 responded 200 in 20.7265 ms
+06/03/2024 16:27:25 [INF] HTTP GET /message-hub?id=bkhPBH2f8ZHRQZZCIHwivA responded 101 in 71473.1517 ms
+06/03/2024 16:27:31 [INF] HTTP GET /users responded 200 in 4.7534 ms
+06/03/2024 16:27:31 [INF] HTTP GET /Groups/5 responded 200 in 8.0919 ms
+06/03/2024 16:28:12 [INF] HTTP GET /users responded 200 in 3.2922 ms
+06/03/2024 16:28:12 [INF] HTTP GET /Groups/6 responded 200 in 6.3910 ms
+06/03/2024 16:28:35 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6528 ms
+06/03/2024 16:28:35 [INF] HTTP GET /Messages/23 responded 200 in 10.7212 ms
+06/03/2024 16:28:36 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4904 ms
+06/03/2024 16:29:36 [INF] HTTP GET /message-hub?id=ZlEwWM2KbX7nSe1pk7YvSA responded 101 in 59861.7404 ms
+06/03/2024 16:29:36 [INF] HTTP GET /Messages/23 responded 200 in 24.6984 ms
+06/03/2024 16:29:36 [INF] HTTP GET /users responded 200 in 8.2356 ms
+06/03/2024 16:29:36 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4013 ms
+06/03/2024 16:29:36 [INF] HTTP GET /Messages/23 responded 200 in 11.6382 ms
+06/03/2024 16:30:26 [INF] HTTP GET /users responded 200 in 3.9306 ms
+06/03/2024 16:30:26 [INF] HTTP GET /Groups/6 responded 200 in 4.7715 ms
+06/03/2024 16:31:02 [INF] HTTP GET /message-hub?id=xp98mMFlcaBG1N6FlnP_zg responded 101 in 146414.1314 ms
+06/03/2024 16:31:20 [INF] HTTP GET /users responded 200 in 12.4592 ms
+06/03/2024 16:31:20 [INF] HTTP GET /Groups/5 responded 200 in 11.6928 ms
+06/03/2024 16:31:22 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3908 ms
+06/03/2024 16:31:22 [INF] HTTP GET /Messages/23 responded 200 in 6.9002 ms
+06/03/2024 16:31:25 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5242 ms
+06/03/2024 16:32:36 [INF] HTTP GET /message-hub?id=Prf2PbxCJ6PlHJ5CTvXAVg responded 101 in 71404.9466 ms
+06/03/2024 16:32:36 [INF] HTTP GET /Messages/23 responded 200 in 32.8826 ms
+06/03/2024 16:32:36 [INF] HTTP GET /Messages/23 responded 200 in 4.3858 ms
+06/03/2024 16:33:10 [INF] HTTP GET /message-hub?id=jcZN0k2lPrHFIT-tXFdKEA responded 101 in 107748.8495 ms
+06/03/2024 16:33:16 [INF] HTTP GET /Groups/5 responded 200 in 18.6474 ms
+06/03/2024 16:33:17 [INF] HTTP GET /users responded 200 in 41.5388 ms
+06/03/2024 16:33:35 [INF] HTTP GET /message-hub responded 101 in 454235.1383 ms
+06/03/2024 16:33:42 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4726 ms
+06/03/2024 16:33:42 [INF] HTTP GET /Messages/23 responded 200 in 12.0414 ms
+06/03/2024 16:33:51 [INF] HTTP POST /Message responded 200 in 13.3198 ms
+06/03/2024 16:34:05 [INF] HTTP POST /Message responded 200 in 8.0450 ms
+06/03/2024 16:34:13 [INF] HTTP GET /users responded 200 in 3.6091 ms
+06/03/2024 16:34:15 [INF] HTTP GET /CheckIfUsersMessaged/7/5 responded 200 in 20.5800 ms
+06/03/2024 16:34:15 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3523 ms
+06/03/2024 16:34:50 [INF] HTTP GET /message-hub?id=629nFU8on5PJkFxJ7e8l5Q responded 101 in 34448.9113 ms
+06/03/2024 16:34:50 [INF] HTTP GET /message-hub?id=3nzz_hAV18m9nUFGJR8sCg responded 101 in 67646.2443 ms
+06/03/2024 16:34:50 [INF] HTTP GET /users responded 200 in 14.1639 ms
+06/03/2024 16:34:50 [ERR] HTTP POST /Message responded 500 in 19.8580 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.SendMessage(PostSendMessageReq req) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 61
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_0>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+06/03/2024 16:34:50 [INF] HTTP POST /CreateGroup responded 200 in 162.5767 ms
+06/03/2024 16:34:51 [INF] HTTP GET /message-hub responded 101 in 75371.6677 ms
+06/03/2024 16:37:44 [INF] HTTP GET /users responded 200 in 2256.8899 ms
+06/03/2024 16:37:45 [INF] HTTP GET /Groups/5 responded 200 in 2391.5559 ms
+06/03/2024 16:38:01 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 15.5044 ms
+06/03/2024 16:38:01 [INF] HTTP GET /Messages/23 responded 200 in 102.0088 ms
+06/03/2024 16:38:12 [INF] HTTP POST /Message responded 200 in 174.1757 ms
+06/03/2024 16:38:15 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5460 ms
+06/03/2024 16:38:16 [INF] HTTP GET /Messages/23 responded 200 in 5.4137 ms
+06/03/2024 16:38:32 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6048 ms
+06/03/2024 16:38:32 [INF] HTTP GET /Messages/25 responded 200 in 3.1340 ms
+06/03/2024 16:40:10 [INF] HTTP GET /message-hub?id=pMhZNm9NI_RiOdsyy3w_yA responded 101 in 97863.9598 ms
+06/03/2024 16:40:10 [INF] HTTP GET /message-hub?id=p-0wpDOm2C1C8T3lApIv1Q responded 101 in 114748.4273 ms
+06/03/2024 16:40:10 [INF] HTTP GET /message-hub?id=0xeHoTqQgJzsih8wGxe2Lg responded 101 in 129175.8947 ms
+06/03/2024 16:40:14 [INF] HTTP GET /users responded 200 in 2.8606 ms
+06/03/2024 16:40:14 [INF] HTTP GET /Groups/5 responded 200 in 5.8633 ms
+06/03/2024 16:40:24 [INF] HTTP GET /users responded 200 in 3.3173 ms
+06/03/2024 16:40:26 [INF] HTTP GET /CheckIfUsersMessaged/6/5 responded 200 in 8.4959 ms
+06/03/2024 16:40:26 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2621 ms
+06/03/2024 16:40:29 [INF] HTTP POST /CreateGroup responded 200 in 65.2011 ms
+06/03/2024 16:40:29 [ERR] HTTP POST /Message responded 500 in 8.7664 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.SendMessage(PostSendMessageReq req) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 61
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_0>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+06/03/2024 16:41:33 [INF] HTTP GET /message-hub?id=Fb-eN4Ba1bLUlvmBwZuFiQ responded 101 in 66908.9846 ms
+06/03/2024 16:41:37 [INF] HTTP GET /users responded 200 in 8.6806 ms
+06/03/2024 16:41:37 [INF] HTTP GET /Groups/5 responded 200 in 26.3346 ms
+06/03/2024 16:41:55 [INF] HTTP GET /users responded 200 in 1.6109 ms
+06/03/2024 16:41:55 [INF] HTTP GET /Groups/5 responded 200 in 2.7695 ms
+06/03/2024 16:43:15 [INF] HTTP GET /users responded 200 in 1163.7810 ms
+06/03/2024 16:43:18 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 6.4390 ms
+06/03/2024 16:43:18 [INF] HTTP GET /CheckIfUsersMessaged/6/5 responded 200 in 170.4308 ms
+06/03/2024 16:43:22 [INF] HTTP POST /CreateGroup responded 200 in 276.7438 ms
+06/03/2024 16:43:48 [ERR] HTTP POST /Message responded 500 in 25739.4319 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.SendMessage(PostSendMessageReq req) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 61
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_0>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+06/03/2024 16:44:00 [INF] HTTP GET /message-hub?id=n55tuQB1Ndxnawnfj2Gbiw responded 101 in 41496.3623 ms
+06/03/2024 16:44:04 [INF] HTTP GET /users responded 200 in 4.8110 ms
+06/03/2024 16:44:04 [INF] HTTP GET /Groups/5 responded 200 in 110.6190 ms
+06/03/2024 16:45:18 [INF] HTTP GET /message-hub responded 101 in 1716.6980 ms
+06/03/2024 16:45:25 [INF] HTTP GET /users responded 200 in 1242.2084 ms
+06/03/2024 16:45:27 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 10.4913 ms
+06/03/2024 16:45:27 [INF] HTTP GET /CheckIfUsersMessaged/7/5 responded 200 in 127.9866 ms
+06/03/2024 16:45:31 [INF] HTTP POST /CreateGroup responded 200 in 287.1515 ms
+06/03/2024 16:46:09 [INF] HTTP GET /message-hub?id=23nl3NKA0CLoOp7KrD1uAQ responded 101 in 42096.0443 ms
+06/03/2024 16:46:09 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5326 ms
+06/03/2024 16:46:09 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6027 ms
+06/03/2024 16:46:09 [ERR] HTTP POST /Message responded 500 in 38080.3279 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.SendMessage(PostSendMessageReq req) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 61
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_0>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+06/03/2024 16:46:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7841 ms
+06/03/2024 16:46:19 [INF] HTTP GET /message-hub?id=C07a0euqylXLJ0yOazcTBA responded 101 in 1314.8578 ms
+06/03/2024 16:46:23 [INF] HTTP GET /users responded 200 in 5.5752 ms
+06/03/2024 16:46:23 [INF] HTTP GET /Groups/5 responded 200 in 110.0376 ms
+06/03/2024 16:47:31 [INF] HTTP GET /users responded 200 in 17.2336 ms
+06/03/2024 16:47:31 [INF] HTTP GET /Groups/5 responded 200 in 26.4751 ms
+06/03/2024 16:48:03 [INF] HTTP GET /Groups/5 responded 200 in 21.9743 ms
+06/03/2024 16:48:03 [INF] HTTP GET /users responded 200 in 22.8193 ms
+06/03/2024 16:50:24 [INF] HTTP GET /users responded 200 in 14.6576 ms
+06/03/2024 16:50:24 [INF] HTTP GET /Groups/5 responded 200 in 21.2952 ms
+06/03/2024 16:50:31 [INF] HTTP GET /users responded 200 in 4.0230 ms
+06/03/2024 16:50:32 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6250 ms
+06/03/2024 16:50:32 [INF] HTTP GET /CheckIfUsersMessaged/7/5 responded 200 in 4.9978 ms
+06/03/2024 16:50:54 [INF] HTTP GET /users responded 200 in 3.3399 ms
+06/03/2024 16:50:54 [INF] HTTP GET /Groups/5 responded 200 in 10.7148 ms
+06/03/2024 16:50:56 [INF] HTTP GET /users responded 200 in 3.4801 ms
+06/03/2024 16:50:57 [INF] HTTP GET /CheckIfUsersMessaged/6/5 responded 200 in 3.4071 ms
+06/03/2024 16:50:57 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4444 ms
+06/03/2024 16:52:12 [INF] HTTP GET /message-hub?id=IRwedxKbjscm_BZzVWHGsg responded 101 in 75016.9741 ms
+06/03/2024 16:52:13 [INF] HTTP GET /message-hub responded 101 in 414369.6773 ms
+06/03/2024 16:52:13 [INF] HTTP GET /message-hub?id=T_a2B_orVjEU6SuFSt2r3g responded 101 in 101224.2029 ms
+06/03/2024 16:53:48 [INF] HTTP GET /users responded 200 in 1191.4897 ms
+06/03/2024 16:53:48 [INF] HTTP GET /Groups/5 responded 200 in 1331.8584 ms
+06/03/2024 16:53:52 [INF] HTTP GET /users responded 200 in 48.0420 ms
+06/03/2024 16:53:53 [INF] HTTP GET /CheckIfUsersMessaged/6/5 responded 200 in 15.5291 ms
+06/03/2024 16:53:53 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 10.0459 ms
+06/03/2024 16:53:59 [INF] HTTP POST /CreateGroup responded 200 in 199.1778 ms
+06/03/2024 16:54:54 [INF] HTTP POST /CreateGroup responded 200 in 16.0506 ms
+06/03/2024 16:59:16 [INF] HTTP GET /users responded 200 in 12.1289 ms
+06/03/2024 16:59:16 [INF] HTTP GET /Groups/5 responded 200 in 21.8993 ms
+06/03/2024 16:59:50 [INF] HTTP GET /message-hub?id=XtjgyuPCPuy8ydvjA6JZ_g responded 101 in 356598.8652 ms
+06/03/2024 17:00:08 [INF] HTTP GET /users responded 200 in 18.4127 ms
+06/03/2024 17:00:08 [INF] HTTP GET /Groups/5 responded 200 in 41.6747 ms
+06/03/2024 17:00:19 [INF] HTTP GET /users responded 200 in 3.5059 ms
+06/03/2024 17:00:23 [INF] HTTP GET /CheckIfUsersMessaged/7/5 responded 200 in 6.3232 ms
+06/03/2024 17:00:23 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7267 ms
+06/03/2024 17:00:41 [INF] HTTP POST /CreateGroup responded 200 in 17171.8970 ms
+06/03/2024 17:01:32 [INF] HTTP GET /users responded 200 in 14.9781 ms
+06/03/2024 17:01:32 [INF] HTTP GET /Groups/5 responded 200 in 18.0587 ms
+06/03/2024 17:09:13 [ERR] An error occurred using a transaction.
+06/03/2024 17:09:13 [ERR] HTTP POST /CreateGroup responded 500 in 1390.1357 ms
+System.InvalidOperationException: This SqlTransaction has completed; it is no longer usable.
+   at Microsoft.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at Microsoft.Data.SqlClient.SqlTransaction.Rollback()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTransaction.Rollback()
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 112
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 118
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_1>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 39
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+06/03/2024 17:09:26 [ERR] An error occurred using a transaction.
+06/03/2024 17:09:26 [ERR] HTTP POST /CreateGroup responded 500 in 205.4087 ms
+System.InvalidOperationException: This SqlTransaction has completed; it is no longer usable.
+   at Microsoft.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at Microsoft.Data.SqlClient.SqlTransaction.Rollback()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTransaction.Rollback()
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 112
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 118
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_1>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 39
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+06/03/2024 17:10:25 [ERR] An error occurred using a transaction.
+06/03/2024 17:10:25 [ERR] HTTP POST /CreateGroup responded 500 in 29301.8318 ms
+System.InvalidOperationException: This SqlTransaction has completed; it is no longer usable.
+   at Microsoft.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at Microsoft.Data.SqlClient.SqlTransaction.Rollback()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTransaction.Rollback()
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 112
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.CreateGroup(PostCreateGroupReq req) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 118
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_1>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 39
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+06/03/2024 17:17:10 [INF] HTTP GET /Groups/5 responded 200 in 1482.1864 ms

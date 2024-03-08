@@ -27,6 +27,8 @@ public class MessageRepository : IMessageService
     {
         try
         {
+
+
             var message = new Message()
             {
                 SenderId = req.SenderId,
@@ -37,11 +39,11 @@ public class MessageRepository : IMessageService
                 Type = req.Type,
 
             };
-
+            await _hubContext.Clients.All.SendAsync("ReceiveMessage", message);
             _databaseContext.Messages.Add(message);
             await _databaseContext.SaveChangesAsync();
 
-            await _hubContext.Clients.All.SendAsync("ReceiveMessage", req);
+
 
             /// add last message
             var group = await _databaseContext.Groups.FindAsync(message.GroupId);
@@ -78,6 +80,7 @@ public class MessageRepository : IMessageService
             {
                 var group = new Group()
                 {
+                    Name = req.GroupName,
                     CreatedBy = req.CreatedBy,
                     CreatedAt = DateTime.Now,
                 };
@@ -104,7 +107,13 @@ public class MessageRepository : IMessageService
                 await _databaseContext.SaveChangesAsync();
                 await transaction.CommitAsync();
 
-                return _mapper.Map<GroupDTO>(group);
+                var newGroup = await _databaseContext.Groups.AsNoTracking()
+                .Where(g => g.GroupMembers.Any(gm => gm.GroupId == group.GroupId))
+                .Include(g => g.LastMessage)
+                .Include(g => g.GroupMembers)
+                .ThenInclude(gm => gm.User).FirstOrDefaultAsync();
+
+                return _mapper.Map<GroupDTO>(GroupToDTO(newGroup!));
             }
             catch
             {
@@ -128,58 +137,15 @@ public class MessageRepository : IMessageService
                 throw new NotFoundException("User does not exist");
             }
 
-            // Retrieve groups and eager-load members using optimized query
-            var groups = await _databaseContext.Groups
-                .Where(g => g.GroupMembers.Any(gm => gm.Userid == userId))
-                .Include(g => g.GroupMembers)
-                .ToListAsync();
+            var groups = await _databaseContext.Groups.AsNoTracking().Include(g => g.LastMessage)
+           .Where(g => g.GroupMembers.Any(gm => gm.Userid == userId))
+           .Include(g => g.GroupMembers)
+           .ThenInclude(gm => gm.User)
+           .ToListAsync();
 
-            if (groups.Count == 0) return new List<GroupDTO>();
+            var listGroup = groups.Select(g => GroupToDTO(g)).ToList();
 
-
-            //  Map groups to DTOs
-            var groupDTOs = groups.Select(g => new GroupDTO
-            {
-                GroupsId = g.GroupId,
-                Name = g.Name,
-                LastMessageId = g.LastMessageId,
-                CreatedBy = g.CreatedBy,
-                CreatedAt = g.CreatedAt,
-                Menbers = g.GroupMembers.Select(gm => new GroupMenberDTO
-                {
-                    GroupsId = gm.GroupId,
-                    Userid = gm.Userid,
-                    JoinedAt = gm.JoinedAt,
-                    LeftAt = gm.LeftAt
-                }).ToList()
-            }).ToList();
-
-            // var groups = await _databaseContext.Groups
-            //.Where(g => g.GroupMembers.Any(gm => gm.Userid == userId))
-            //.Include(g => g.GroupMembers)
-            //.ThenInclude(gm => gm.User)
-            //.Select(g => new GroupDTO
-            //{
-            //    GroupsId = g.GroupId,
-            //    Name = g.Name,
-            //    LastMessageId = g.LastMessageId,
-            //    CreatedBy = g.CreatedBy,
-            //    CreatedAt = g.CreatedAt,
-            //    Members = g.GroupMembers.Select(gm => new GroupMenberDTO
-            //    {
-            //        GroupsId = gm.GroupId,
-            //        JoinedAt = gm.JoinedAt,
-            //        LeftAt = gm.LeftAt,
-            //        Users = new UserDTO
-            //        {
-            //            Userid = gm.User.Userid,
-            //            Fullname = gm.User.Fullname,
-            //        }
-            //    }).ToList()
-            //})
-            //.ToListAsync();
-
-            return _mapper.Map<List<GroupDTO>>(groupDTOs);
+            return _mapper.Map<List<GroupDTO>>(listGroup);
         }
         catch
         {
@@ -224,5 +190,41 @@ public class MessageRepository : IMessageService
         {
             throw;
         }
+    }
+
+
+    private GroupDTO GroupToDTO(Group group)
+    {
+        return new GroupDTO
+        {
+            GroupId = group.GroupId,
+            Name = group.Name,
+            LastMessageId = group.LastMessageId,
+            LastMessage = group.LastMessage != null ? new MessageDTO
+            {
+                MessageId = group.LastMessage.MessageId,
+                SenderId = group.LastMessage.SenderId,
+                ReceiverId = group.LastMessage.ReceiverId,
+                GroupId = group.LastMessage.GroupId,
+                Content = group.LastMessage.Content,
+                Type = group.LastMessage.Type,
+                CreatedAt = group.LastMessage.CreatedAt
+            } : null,
+            CreatedBy = group.CreatedBy,
+            CreatedAt = group.CreatedAt,
+            Members = group.GroupMembers.Select(m => new GroupMemberDTO
+            {
+                GroupId = m.GroupId,
+                Userid = m.Userid,
+                JoinedAt = m.JoinedAt,
+                LeftAt = m.LeftAt,
+                Users = new UserDTO
+                {
+                    Userid = m.Userid,
+                    Fullname = m.User.Fullname,
+                    Email = m.User.Email,
+                }
+            }).ToList()
+        };
     }
 }

@@ -1,0 +1,340 @@
+05/03/2024 09:04:36 [INF] HTTP GET /Groups/5 responded 200 in 1947.1458 ms
+05/03/2024 09:14:46 [INF] HTTP GET /Groups/5 responded 200 in 1751.1886 ms
+05/03/2024 09:15:08 [INF] HTTP GET /Groups/5 responded 200 in 42.5790 ms
+05/03/2024 09:15:24 [INF] HTTP GET /Groups/5 responded 200 in 62.4948 ms
+05/03/2024 09:24:46 [INF] HTTP POST /login responded 200 in 1760.0614 ms
+05/03/2024 09:24:47 [INF] HTTP GET /users responded 200 in 42.8998 ms
+05/03/2024 09:24:47 [ERR] HTTP GET /Groups/-1 responded 500 in 220.4909 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User does not exist
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetGroups(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 128
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_2>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+05/03/2024 09:25:01 [ERR] HTTP GET /user/-1 responded 500 in 101.0397 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.GetUser(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 144
+   at Travel_Ease.Routers.UserRouter.<>c.<<MapUserRoute>b__0_3>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 70
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+05/03/2024 09:25:05 [INF] HTTP POST /login responded 200 in 259.6028 ms
+05/03/2024 09:25:05 [INF] HTTP GET /users responded 200 in 3.6484 ms
+05/03/2024 09:25:06 [ERR] HTTP GET /Groups/-1 responded 500 in 111.0669 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User does not exist
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetGroups(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 128
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_2>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+05/03/2024 09:27:26 [ERR] HTTP GET /user/-1 responded 500 in 68.8778 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.GetUser(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 144
+   at Travel_Ease.Routers.UserRouter.<>c.<<MapUserRoute>b__0_3>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 70
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+05/03/2024 09:30:25 [INF] HTTP POST /login responded 200 in 136.6279 ms
+05/03/2024 09:30:32 [INF] HTTP GET /users responded 200 in 12.2872 ms
+05/03/2024 09:30:32 [INF] HTTP GET /Groups/5 responded 200 in 156.6133 ms
+05/03/2024 09:41:57 [INF] HTTP GET /users responded 200 in 28.7105 ms
+05/03/2024 09:41:57 [INF] HTTP GET /Groups/5 responded 200 in 30.8030 ms
+05/03/2024 09:56:06 [INF] HTTP GET /users responded 200 in 42.9276 ms
+05/03/2024 09:56:06 [INF] HTTP GET /Groups/5 responded 200 in 46.4408 ms
+05/03/2024 10:01:24 [INF] HTTP GET /users responded 200 in 14.1331 ms
+05/03/2024 10:01:24 [INF] HTTP GET /Groups/5 responded 200 in 18.0955 ms
+05/03/2024 10:10:56 [INF] HTTP GET /users responded 200 in 37.4290 ms
+05/03/2024 10:10:56 [INF] HTTP GET /Groups/5 responded 200 in 23.4124 ms
+05/03/2024 10:12:09 [INF] HTTP GET /users responded 200 in 8.7768 ms
+05/03/2024 10:15:22 [INF] HTTP GET /users responded 200 in 15.8703 ms
+05/03/2024 10:15:22 [INF] HTTP GET /Groups/5 responded 200 in 19.2745 ms
+05/03/2024 10:15:26 [INF] HTTP GET /users responded 200 in 4.4521 ms
+05/03/2024 10:41:15 [INF] HTTP GET /users responded 200 in 1043.1676 ms
+05/03/2024 10:41:15 [INF] HTTP GET /Groups/5 responded 200 in 1158.4943 ms
+05/03/2024 10:52:32 [INF] HTTP GET /users responded 200 in 68.9100 ms
+05/03/2024 10:52:32 [INF] HTTP GET /Groups/5 responded 200 in 76.0202 ms
+05/03/2024 10:55:53 [INF] HTTP GET /users responded 200 in 10.5269 ms
+05/03/2024 10:55:53 [INF] HTTP GET /Groups/5 responded 200 in 13.5875 ms
+05/03/2024 11:01:51 [INF] HTTP GET /users responded 200 in 11.4043 ms
+05/03/2024 11:01:51 [INF] HTTP GET /Groups/5 responded 200 in 14.0647 ms
+05/03/2024 11:03:06 [INF] HTTP GET /users responded 200 in 3.1854 ms
+05/03/2024 11:03:06 [INF] HTTP GET /Groups/5 responded 200 in 4.3449 ms
+05/03/2024 11:03:43 [INF] HTTP GET /users responded 200 in 6.4870 ms
+05/03/2024 11:03:43 [INF] HTTP GET /Groups/5 responded 200 in 9.5567 ms
+05/03/2024 11:05:16 [INF] HTTP GET /users responded 200 in 4.0878 ms
+05/03/2024 11:05:16 [INF] HTTP GET /Groups/5 responded 200 in 7.7625 ms
+05/03/2024 11:05:21 [INF] HTTP GET /users responded 200 in 1.8619 ms
+05/03/2024 11:06:10 [INF] HTTP GET /users responded 200 in 4.0614 ms
+05/03/2024 11:06:10 [INF] HTTP GET /Groups/5 responded 200 in 6.4411 ms
+05/03/2024 11:06:17 [INF] HTTP GET /users responded 200 in 1.7025 ms
+05/03/2024 11:06:17 [INF] HTTP GET /users responded 200 in 1.6782 ms
+05/03/2024 11:06:47 [INF] HTTP GET /users responded 200 in 1.9455 ms
+05/03/2024 11:06:47 [INF] HTTP GET /Groups/5 responded 200 in 3.2497 ms
+05/03/2024 11:07:13 [INF] HTTP GET /users responded 200 in 2.7587 ms
+05/03/2024 11:07:13 [INF] HTTP GET /users responded 200 in 3.6493 ms
+05/03/2024 11:07:34 [INF] HTTP GET /users responded 200 in 2.9683 ms
+05/03/2024 11:07:34 [INF] HTTP GET /Groups/5 responded 200 in 6.9767 ms
+05/03/2024 11:07:38 [INF] HTTP GET /users responded 200 in 2.1176 ms
+05/03/2024 11:07:38 [INF] HTTP GET /users responded 200 in 1.1398 ms
+05/03/2024 11:08:58 [INF] HTTP GET /users responded 200 in 2.8130 ms
+05/03/2024 11:08:58 [INF] HTTP GET /Groups/5 responded 200 in 4.6838 ms
+05/03/2024 11:09:02 [INF] HTTP GET /users responded 200 in 1.3998 ms
+05/03/2024 11:09:02 [INF] HTTP GET /users responded 200 in 1.4980 ms
+05/03/2024 11:09:37 [INF] HTTP GET /users responded 200 in 4.1231 ms
+05/03/2024 11:09:37 [INF] HTTP GET /Groups/5 responded 200 in 5.7721 ms
+05/03/2024 11:11:07 [INF] HTTP GET /users responded 200 in 3.1967 ms
+05/03/2024 11:11:07 [INF] HTTP GET /Groups/5 responded 200 in 5.1210 ms
+05/03/2024 11:11:28 [INF] HTTP GET /users responded 200 in 3.2753 ms
+05/03/2024 11:11:28 [INF] HTTP GET /Groups/5 responded 200 in 5.5998 ms
+05/03/2024 11:21:00 [INF] HTTP GET /users responded 200 in 13.2871 ms
+05/03/2024 11:21:00 [INF] HTTP GET /Groups/5 responded 200 in 14.4828 ms
+05/03/2024 11:46:17 [INF] HTTP GET /users responded 200 in 996.3924 ms
+05/03/2024 11:46:17 [INF] HTTP GET /Groups/5 responded 200 in 1103.1826 ms
+05/03/2024 11:48:28 [INF] HTTP GET /users responded 200 in 61.0236 ms
+05/03/2024 11:48:28 [INF] HTTP GET /Groups/5 responded 200 in 69.0731 ms
+05/03/2024 11:48:35 [INF] HTTP GET /users responded 200 in 3.8477 ms
+05/03/2024 11:48:35 [INF] HTTP GET /Groups/5 responded 200 in 5.3640 ms
+05/03/2024 11:49:54 [INF] HTTP GET /users responded 200 in 6.6141 ms
+05/03/2024 11:49:54 [INF] HTTP GET /Groups/5 responded 200 in 5.2661 ms
+05/03/2024 11:50:50 [INF] HTTP POST /CreateGroup responded 200 in 197.8736 ms
+05/03/2024 11:50:50 [INF] HTTP GET /Groups/5 responded 200 in 5.6007 ms
+05/03/2024 11:50:50 [ERR] HTTP GET /Messages/0 responded 500 in 23.9538 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: group Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetMessages(Int64 groupId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 196
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_3>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 69
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+05/03/2024 11:51:04 [INF] HTTP GET /users responded 200 in 5.1603 ms
+05/03/2024 11:51:04 [INF] HTTP GET /Groups/5 responded 200 in 7.1647 ms
+05/03/2024 11:51:10 [INF] HTTP POST /CreateGroup responded 200 in 17.5152 ms
+05/03/2024 11:51:10 [INF] HTTP GET /Groups/5 responded 200 in 5.6055 ms
+05/03/2024 11:51:10 [ERR] HTTP GET /Messages/0 responded 500 in 3.4818 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: group Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetMessages(Int64 groupId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 196
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_3>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 69
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+05/03/2024 11:52:45 [INF] HTTP GET /Groups/5 responded 200 in 14.3536 ms
+05/03/2024 11:57:00 [INF] HTTP POST /CreateGroup responded 200 in 18523.2076 ms
+05/03/2024 11:58:59 [INF] HTTP POST /CreateGroup responded 200 in 14485.3942 ms
+05/03/2024 13:06:25 [INF] HTTP POST /CreateGroup responded 200 in 120202.9752 ms
+05/03/2024 13:08:31 [INF] HTTP POST /CreateGroup responded 200 in 32.6926 ms
+05/03/2024 13:13:29 [INF] HTTP GET /Groups/5 responded 200 in 366.9327 ms
+05/03/2024 13:14:04 [INF] HTTP POST /CreateGroup responded 200 in 18.6226 ms
+05/03/2024 13:16:28 [INF] HTTP POST /CreateGroup responded 200 in 1240.3716 ms
+05/03/2024 13:19:12 [INF] HTTP GET /users responded 200 in 1459.6150 ms
+05/03/2024 13:19:12 [INF] HTTP GET /Groups/5 responded 200 in 1611.3211 ms
+05/03/2024 13:19:30 [INF] HTTP GET /users responded 200 in 57.6312 ms
+05/03/2024 13:19:30 [INF] HTTP GET /Groups/5 responded 200 in 68.8966 ms
+05/03/2024 13:22:09 [INF] HTTP GET /users responded 200 in 20.3095 ms
+05/03/2024 13:22:09 [INF] HTTP GET /Groups/5 responded 200 in 23.1501 ms
+05/03/2024 13:22:43 [INF] HTTP GET /users responded 200 in 10.0273 ms
+05/03/2024 13:22:43 [INF] HTTP GET /Groups/5 responded 200 in 19.7234 ms
+05/03/2024 13:26:47 [INF] HTTP POST /CreateGroup responded 200 in 185.8015 ms
+05/03/2024 13:27:21 [INF] HTTP GET /users responded 200 in 16.1530 ms
+05/03/2024 13:27:21 [INF] HTTP GET /Groups/5 responded 200 in 19.7715 ms
+05/03/2024 13:27:30 [INF] HTTP POST /CreateGroup responded 200 in 54.6172 ms
+05/03/2024 13:27:56 [INF] HTTP GET /Groups/5 responded 200 in 20.7153 ms
+05/03/2024 13:28:41 [INF] HTTP GET /users responded 200 in 10.7129 ms
+05/03/2024 13:28:41 [INF] HTTP GET /Groups/5 responded 200 in 16.3694 ms
+05/03/2024 13:29:45 [INF] HTTP GET /users responded 200 in 33.4612 ms
+05/03/2024 13:29:45 [INF] HTTP GET /Groups/5 responded 200 in 67.9526 ms
+05/03/2024 13:30:06 [INF] HTTP GET /users responded 200 in 24.2784 ms
+05/03/2024 13:30:06 [INF] HTTP GET /Groups/5 responded 200 in 27.2375 ms
+05/03/2024 13:30:45 [INF] HTTP POST /CreateGroup responded 200 in 13.5491 ms
+05/03/2024 13:31:00 [INF] HTTP GET /users responded 200 in 9.4534 ms
+05/03/2024 13:31:00 [INF] HTTP GET /Groups/5 responded 200 in 24.2304 ms
+05/03/2024 13:31:07 [INF] HTTP GET /Groups/5 responded 200 in 32.2642 ms
+05/03/2024 13:31:09 [INF] HTTP GET /Groups/5 responded 200 in 15.9308 ms
+05/03/2024 13:31:10 [INF] HTTP GET /Groups/5 responded 200 in 13.2292 ms
+05/03/2024 13:31:11 [INF] HTTP GET /Groups/5 responded 200 in 12.0309 ms
+05/03/2024 13:31:11 [INF] HTTP GET /Groups/5 responded 200 in 10.5148 ms
+05/03/2024 13:31:12 [INF] HTTP GET /Groups/5 responded 200 in 12.8486 ms
+05/03/2024 13:31:12 [INF] HTTP GET /Groups/5 responded 200 in 12.8493 ms
+05/03/2024 13:31:12 [INF] HTTP GET /Groups/5 responded 200 in 12.4072 ms
+05/03/2024 13:31:12 [INF] HTTP GET /Groups/5 responded 200 in 12.0558 ms
+05/03/2024 13:31:13 [INF] HTTP GET /Groups/5 responded 200 in 13.8736 ms
+05/03/2024 13:31:13 [INF] HTTP GET /Groups/5 responded 200 in 13.7780 ms
+05/03/2024 13:31:13 [INF] HTTP GET /Groups/5 responded 200 in 12.7135 ms
+05/03/2024 13:31:14 [INF] HTTP GET /Groups/5 responded 200 in 16.5662 ms
+05/03/2024 13:31:14 [INF] HTTP GET /Groups/5 responded 200 in 14.6570 ms
+05/03/2024 13:31:14 [INF] HTTP GET /Groups/5 responded 200 in 12.4997 ms
+05/03/2024 13:31:14 [INF] HTTP GET /Groups/5 responded 200 in 14.6023 ms
+05/03/2024 13:31:14 [INF] HTTP GET /Groups/5 responded 200 in 11.8703 ms
+05/03/2024 13:31:15 [INF] HTTP GET /Groups/5 responded 200 in 12.4719 ms
+05/03/2024 13:31:15 [INF] HTTP GET /Groups/5 responded 200 in 11.3516 ms
+05/03/2024 13:31:15 [INF] HTTP GET /Groups/5 responded 200 in 15.3874 ms
+05/03/2024 13:31:43 [INF] HTTP GET /Groups/5 responded 200 in 13.7950 ms
+05/03/2024 13:31:47 [INF] HTTP GET /Groups/5 responded 200 in 14.8564 ms
+05/03/2024 13:31:48 [INF] HTTP GET /Groups/5 responded 200 in 12.3382 ms
+05/03/2024 13:31:48 [INF] HTTP GET /Groups/5 responded 200 in 19.4801 ms
+05/03/2024 13:31:49 [INF] HTTP GET /Groups/5 responded 200 in 15.7314 ms
+05/03/2024 13:31:49 [INF] HTTP GET /Groups/5 responded 200 in 15.5076 ms
+05/03/2024 13:31:49 [INF] HTTP GET /Groups/5 responded 200 in 14.2102 ms
+05/03/2024 13:31:50 [INF] HTTP GET /Groups/5 responded 200 in 13.9812 ms
+05/03/2024 13:31:50 [INF] HTTP GET /Groups/5 responded 200 in 14.0265 ms
+05/03/2024 13:31:50 [INF] HTTP GET /Groups/5 responded 200 in 11.8663 ms
+05/03/2024 13:31:50 [INF] HTTP GET /Groups/5 responded 200 in 14.8913 ms
+05/03/2024 13:31:51 [INF] HTTP GET /Groups/5 responded 200 in 15.5516 ms
+05/03/2024 13:31:51 [INF] HTTP GET /Groups/5 responded 200 in 10.5795 ms
+05/03/2024 13:31:51 [INF] HTTP GET /Groups/5 responded 200 in 11.6947 ms
+05/03/2024 13:31:51 [INF] HTTP GET /Groups/5 responded 200 in 12.8492 ms
+05/03/2024 13:31:51 [INF] HTTP GET /Groups/5 responded 200 in 8.3397 ms
+05/03/2024 13:31:52 [INF] HTTP GET /Groups/5 responded 200 in 5.3585 ms
+05/03/2024 13:31:52 [INF] HTTP GET /Groups/5 responded 200 in 6.4396 ms
+05/03/2024 13:31:52 [INF] HTTP GET /Groups/5 responded 200 in 5.5628 ms
+05/03/2024 13:31:52 [INF] HTTP GET /Groups/5 responded 200 in 5.5807 ms
+05/03/2024 13:31:52 [INF] HTTP GET /Groups/5 responded 200 in 4.4699 ms
+05/03/2024 13:31:53 [INF] HTTP GET /Groups/5 responded 200 in 5.6761 ms
+05/03/2024 13:31:53 [INF] HTTP GET /Groups/5 responded 200 in 7.5626 ms
+05/03/2024 13:31:53 [INF] HTTP GET /Groups/5 responded 200 in 4.9428 ms
+05/03/2024 13:31:53 [INF] HTTP GET /Groups/5 responded 200 in 7.4260 ms
+05/03/2024 13:31:53 [INF] HTTP GET /Groups/5 responded 200 in 4.8178 ms
+05/03/2024 13:32:04 [INF] HTTP GET /user/5 responded 200 in 12.2712 ms
+05/03/2024 13:32:08 [INF] HTTP POST /login responded 200 in 327.4831 ms
+05/03/2024 13:32:10 [INF] HTTP GET /users responded 200 in 3.6717 ms
+05/03/2024 13:32:10 [INF] HTTP GET /Groups/5 responded 200 in 4.3548 ms
+05/03/2024 13:32:36 [INF] HTTP POST /CreateGroup responded 200 in 22.5647 ms
+05/03/2024 13:32:46 [INF] HTTP GET /Groups/5 responded 200 in 5.4221 ms
+05/03/2024 13:33:17 [INF] HTTP GET /Groups/5 responded 200 in 6.0251 ms
+05/03/2024 13:33:46 [INF] HTTP POST /CreateGroup responded 200 in 10.7457 ms
+05/03/2024 13:33:46 [INF] HTTP GET /Groups/5 responded 200 in 4.6094 ms
+05/03/2024 13:34:24 [INF] HTTP GET /Groups/5 responded 200 in 14.7071 ms
+05/03/2024 13:34:35 [INF] HTTP GET /Groups/5 responded 200 in 4.8938 ms
+05/03/2024 13:42:30 [INF] HTTP POST /CreateGroup responded 200 in 2305.8223 ms
+05/03/2024 13:47:46 [INF] HTTP GET /users responded 200 in 1529.4120 ms
+05/03/2024 13:47:46 [INF] HTTP GET /Groups/5 responded 200 in 1692.8157 ms
+05/03/2024 13:47:53 [INF] HTTP POST /CreateGroup responded 200 in 210.4592 ms
+05/03/2024 13:47:53 [INF] HTTP GET /Groups/5 responded 200 in 12.3667 ms
+05/03/2024 13:48:34 [INF] HTTP GET /users responded 200 in 4.5819 ms
+05/03/2024 13:48:35 [INF] HTTP GET /CheckIfUsersMessaged/6/5 responded 200 in 19.9942 ms
+05/03/2024 13:50:48 [INF] HTTP GET /users responded 200 in 1595.6284 ms
+05/03/2024 13:50:49 [INF] HTTP GET /Groups/5 responded 200 in 1780.9630 ms
+05/03/2024 13:50:53 [INF] HTTP POST /CreateGroup responded 200 in 231.4490 ms
+05/03/2024 13:50:53 [INF] HTTP GET /Groups/5 responded 200 in 10.5951 ms
+05/03/2024 13:52:02 [INF] HTTP GET /users responded 200 in 21.6338 ms
+05/03/2024 13:52:02 [INF] HTTP GET /Groups/5 responded 200 in 25.8709 ms
+05/03/2024 13:52:08 [INF] HTTP POST /CreateGroup responded 200 in 11.4847 ms
+05/03/2024 13:52:08 [INF] HTTP GET /Groups/5 responded 200 in 6.1897 ms
+05/03/2024 13:53:14 [INF] HTTP GET /users responded 200 in 18.8907 ms
+05/03/2024 13:53:14 [INF] HTTP GET /Groups/5 responded 200 in 24.0040 ms
+05/03/2024 13:53:33 [INF] HTTP POST /CreateGroup responded 200 in 12022.1025 ms
+05/03/2024 13:53:33 [INF] HTTP GET /Groups/5 responded 200 in 7.4347 ms
+05/03/2024 13:54:23 [INF] HTTP GET /users responded 200 in 16.9639 ms
+05/03/2024 13:54:23 [INF] HTTP GET /Groups/5 responded 200 in 20.8414 ms
+05/03/2024 13:54:35 [INF] HTTP POST /CreateGroup responded 200 in 9.8306 ms
+05/03/2024 13:54:35 [INF] HTTP GET /Groups/5 responded 200 in 5.1405 ms
+05/03/2024 13:55:14 [INF] HTTP GET /users responded 200 in 9.0583 ms
+05/03/2024 13:55:14 [INF] HTTP GET /Groups/5 responded 200 in 8.6602 ms
+05/03/2024 13:59:08 [INF] HTTP POST /CreateGroup responded 200 in 17.6827 ms
+05/03/2024 13:59:09 [INF] HTTP GET /Groups/5 responded 200 in 5.0969 ms
+05/03/2024 14:01:26 [INF] HTTP GET /users responded 200 in 19.8296 ms
+05/03/2024 14:01:26 [INF] HTTP GET /Groups/5 responded 200 in 28.4542 ms
+05/03/2024 14:02:24 [INF] HTTP GET /users responded 200 in 18.2468 ms
+05/03/2024 14:02:24 [INF] HTTP GET /Groups/5 responded 200 in 24.8577 ms
+05/03/2024 14:04:23 [INF] HTTP GET /users responded 200 in 11.6950 ms
+05/03/2024 14:04:23 [INF] HTTP GET /Groups/5 responded 200 in 8.9541 ms
+05/03/2024 14:06:09 [INF] HTTP GET /Messages/23 responded 200 in 44.8596 ms
+05/03/2024 14:07:04 [INF] HTTP GET /users responded 200 in 27.6148 ms
+05/03/2024 14:07:04 [INF] HTTP GET /Groups/5 responded 200 in 44.7985 ms
+05/03/2024 14:07:31 [INF] HTTP GET /users responded 200 in 13.5732 ms
+05/03/2024 14:07:31 [INF] HTTP GET /Groups/5 responded 200 in 17.5323 ms
+05/03/2024 14:08:01 [INF] HTTP GET /users responded 200 in 3.9555 ms
+05/03/2024 14:08:05 [INF] HTTP GET /CheckIfUsersMessaged/6/5 responded 200 in 11.9840 ms
+05/03/2024 14:08:19 [INF] HTTP GET /CheckIfUsersMessaged/6/5 responded 200 in 4.6755 ms
+05/03/2024 14:08:27 [INF] HTTP GET /CheckIfUsersMessaged/7/5 responded 200 in 6.6232 ms
+05/03/2024 14:10:49 [INF] HTTP GET /users responded 200 in 13.8297 ms
+05/03/2024 14:10:49 [INF] HTTP GET /Groups/5 responded 200 in 16.7444 ms
+05/03/2024 14:11:55 [INF] HTTP GET /users responded 200 in 13.2177 ms
+05/03/2024 14:11:55 [INF] HTTP GET /Groups/5 responded 200 in 16.0953 ms
+05/03/2024 14:12:53 [INF] HTTP GET /users responded 200 in 16.5829 ms
+05/03/2024 14:12:53 [INF] HTTP GET /Groups/5 responded 200 in 22.4544 ms
+05/03/2024 14:13:51 [INF] HTTP GET /users responded 200 in 14.9408 ms
+05/03/2024 14:13:51 [INF] HTTP GET /Groups/5 responded 200 in 18.0806 ms
+05/03/2024 14:16:07 [INF] HTTP GET /users responded 200 in 54.6705 ms
+05/03/2024 14:16:07 [INF] HTTP GET /Groups/5 responded 200 in 49.7239 ms
+05/03/2024 14:23:49 [INF] HTTP GET /users responded 200 in 19.0718 ms
+05/03/2024 14:23:49 [INF] HTTP GET /Groups/5 responded 200 in 21.8154 ms
+05/03/2024 14:24:50 [INF] HTTP GET /users responded 200 in 5.0891 ms
+05/03/2024 14:24:50 [INF] HTTP GET /Groups/5 responded 200 in 7.1824 ms
+05/03/2024 14:26:49 [INF] HTTP GET /users responded 200 in 4.8530 ms
+05/03/2024 14:26:49 [INF] HTTP GET /Groups/5 responded 200 in 7.0668 ms
+05/03/2024 14:27:00 [INF] HTTP GET /Messages/23 responded 200 in 6.9706 ms
+05/03/2024 14:27:28 [INF] HTTP POST /CreateGroup responded 200 in 16.3321 ms
+05/03/2024 14:27:28 [INF] HTTP GET /Groups/5 responded 200 in 3.9011 ms
+05/03/2024 14:27:28 [INF] HTTP GET /Messages/24 responded 200 in 5.4629 ms
+05/03/2024 14:27:38 [INF] HTTP GET /users responded 200 in 3.1249 ms
+05/03/2024 14:27:39 [INF] HTTP GET /CheckIfUsersMessaged/6/5 responded 200 in 3.9491 ms
+05/03/2024 14:28:34 [INF] HTTP GET /user/5 responded 200 in 12.6019 ms
+05/03/2024 14:43:37 [INF] HTTP GET /users responded 200 in 9.7429 ms
+05/03/2024 14:43:37 [INF] HTTP GET /Groups/5 responded 200 in 13.3751 ms
+05/03/2024 14:43:58 [INF] HTTP GET /Messages/23 responded 200 in 7.2459 ms
+05/03/2024 14:44:33 [INF] HTTP GET /users responded 200 in 4.3315 ms
+05/03/2024 14:44:33 [INF] HTTP GET /Groups/5 responded 200 in 4.1102 ms
+05/03/2024 14:44:41 [INF] HTTP GET /Messages/23 responded 200 in 5.0930 ms
+05/03/2024 14:45:23 [INF] HTTP GET /users responded 200 in 4.0228 ms
+05/03/2024 14:45:23 [INF] HTTP GET /Groups/5 responded 200 in 5.4673 ms
+05/03/2024 14:45:42 [INF] HTTP GET /Messages/23 responded 200 in 6.6054 ms
+05/03/2024 14:45:46 [INF] HTTP POST /Messages responded 404 in 0.9077 ms
+05/03/2024 14:45:56 [INF] HTTP GET /Messages responded 404 in 0.0314 ms
+05/03/2024 14:47:30 [INF] HTTP GET /users responded 200 in 20.1842 ms
+05/03/2024 14:47:30 [INF] HTTP GET /Groups/5 responded 200 in 24.4160 ms
+05/03/2024 14:47:56 [INF] HTTP GET /Messages/23 responded 200 in 6.9351 ms
+05/03/2024 14:48:01 [INF] HTTP POST /Message responded 200 in 110.2641 ms
+05/03/2024 14:48:56 [INF] HTTP GET /users responded 200 in 14.1656 ms
+05/03/2024 14:48:56 [INF] HTTP GET /Groups/5 responded 200 in 15.9243 ms
+05/03/2024 14:48:59 [INF] HTTP GET /Messages/23 responded 200 in 10.6574 ms
+05/03/2024 14:49:06 [INF] HTTP POST /Message responded 200 in 11.6603 ms
+05/03/2024 14:51:25 [INF] HTTP GET /users responded 200 in 4.4549 ms
+05/03/2024 14:51:25 [INF] HTTP GET /Groups/5 responded 200 in 5.6125 ms
+05/03/2024 14:51:29 [INF] HTTP GET /Messages/23 responded 200 in 6.4650 ms
+05/03/2024 14:51:33 [INF] HTTP POST /Message responded 200 in 10.8269 ms
+05/03/2024 14:51:39 [INF] HTTP GET /Messages/23 responded 200 in 7.9014 ms
+05/03/2024 15:16:40 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.3286 ms
+05/03/2024 15:22:20 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.0827 ms
+05/03/2024 15:22:26 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.0200 ms
+05/03/2024 15:23:20 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.2005 ms
+05/03/2024 15:23:24 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.0156 ms
+05/03/2024 15:23:24 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.0176 ms
+05/03/2024 15:23:25 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.0098 ms
+05/03/2024 15:23:25 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.0120 ms
+05/03/2024 15:24:13 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.0130 ms
+05/03/2024 15:24:14 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.0092 ms
+05/03/2024 15:24:50 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.0111 ms
+05/03/2024 15:24:51 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.0095 ms
+05/03/2024 15:26:56 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.0119 ms
+05/03/2024 15:27:10 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.0182 ms
+05/03/2024 15:27:11 [INF] HTTP GET /socket.io/?EIO=4&transport=websocket responded 404 in 0.0136 ms
+05/03/2024 15:44:38 [INF] HTTP GET /message-hub responded 101 in 28582.6880 ms
+05/03/2024 15:48:05 [INF] HTTP GET /message-hub responded 400 in 6.6237 ms
+05/03/2024 15:48:12 [INF] HTTP GET /message-hub responded 400 in 0.6259 ms
+05/03/2024 15:49:59 [INF] HTTP GET /message-hub responded 400 in 0.6586 ms
+05/03/2024 15:51:10 [INF] HTTP GET /message-hub responded 400 in 0.4370 ms
+05/03/2024 15:51:26 [INF] HTTP GET /message-hub responded 400 in 0.4680 ms
+05/03/2024 15:51:28 [INF] HTTP GET /message-hub responded 400 in 0.5307 ms
+05/03/2024 15:53:54 [INF] HTTP GET /message-hub responded 101 in 2565.0401 ms
+05/03/2024 15:54:18 [INF] HTTP GET /message-hub responded 101 in 4005.6795 ms
+05/03/2024 15:54:23 [INF] HTTP GET /message-hub responded 101 in 3709.4521 ms
+05/03/2024 16:05:57 [INF] HTTP GET /message-hub responded 400 in 18.8210 ms
+05/03/2024 16:05:57 [INF] HTTP GET /message-hub responded 400 in 19.1130 ms
+05/03/2024 16:07:29 [INF] HTTP GET /message-hub responded 400 in 5.4175 ms
+05/03/2024 16:07:39 [INF] HTTP GET /message-hub responded 400 in 0.7117 ms
+05/03/2024 16:10:28 [INF] HTTP GET /message-hub responded 400 in 0.4568 ms
+05/03/2024 16:11:52 [INF] HTTP GET /message-hub responded 400 in 0.4326 ms
+05/03/2024 16:12:35 [INF] HTTP GET /message-hub responded 400 in 0.5732 ms
+05/03/2024 16:16:54 [INF] HTTP GET /Groups/5 responded 200 in 1559.6826 ms
+05/03/2024 16:17:06 [INF] HTTP GET /message-hub responded 400 in 5.7466 ms
+05/03/2024 16:24:50 [INF] HTTP GET /message-hub responded 400 in 5.3597 ms
+05/03/2024 16:40:21 [INF] HTTP GET /message-hub responded 400 in 7.1015 ms
+05/03/2024 16:41:16 [INF] HTTP GET /users responded 200 in 766.6580 ms
+05/03/2024 17:07:54 [INF] HTTP GET /message-hub responded 400 in 8.0652 ms
+05/03/2024 17:08:05 [INF] HTTP GET /message-hub responded 400 in 0.6751 ms
+05/03/2024 17:16:48 [INF] HTTP GET /message-hub responded 400 in 0.4829 ms
+05/03/2024 17:17:29 [INF] HTTP GET /socket.io/?EIO=3&transport=websocket responded 404 in 0.0849 ms
+05/03/2024 17:18:26 [INF] HTTP GET /message-hub/?EIO=3&transport=websocket responded 400 in 5.1960 ms
+05/03/2024 17:18:27 [INF] HTTP GET /message-hub/?EIO=3&transport=websocket responded 400 in 0.5871 ms
+05/03/2024 17:18:28 [INF] HTTP GET /message-hub/?EIO=3&transport=websocket responded 400 in 0.5962 ms
+05/03/2024 17:18:48 [INF] HTTP GET /message-hub responded 400 in 0.5459 ms
+05/03/2024 17:18:50 [INF] HTTP GET /message-hub responded 400 in 0.8500 ms
