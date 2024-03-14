@@ -39,6 +39,7 @@ public class MessageRepository : IMessageService
                 Type = req.Type,
 
             };
+
             await _hubContext.Clients.All.SendAsync("ReceiveMessage", message);
             _databaseContext.Messages.Add(message);
             await _databaseContext.SaveChangesAsync();

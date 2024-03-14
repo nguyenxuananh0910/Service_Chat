@@ -802,3 +802,4 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 08/03/2024 15:25:37 [INF] HTTP GET /Groups/5 responded 200 in 28.0871 ms
 08/03/2024 15:40:46 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4221 ms
 08/03/2024 15:40:46 [INF] HTTP GET /CheckIfUsersMessaged/7/5 responded 200 in 11.7714 ms
+08/03/2024 17:09:43 [INF] HTTP GET /message-hub?id=EZC_BpHzAKUcBWFh3RKlCw responded 101 in 5336471.6310 ms

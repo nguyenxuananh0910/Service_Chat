@@ -10,6 +10,6 @@ public class UserDTO
 
     public string? Email { get; set; }
 
-    public int? Status { get; set; }
+    public bool? Status { get; set; }
 
 }

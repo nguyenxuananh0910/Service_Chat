@@ -11,4 +11,6 @@ public interface IUserService
 
     public Task<UserDTO> GetUser(long userId);
     public Task<List<UserDTO>> GetUsers(long userId);
+
+    //public Task<string> UpdateUserStatus(long userId, bool status);
 }

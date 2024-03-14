@@ -11,7 +11,8 @@ using Serilog;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using Travel_Ease.Routers;
+
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -67,18 +68,54 @@ builder.Services.AddDbContext<AppChatDbContext>(
 
 builder.Services.AddAuthentication(x =>
 {
+
     x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 }).AddJwtBearer(options =>
 {
+    //options.RequireHttpsMetadata = false;
     options.TokenValidationParameters = new TokenValidationParameters
     {
-        ValidateIssuerSigningKey = true,
         ValidateAudience = false,
         ValidateIssuer = false,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
                 builder.Configuration.GetSection("AppSettings:Token").Value!))
+
     };
+
+    //options.Authority = "Authority URL"; // TODO: Update URL
+
+    //// We have to hook the OnMessageReceived event in order to
+    //// allow the JWT authentication handler to read the access
+    //// token from the query string when a WebSocket or 
+    //// Server-Sent Events request comes in.
+
+    //// Sending the access token in the query string is required when using WebSockets or ServerSentEvents
+    //// due to a limitation in Browser APIs. We restrict it to only calls to the
+    //// SignalR hub in this code.
+    //// See https://docs.microsoft.com/aspnet/core/signalr/security#access-token-logging
+    //// for more information about security considerations when using
+    //// the query string to transmit the access token.
+    //options.Events = new JwtBearerEvents
+    //{
+    //    OnMessageReceived = context =>
+    //    {
+    //        var accessToken = context.Request.Query["access_token"];
+
+    //        // If the request is for our hub...
+    //        var path = context.HttpContext.Request.Path;
+    //        if (!string.IsNullOrEmpty(accessToken) &&
+    //            (path.StartsWithSegments("/hubs/chat")))
+    //        {
+    //            // Read the token out of the query string
+    //            context.Token = accessToken;
+    //        }
+    //        return Task.CompletedTask;
+    //    }
+    //};
+
 });
 
 
@@ -90,6 +127,8 @@ builder.Services.AddHttpClient();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSignalR();
+//builder.Services.AddRazorPages();
+
 
 builder.Services.ConfigureHttpJsonOptions(options =>
 {
@@ -112,14 +151,23 @@ if (app.Environment.IsDevelopment() || app.Environment.IsStaging())
     app.UseSwaggerUI();
 }
 
-
+app.UseCors(builder =>
+{
+    builder.WithOrigins("http://localhost:4200")
+    .AllowAnyHeader().AllowAnyMethod().AllowCredentials();
+});
 
 #region Mapping Routes
 
 app.UseMiddleware<CustomExceptionHandlerMiddleware>();
 app.MapHealthChecks("/");
+//app.UseAuthentication();
+//app.UseAuthorization();
 app.MapUserRoute();
 app.MapMessageRouter();
+//app.MapRazorPages();
+//app.UseHttpsRedirection();
+//app.UseStaticFiles();
 // Configure the HTTP request pipeline.
 app.MapHub<MessageHub>("/message-hub");
 

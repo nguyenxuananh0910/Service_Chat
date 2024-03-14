@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
+using chat_app_service.Core.Hubs;
 using chat_app_service.Domain.DTOs;
 using chat_app_service.Domain.Entities;
 using chat_app_service.Domain.Exceptions;
 using chat_app_service.Domain.Request;
 using chat_app_service.Domain.Services;
 using chat_app_service.Infrastructure.Databases;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -18,12 +20,14 @@ public class UserRepository : IUserService
     private readonly AppChatDbContext _databaseContext;
     private readonly IMapper _mapper;
     private readonly IConfiguration _configuration;
+    private readonly IHubContext<MessageHub> _hubContext;
 
-    public UserRepository(AppChatDbContext databaseContext, IMapper mapper, IConfiguration configuration)
+    public UserRepository(AppChatDbContext databaseContext, IMapper mapper, IConfiguration configuration, IHubContext<MessageHub> hubContext)
     {
         _databaseContext = databaseContext;
         _mapper = mapper;
         _configuration = configuration;
+        _hubContext = hubContext;
     }
 
 
@@ -103,7 +107,10 @@ public class UserRepository : IUserService
     public async Task<List<UserDTO>> GetUsers(long userId)
     {
         var user = await _databaseContext.Users.Where(u => u.Userid != userId).AsNoTracking().ToListAsync();
-
+        if (user == null)
+        {
+            throw new NotFoundException("User Không tồn tại");
+        }
         return _mapper.Map<List<UserDTO>>(user);
     }
 
@@ -151,4 +158,25 @@ public class UserRepository : IUserService
             throw;
         }
     }
+
+    //public async Task<string> UpdateUserStatus(long userId, bool status)
+    //{
+    //    //Retrieve the user from the database
+    //    var user = await _databaseContext.Users.FirstOrDefaultAsync(u => u.Userid == userId);
+
+    //    // Check if the user exists
+    //    if (user != null)
+    //    {
+    //        // Update the user's status
+    //        user.Status = status;
+
+    //        // Save changes to the database
+    //        await _databaseContext.SaveChangesAsync();
+    //    }
+
+    //    // Broadcast the updated status to all clients
+    //    await _hubContext.Clients.All.SendAsync("UpdateUserStatus", userId, status);
+
+    //    return "succ";
+    //}
 }

@@ -1,51 +1,33 @@
 ﻿using chat_app_service.Infrastructure.Databases;
 using Microsoft.AspNetCore.SignalR;
+using Microsoft.EntityFrameworkCore;
 namespace chat_app_service.Core.Hubs;
 
 public class MessageHub : Hub
 {
-    private readonly AppChatDbContext _databaseContext;
+    private readonly AppChatDbContext _context; // Inject DbContext
 
-    public MessageHub(AppChatDbContext databaseContext)
+    public MessageHub(AppChatDbContext context)
     {
-        _databaseContext = databaseContext;
+        _context = context;
     }
 
-    public async Task UpdateStatus(int userId)
+    public async Task UpdateUserStatus(int userId, bool status)
     {
-        var user = await _databaseContext.Users.FindAsync(userId);
+        // Retrieve the user from the database
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Userid == userId);
+
+        // Check if the user exists
         if (user != null)
         {
-            user.Status = 1;
-            await _databaseContext.SaveChangesAsync();
+            // Update the user's status
+            user.Status = status;
 
-            // Broadcast updated status to connected clients (if using SignalR)
-            await Clients.All.SendAsync("userStatusUpdated", user);
+            // Save changes to the database
+            await _context.SaveChangesAsync();
         }
+
+        // Broadcast the updated status to all clients
+        await Clients.All.SendAsync("UpdateUserStatus", userId, status);
     }
-    //public override async Task OnConnectedAsync()
-    //{
-    //    await Clients.All.SendAsync("broadcastMessage", "system", $"{Context.ConnectionId} joined the conversation");
-    //    await base.OnConnectedAsync();
-    //}
-
-    //public async Task Ping()
-    //{
-    //    await Clients.All.SendAsync("broadcastMessage", "system", $"{Context.ConnectionId} joined the conversation");
-    //}
-
-    //public async Task AskStockPrice(String Stock)
-    //{
-    //    await Clients.All.SendAsync($"Receive: Stock:{Stock} ,Pricce:{1000},Volum :{2000}");
-    //}
-    //public async Task SendMessage(MessageDTO message)
-    //{
-    //    await Clients.All.SendAsync("ReceiveMessage", message);
-    //}
-    //public override async Task OnDisconnectedAsync(System.Exception exception)
-    //{
-    //    await Clients.All.SendAsync("broadcastMessage", "system", $"{Context.ConnectionId} left the conversation");
-    //    await base.OnDisconnectedAsync(exception);
-    //}
-
 }

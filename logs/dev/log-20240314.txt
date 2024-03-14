@@ -1,0 +1,256 @@
+14/03/2024 09:09:08 [ERR] HTTP POST /login responded 500 in 655.0952 ms
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+14/03/2024 09:13:59 [ERR] HTTP POST /login responded 500 in 129.3727 ms
+System.InvalidOperationException: The MetadataAddress or Authority must use HTTPS unless disabled for development by setting RequireHttpsMetadata=false.
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerPostConfigureOptions.PostConfigure(String name, JwtBearerOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+14/03/2024 09:15:16 [INF] HTTP POST /login responded 200 in 2504.4242 ms
+14/03/2024 09:15:50 [INF] HTTP POST /login responded 200 in 1545.8342 ms
+14/03/2024 11:12:04 [ERR] HTTP GET /users?userId=5 responded 500 in 17534.5344 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at chat_app_service.Core.Authentication.ConfigureJwtBearerOptions.PostConfigure(String name, JwtBearerOptions options) in D:\service\Service_Chat\Core\Authentication\ConfigureJwtBearerOptions.cs:line 10
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+14/03/2024 11:15:26 [ERR] HTTP GET /users?userId=5 responded 500 in 47434.6027 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at chat_app_service.Core.Authentication.ConfigureJwtBearerOptions.PostConfigure(String name, JwtBearerOptions options) in D:\service\Service_Chat\Core\Authentication\ConfigureJwtBearerOptions.cs:line 10
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+14/03/2024 11:16:18 [ERR] HTTP GET /users?userId=5 responded 500 in 15951.1607 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at chat_app_service.Core.Authentication.ConfigureJwtBearerOptions.PostConfigure(String name, JwtBearerOptions options) in D:\service\Service_Chat\Core\Authentication\ConfigureJwtBearerOptions.cs:line 11
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+14/03/2024 11:21:23 [INF] HTTP GET /users?userId=5 responded 200 in 1543.0655 ms
+14/03/2024 11:22:57 [INF] HTTP GET /users?userId=5 responded 200 in 73.4109 ms
+14/03/2024 11:22:58 [INF] HTTP GET /Groups/5 responded 200 in 402.8295 ms
+14/03/2024 11:23:31 [INF] HTTP GET /user/5 responded 200 in 24.0514 ms
+14/03/2024 11:24:31 [INF] HTTP GET /users?userId=5 responded 200 in 41.5887 ms
+14/03/2024 11:24:31 [INF] HTTP GET /Groups/5 responded 200 in 24.1312 ms
+14/03/2024 11:25:27 [INF] HTTP GET /users?userId=5 responded 200 in 10.3681 ms
+14/03/2024 11:25:29 [INF] HTTP GET /Groups/5 responded 200 in 12.4502 ms
+14/03/2024 11:27:07 [INF] HTTP GET /Groups/5 responded 200 in 26.4877 ms
+14/03/2024 11:27:07 [INF] HTTP GET /users?userId=5 responded 200 in 20.1605 ms
+14/03/2024 11:27:07 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 24.7910 ms
+14/03/2024 11:28:04 [INF] HTTP GET /message-hub?id=jE4VTs6sbRfOacN7apuU7g responded 101 in 55814.7290 ms
+14/03/2024 11:28:10 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.0005 ms
+14/03/2024 11:28:10 [INF] HTTP GET /users?userId=5 responded 200 in 13.0772 ms
+14/03/2024 11:28:11 [INF] HTTP GET /Groups/5 responded 200 in 12.2130 ms
+14/03/2024 11:28:19 [INF] HTTP GET /user/5 responded 200 in 3.4535 ms
+14/03/2024 11:30:06 [INF] HTTP GET /message-hub?id=j3VB31LdLCWilJUgAcknCw responded 101 in 116191.7688 ms
+14/03/2024 11:30:30 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.1765 ms
+14/03/2024 11:30:30 [INF] HTTP GET /users?userId=5 responded 200 in 15.8503 ms
+14/03/2024 11:30:30 [INF] HTTP GET /Groups/5 responded 200 in 21.5694 ms
+14/03/2024 11:31:58 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5627 ms
+14/03/2024 11:31:59 [INF] HTTP GET /users?userId=5 responded 200 in 19.6338 ms
+14/03/2024 11:32:16 [INF] HTTP GET /message-hub?id=QmWAdS1yoM7HY8GD2eBUow responded 101 in 16553.1100 ms
+14/03/2024 11:32:50 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5825 ms
+14/03/2024 11:32:51 [INF] HTTP GET /users?userId=5 responded 200 in 9.8591 ms
+14/03/2024 11:33:48 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5801 ms
+14/03/2024 11:33:48 [INF] HTTP GET /users?userId=5 responded 200 in 9.9282 ms
+14/03/2024 11:35:00 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5045 ms
+14/03/2024 11:35:00 [INF] HTTP GET /users?userId=5 responded 200 in 12.8259 ms
+14/03/2024 11:35:26 [INF] HTTP GET /Groups/5 responded 200 in 13.1919 ms
+14/03/2024 11:35:28 [INF] HTTP GET /user/5 responded 200 in 10.5035 ms
+14/03/2024 11:38:44 [INF] HTTP GET /message-hub?id=hIRIAUDkbNWh_acAj5Os3w responded 101 in 224174.0760 ms
+14/03/2024 11:38:58 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6891 ms
+14/03/2024 11:38:58 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7920 ms
+14/03/2024 11:38:58 [INF] HTTP GET /users?userId=5 responded 200 in 7.1564 ms
+14/03/2024 11:39:38 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.7345 ms
+14/03/2024 11:39:38 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.4288 ms
+14/03/2024 11:39:38 [INF] HTTP GET /users?userId=5 responded 200 in 8.9863 ms
+14/03/2024 11:39:40 [INF] HTTP GET /users?userId=5 responded 200 in 3.8037 ms
+14/03/2024 11:39:40 [INF] HTTP GET /Groups/5 responded 200 in 7.4038 ms
+14/03/2024 11:41:03 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4675 ms
+14/03/2024 11:41:03 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6815 ms
+14/03/2024 11:42:08 [INF] HTTP GET /message-hub?id=SHopsOVdFypofxg_chCVng responded 101 in 65013.8471 ms
+14/03/2024 11:42:08 [INF] HTTP GET /message-hub?id=iKTb7iYhQEe8mkWDJO3u_g responded 101 in 81.6054 ms
+14/03/2024 11:42:08 [INF] HTTP GET /users?userId=8 responded 200 in 30.4616 ms
+14/03/2024 11:42:16 [INF] HTTP GET /users?userId=5 responded 200 in 12.5143 ms
+14/03/2024 11:42:40 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4354 ms
+14/03/2024 11:42:40 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5902 ms
+14/03/2024 11:43:12 [INF] HTTP GET /message-hub?id=0W4CjeHO0XozOAECB6N6tw responded 101 in 213041.7949 ms
+14/03/2024 11:43:12 [INF] HTTP GET /message-hub?id=Ed0IiPjlSecyxXBBr3CTXw responded 101 in 213042.1993 ms
+14/03/2024 11:43:12 [INF] HTTP GET /users?userId=8 responded 200 in 19.0396 ms
+14/03/2024 11:43:12 [INF] HTTP GET /message-hub?id=TD3zVPYOZ3t0j-tv9oy_gw responded 101 in 32602.9654 ms
+14/03/2024 11:43:12 [INF] HTTP GET /message-hub?id=Cfd3cWejHYKq5AgdPC49sA responded 101 in 264.1967 ms
+14/03/2024 11:45:21 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.3303 ms
+14/03/2024 11:45:21 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5941 ms
+14/03/2024 11:45:22 [INF] HTTP GET /users?userId=-1 responded 200 in 15.7116 ms
+14/03/2024 11:45:23 [INF] HTTP GET /users?userId=-1 responded 200 in 11.9435 ms
+14/03/2024 11:45:46 [INF] HTTP POST /login responded 200 in 438.8072 ms
+14/03/2024 11:45:46 [INF] HTTP GET /users?userId=8 responded 200 in 4.3767 ms
+14/03/2024 11:45:47 [INF] HTTP GET /users?userId=8 responded 200 in 7.4037 ms
+14/03/2024 11:45:47 [INF] HTTP GET /users?userId=8 responded 200 in 3.1001 ms
+14/03/2024 11:45:47 [INF] HTTP GET /Groups/8 responded 200 in 6.7579 ms
+14/03/2024 11:46:40 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7488 ms
+14/03/2024 11:46:40 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.8944 ms
+14/03/2024 11:46:40 [INF] HTTP GET /users?userId=5 responded 200 in 7.7501 ms
+14/03/2024 11:47:31 [INF] HTTP GET /message-hub?id=ZETUG4YlSMTh-_uEMFTQtA responded 101 in 51171.0908 ms
+14/03/2024 11:47:31 [INF] HTTP GET /message-hub?id=qlRrX6JkNRtYuaGl0iCYHQ responded 101 in 6.6912 ms
+14/03/2024 11:47:54 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4725 ms
+14/03/2024 11:47:54 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5981 ms
+14/03/2024 11:47:54 [INF] HTTP GET /users?userId=5 responded 200 in 11.1307 ms
+14/03/2024 11:49:17 [INF] HTTP GET /message-hub?id=Tbtb-j-MllIEFjUZ_zAvfg responded 101 in 82363.2928 ms
+14/03/2024 11:49:17 [INF] HTTP GET /message-hub?id=gTkmmJRdWvIPvawD1ZRYWw responded 101 in 5.7687 ms
+14/03/2024 11:49:27 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5916 ms
+14/03/2024 11:49:27 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3655 ms
+14/03/2024 11:49:27 [INF] HTTP GET /users?userId=5 responded 200 in 9.6668 ms
+14/03/2024 11:50:17 [INF] HTTP GET /message-hub?id=QcEPXtQFClVZAUfqhooFwg responded 101 in 49119.1457 ms
+14/03/2024 11:50:17 [INF] HTTP GET /message-hub?id=-cD38jhWc8whQL6-A2fDxA responded 101 in 6.5118 ms
+14/03/2024 11:50:17 [INF] HTTP GET /user/8 responded 200 in 17.0646 ms
+14/03/2024 11:50:21 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5308 ms
+14/03/2024 11:51:06 [INF] HTTP GET /message-hub?id=aF1tVc_-hTMmteFTo2C0Ww responded 101 in 44982.0603 ms
+14/03/2024 11:51:07 [INF] HTTP GET /message-hub?id=71RhYUcPztXBMSfuDe5l2Q responded 101 in 345371.2831 ms
+14/03/2024 11:51:16 [INF] HTTP GET /message-hub?id=fwWzXW5UigrLBvMpoaa7-Q responded 101 in 354580.2018 ms
+14/03/2024 11:51:48 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 83.7766 ms
+14/03/2024 11:51:49 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 3.3467 ms
+14/03/2024 11:51:58 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7858 ms
+14/03/2024 11:52:10 [INF] HTTP GET /message-hub?id=OQC6rk536UXeLPxFgpLLBw responded 101 in 11665.5136 ms
+14/03/2024 11:52:10 [INF] HTTP GET /message-hub?id=n_VRYlGy8B3PYf04ghhgCg responded 101 in 21218.2000 ms
+14/03/2024 11:52:10 [INF] HTTP GET /message-hub?id=AEAVvDtIzBpquNWo8-VmvQ responded 101 in 20724.2975 ms
+14/03/2024 11:52:21 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.0543 ms
+14/03/2024 11:52:24 [INF] HTTP GET /users?userId=8 responded 200 in 1854.7502 ms
+14/03/2024 11:52:24 [INF] HTTP GET /Groups/8 responded 200 in 1239.5320 ms
+14/03/2024 11:52:56 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7220 ms
+14/03/2024 11:52:56 [INF] HTTP GET /Messages/96 responded 200 in 130.9023 ms
+14/03/2024 11:53:09 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.1154 ms
+14/03/2024 11:53:09 [INF] HTTP GET /users?userId=5 responded 200 in 26.9181 ms
+14/03/2024 11:53:10 [INF] HTTP GET /Groups/5 responded 200 in 36.6954 ms
+14/03/2024 11:54:25 [INF] HTTP GET /message-hub?id=RgHoGGhn91WQQnP-ZOd0Iw responded 101 in 74297.5949 ms
+14/03/2024 11:54:26 [INF] HTTP GET /message-hub?id=9rLzNMuXQpy1Rj1u3UmxRg responded 101 in 90117.2269 ms
+14/03/2024 11:54:33 [INF] HTTP GET /message-hub?id=rMWSzk2rBvjfweW7EPwkHQ responded 101 in 131611.7776 ms
+14/03/2024 11:56:23 [INF] HTTP GET /users?userId=5 responded 200 in 1977.8904 ms
+14/03/2024 11:56:57 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 26.6438 ms
+14/03/2024 11:56:59 [INF] HTTP GET /users?userId=5 responded 200 in 207.2970 ms
+14/03/2024 11:56:59 [INF] HTTP GET /Groups/5 responded 200 in 892.8820 ms
+14/03/2024 11:57:15 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.2347 ms
+14/03/2024 11:57:15 [INF] HTTP GET /Messages/96 responded 200 in 110.8756 ms
+14/03/2024 11:57:22 [INF] HTTP GET /users?userId=5 responded 200 in 18.2700 ms
+14/03/2024 11:57:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 2.4066 ms
+14/03/2024 11:58:11 [INF] HTTP GET /message-hub?id=S-V2PGKiw2OOV0umaRAKrQ responded 101 in 33887.4565 ms
+14/03/2024 11:58:11 [INF] HTTP GET /users?userId=8 responded 200 in 21.1364 ms
+14/03/2024 11:58:11 [INF] HTTP GET /Groups/8 responded 200 in 11.7211 ms
+14/03/2024 11:58:11 [INF] HTTP GET /users?userId=5 responded 200 in 5.6415 ms
+14/03/2024 13:05:15 [INF] HTTP GET /message-hub?id=_pZEmM_BoscA9lXITzOE7A responded 101 in 4096776.9784 ms
+14/03/2024 13:05:21 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 88.1418 ms
+14/03/2024 13:05:21 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 88.1155 ms
+14/03/2024 13:05:30 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 2.2164 ms
+14/03/2024 13:05:30 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7884 ms
+14/03/2024 13:05:35 [INF] HTTP GET /users?userId=5 responded 200 in 1091.6550 ms
+14/03/2024 13:06:23 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.8831 ms
+14/03/2024 13:06:35 [INF] HTTP GET /message-hub?id=WGcuClo27QCLuxtCjVuysg responded 101 in 64922.3960 ms
+14/03/2024 13:06:35 [INF] HTTP GET /message-hub?id=GOsqegJ5tRHyc-czHpLsEw responded 101 in 64448.6884 ms
+14/03/2024 13:06:35 [INF] HTTP GET /users?userId=8 responded 200 in 80.5428 ms
+14/03/2024 13:06:35 [INF] HTTP GET /Groups/8 responded 200 in 420.6346 ms
+14/03/2024 13:06:52 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.9858 ms
+14/03/2024 13:06:52 [INF] HTTP GET /users?userId=5 responded 200 in 76.9033 ms
+14/03/2024 13:06:52 [INF] HTTP GET /Groups/5 responded 200 in 84.3919 ms
+14/03/2024 13:07:05 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7150 ms
+14/03/2024 13:08:32 [INF] HTTP GET /message-hub?id=O7CtBXBWfcRfqFaSJyIEgg responded 101 in 100135.8581 ms
+14/03/2024 13:08:32 [INF] HTTP GET /Messages/96 responded 200 in 91.0735 ms
+14/03/2024 13:08:33 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.9953 ms
+14/03/2024 13:08:33 [INF] HTTP GET /Messages/96 responded 200 in 10.5005 ms
+14/03/2024 13:08:33 [INF] HTTP GET /users?userId=5 responded 200 in 7.5893 ms
+14/03/2024 13:08:33 [INF] HTTP GET /users?userId=5 responded 200 in 2.8179 ms
+14/03/2024 13:18:50 [INF] HTTP GET /message-hub?id=R28N0gaRi43eVULP_XSR3w responded 101 in 705206.0411 ms
+14/03/2024 13:18:53 [INF] HTTP GET /message-hub?id=liSs9bFIpAtrT6LxjHZ5cQ responded 101 in 750220.4416 ms
+14/03/2024 13:24:43 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 714.0564 ms
+14/03/2024 13:24:46 [INF] HTTP GET /users?userId=5 responded 200 in 2592.3965 ms
+14/03/2024 13:24:46 [INF] HTTP GET /Groups/5 responded 200 in 2696.2906 ms
+14/03/2024 13:24:57 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.8851 ms
+14/03/2024 13:25:02 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.8679 ms
+14/03/2024 13:25:29 [INF] HTTP GET /message-hub?id=KWbrnRmPE7jHd_loFpTAbQ responded 101 in 26407.6890 ms
+14/03/2024 13:25:29 [INF] HTTP GET /message-hub?id=ujDT0HgrUG8AI4L_UAG-Pg responded 101 in 31430.4226 ms
+14/03/2024 13:26:01 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.0803 ms
+14/03/2024 13:26:04 [INF] HTTP GET /users?userId=8 responded 200 in 129.6011 ms
+14/03/2024 13:26:04 [INF] HTTP GET /Groups/8 responded 200 in 29.3120 ms
+14/03/2024 13:28:01 [INF] HTTP GET /message-hub?id=mcobiGMT4AuMaKHMO4SwKw responded 101 in 120097.1525 ms
+14/03/2024 13:30:42 [INF] HTTP GET /users?userId=5 responded 200 in 1920.9404 ms
+14/03/2024 13:31:39 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 28.2172 ms
+14/03/2024 13:31:39 [INF] HTTP GET /users?userId=5 responded 200 in 55.8266 ms
+14/03/2024 13:31:40 [INF] HTTP GET /Groups/5 responded 200 in 385.4562 ms
+14/03/2024 13:31:49 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.0716 ms
+14/03/2024 13:31:50 [INF] HTTP GET /users?userId=8 responded 200 in 6.3537 ms
+14/03/2024 13:31:51 [INF] HTTP GET /Groups/8 responded 200 in 33.5461 ms
+14/03/2024 13:31:54 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7372 ms
+14/03/2024 13:32:26 [INF] HTTP GET /message-hub?id=xQjKslyFBBg3eVCj9DmeVA responded 101 in 36361.5926 ms
+14/03/2024 13:32:26 [INF] HTTP GET /message-hub?id=MGD3Nn87mJwMuqMYaqqEXA responded 101 in 31560.1747 ms
+14/03/2024 13:32:26 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 2.6027 ms
+14/03/2024 13:32:26 [INF] HTTP GET /Messages/96 responded 200 in 132.9776 ms
+14/03/2024 13:32:26 [INF] HTTP GET /Messages/96 responded 200 in 133.0114 ms
+14/03/2024 13:32:26 [INF] HTTP GET /users?userId=5 responded 200 in 33.3415 ms
+14/03/2024 13:32:26 [INF] HTTP GET /message-hub?id=jxWctRPuD8C7Hi7PGkOLaA responded 101 in 46711.5266 ms
+14/03/2024 13:34:06 [INF] HTTP GET /users?userId=5 responded 200 in 1248.4288 ms
+14/03/2024 13:34:52 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 12.1903 ms
+14/03/2024 13:34:54 [INF] HTTP GET /users?userId=5 responded 200 in 30.4043 ms
+14/03/2024 13:34:54 [INF] HTTP GET /Groups/5 responded 200 in 374.2430 ms
+14/03/2024 13:35:01 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.8774 ms
+14/03/2024 13:35:01 [INF] HTTP GET /Messages/96 responded 200 in 49.6654 ms
+14/03/2024 13:35:10 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4875 ms
+14/03/2024 13:35:10 [INF] HTTP GET /Messages/97 responded 200 in 6.5008 ms
+14/03/2024 13:36:48 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 92.3524 ms
+14/03/2024 13:36:48 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 92.3399 ms
+14/03/2024 13:36:48 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 92.3458 ms
+14/03/2024 13:37:58 [INF] HTTP GET /message-hub?id=8DzBH6Ju8JkNx2RfgC32FA responded 101 in 70632.3727 ms
+14/03/2024 13:37:58 [INF] HTTP GET /message-hub?id=tmILzX_yvPZTCfJSujBk6g responded 101 in 70632.3743 ms
+14/03/2024 13:37:58 [INF] HTTP GET /message-hub?id=u_XodwYsU_DXcsM6P5jgeQ responded 101 in 70640.8592 ms

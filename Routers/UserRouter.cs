@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
 
-namespace Travel_Ease.Routers;
+namespace chat_app_service.Routers;
 
 public static class UserRouter
 {
@@ -75,6 +75,17 @@ public static class UserRouter
             });
         }).WithTags(tag).WithName("GetUser")
       .Produces<BaseResponse<UserDTO>>();
+
+        //     app.MapPatch("/updateStatusUser" + "/{userId}" + "/{status}", async ([FromServices] IUserService userService, long userId, bool status) =>
+        //     {
+        //         var results = await userService.UpdateUserStatus(userId, status);
+
+        //         return Results.Ok(new BaseResponse<string>
+        //         {
+        //             data = results
+        //         });
+        //     }).WithTags(tag).WithName("updateStatusUser")
+        //.Produces<BaseResponse<string>>();
     }
 }
 
