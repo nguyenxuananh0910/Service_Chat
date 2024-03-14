@@ -182,3 +182,16 @@
 14/03/2024 14:40:54 [INF] HTTP GET /Groups/5 responded 200 in 255.6679 ms
 14/03/2024 14:41:08 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5445 ms
 14/03/2024 14:41:08 [INF] HTTP GET /Messages/96 responded 200 in 84.8413 ms
+14/03/2024 15:12:12 [INF] HTTP GET /message-hub?id=jJykIVrtmM78MIEJetFWRw responded 101 in 1877785.2082 ms
+14/03/2024 15:12:12 [INF] HTTP GET /message-hub?id=g75XOWPBC994qoH1qjVhbQ responded 101 in 1863921.2284 ms
+14/03/2024 15:19:47 [INF] HTTP GET /users?userId=5 responded 200 in 1226.4690 ms
+14/03/2024 15:21:20 [ERR] HTTP GET /user/1 responded 500 in 170.4164 ms
+chat_app_service.Domain.Exceptions.NotFoundException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.GetUser(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 151
+   at chat_app_service.Routers.UserRouter.<>c.<<MapUserRoute>b__0_3>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 70
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+14/03/2024 15:21:25 [INF] HTTP GET /user/5 responded 200 in 51.8128 ms
+14/03/2024 15:22:47 [INF] HTTP GET /users?userId=3 responded 200 in 1204.6345 ms
+14/03/2024 15:22:51 [INF] HTTP GET /users?userId=5 responded 200 in 25.3801 ms

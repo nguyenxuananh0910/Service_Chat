@@ -27,7 +27,7 @@ public partial class AppChatDbContext : DbContext
     {
         modelBuilder.Entity<Group>(entity =>
         {
-            entity.HasKey(e => e.GroupId).HasName("PK__Groups__88C1034D4F8177E2");
+            entity.HasKey(e => e.GroupId).HasName("PK__Groups__88C1034D5C051182");
 
             entity.Property(e => e.GroupId).HasColumnName("groupId");
             entity.Property(e => e.CreatedAt)
@@ -74,7 +74,7 @@ public partial class AppChatDbContext : DbContext
 
         modelBuilder.Entity<Message>(entity =>
         {
-            entity.HasKey(e => e.MessageId).HasName("PK__Messages__4808B99332F48055");
+            entity.HasKey(e => e.MessageId).HasName("PK__Messages__4808B993E6DC38EB");
 
             entity.Property(e => e.MessageId).HasColumnName("messageId");
             entity.Property(e => e.Content).HasColumnName("content");
@@ -98,11 +98,11 @@ public partial class AppChatDbContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.Userid).HasName("PK__Users__CBA1B2573BB855CE");
+            entity.HasKey(e => e.Userid).HasName("PK__Users__CBA1B257ECA9E632");
 
-            entity.HasIndex(e => e.Fullname, "UQ__Users__D316D6C19339D07B").IsUnique();
+            entity.HasIndex(e => e.Fullname, "UQ__Users__D316D6C126314770").IsUnique();
 
-            entity.HasIndex(e => e.Username, "UQ__Users__F3DBC572C0F565B4").IsUnique();
+            entity.HasIndex(e => e.Username, "UQ__Users__F3DBC572DC690A2C").IsUnique();
 
             entity.Property(e => e.Userid).HasColumnName("userid");
             entity.Property(e => e.CreatedAt)
