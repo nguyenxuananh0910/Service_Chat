@@ -86,7 +86,7 @@ public class UserRepository : IUserService
                 throw new BadHttpRequestException(message: "Email hoặc password không đúng");
             }
 
-            var token = CreateToken(req.Username ?? "");
+            var token = CreateToken(user.Username ?? "", user.Userid.ToString() ?? "");
 
             var userLogin = new LoginDTO()
             {
@@ -115,28 +115,29 @@ public class UserRepository : IUserService
     }
 
 
-    private string CreateToken(string username)
+    private string CreateToken(string username, string userId)
     {
         List<Claim> claims = new List<Claim> {
-                new Claim(ClaimTypes.Name, username),
-
-            };
+        new Claim(ClaimTypes.Name, username),
+        new Claim(ClaimTypes.NameIdentifier, userId) // Thêm claim mới cho userId
+    };
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
-            _configuration.GetSection("AppSettings:Token").Value!));
+          _configuration.GetSection("AppSettings:Token").Value!));
 
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
 
         var token = new JwtSecurityToken(
-                claims: claims,
-                expires: DateTime.Now.AddDays(1),
-                signingCredentials: creds
-            );
+            claims: claims,
+            expires: DateTime.Now.AddDays(1),
+            signingCredentials: creds
+        );
 
         var jwt = new JwtSecurityTokenHandler().WriteToken(token);
 
         return jwt;
-
     }
+
+
 
     public async Task<UserDTO> GetUser(long userId)
     {

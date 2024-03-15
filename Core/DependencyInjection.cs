@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using chat_app_service.Core.Authentication;
 using chat_app_service.Domain.Services;
 using chat_app_service.Infrastructure.Repositories;
+using Microsoft.AspNetCore.SignalR;
 
 
 
@@ -31,7 +33,7 @@ public static class DependencyInjection
 
         services.AddScoped<IUserService, UserRepository>();
         services.AddScoped<IMessageService, MessageRepository>();
-        //services.AddSingleton<IUserIdProvider, NameUserIdProvider>();
+        services.AddSingleton<IUserIdProvider, NameUserIdProvider>();
 
         //services.AddSingleton<MessageHub>();
 

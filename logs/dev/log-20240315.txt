@@ -1,0 +1,417 @@
+15/03/2024 14:01:01 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 15.0463 ms
+15/03/2024 14:01:02 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.0910 ms
+15/03/2024 14:01:27 [INF] HTTP GET /message-hub?id=QKyW6jKsTMH-38Db61Gb3g responded 101 in 25025.3175 ms
+15/03/2024 14:01:27 [INF] HTTP GET /message-hub?id=ji-cLc2ijTv6o8aI-FOskA responded 101 in 5.2817 ms
+15/03/2024 14:01:29 [INF] HTTP GET /users?userId=1 responded 200 in 26994.2527 ms
+15/03/2024 14:01:29 [INF] HTTP GET /Groups/1 responded 200 in 27106.2258 ms
+15/03/2024 14:01:47 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5887 ms
+15/03/2024 14:01:47 [INF] HTTP GET /users?userId=1 responded 200 in 62.7141 ms
+15/03/2024 14:01:48 [INF] HTTP GET /Groups/1 responded 200 in 10.7059 ms
+15/03/2024 14:01:48 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.0874 ms
+15/03/2024 14:13:30 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 23.9048 ms
+15/03/2024 14:13:30 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 23.9125 ms
+15/03/2024 14:13:41 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7024 ms
+15/03/2024 14:13:42 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5263 ms
+15/03/2024 14:14:23 [ERR] An error occurred using the connection to database 'Chat_Test' on server '192.168.1.78'.
+15/03/2024 14:14:23 [ERR] An error occurred using the connection to database 'Chat_Test' on server '192.168.1.78'.
+15/03/2024 14:14:29 [INF] HTTP GET /message-hub?id=OWeGWJ8mN8CAs4GLf8KdgA responded 101 in 47846.1993 ms
+15/03/2024 14:14:31 [INF] HTTP GET /message-hub?id=vUGpbnIkTq9AxrxFY4dOgw responded 101 in 1771.0058 ms
+15/03/2024 14:14:31 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6619 ms
+15/03/2024 14:14:31 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5122 ms
+15/03/2024 14:14:31 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5381 ms
+15/03/2024 14:14:31 [ERR] An exception occurred while iterating over the results of a query for context type 'chat_app_service.Infrastructure.Databases.AppChatDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:1ecb5411-81a2-450a-ac0d-674a3afe7914
+Error Number:258,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:1ecb5411-81a2-450a-ac0d-674a3afe7914
+Error Number:258,State:0,Class:20
+15/03/2024 14:14:31 [ERR] An exception occurred while iterating over the results of a query for context type 'chat_app_service.Infrastructure.Databases.AppChatDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.WaitForSSLHandShakeToComplete(UInt32& error, Int32& protocolVersion)
+   at Microsoft.Data.SqlClient.TdsParser.EnableSsl(UInt32 info, SqlConnectionEncryptOption encrypt, Boolean integratedSecurity, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCert)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:1ecb5411-81a2-450a-ac0d-674a3afe7914
+Error Number:258,State:0,Class:20
+Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.WaitForSSLHandShakeToComplete(UInt32& error, Int32& protocolVersion)
+   at Microsoft.Data.SqlClient.TdsParser.EnableSsl(UInt32 info, SqlConnectionEncryptOption encrypt, Boolean integratedSecurity, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCert)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:1ecb5411-81a2-450a-ac0d-674a3afe7914
+Error Number:258,State:0,Class:20
+15/03/2024 14:14:31 [ERR] HTTP GET /Groups/1 responded 500 in 49859.7658 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.GetGroups(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 135
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_2>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+ClientConnectionId:1ecb5411-81a2-450a-ac0d-674a3afe7914
+Error Number:258,State:0,Class:20
+15/03/2024 14:14:31 [ERR] HTTP GET /users?userId=1 responded 500 in 50320.3296 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.WaitForSSLHandShakeToComplete(UInt32& error, Int32& protocolVersion)
+   at Microsoft.Data.SqlClient.TdsParser.EnableSsl(UInt32 info, SqlConnectionEncryptOption encrypt, Boolean integratedSecurity, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCert)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at chat_app_service.Infrastructure.Repositories.UserRepository.GetUsers(Int64 userId) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 109
+   at chat_app_service.Routers.UserRouter.<>c.<<MapUserRoute>b__0_2>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 59
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+ClientConnectionId:1ecb5411-81a2-450a-ac0d-674a3afe7914
+Error Number:258,State:0,Class:20
+15/03/2024 14:14:42 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 3.1904 ms
+15/03/2024 14:14:42 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7472 ms
+15/03/2024 14:14:42 [INF] HTTP GET /users?userId=1 responded 200 in 339.4402 ms
+15/03/2024 14:14:42 [INF] HTTP GET /Groups/1 responded 200 in 474.5044 ms
+15/03/2024 14:17:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 6.9063 ms
+15/03/2024 14:17:38 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7568 ms
+15/03/2024 14:17:38 [ERR] Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'chat_app_service.Core.Hubs.MessageHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+15/03/2024 14:17:39 [INF] HTTP GET /message-hub?id=HwY4bf_bMp6s9Rl8chK9pQ responded 101 in 397.4844 ms
+15/03/2024 14:17:39 [ERR] Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'chat_app_service.Core.Hubs.MessageHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+15/03/2024 14:17:39 [INF] HTTP GET /message-hub?id=7Df4bBPXZF98Nsivkab6Bg responded 101 in 231.4482 ms
+15/03/2024 14:17:39 [INF] HTTP GET /users?userId=1 responded 200 in 1254.9322 ms
+15/03/2024 14:17:40 [INF] HTTP GET /Groups/1 responded 200 in 1118.2554 ms
+15/03/2024 14:17:59 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5238 ms
+15/03/2024 14:18:00 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5356 ms
+15/03/2024 14:18:00 [INF] HTTP GET /users?userId=1 responded 200 in 54.3756 ms
+15/03/2024 14:18:00 [INF] HTTP GET /Groups/1 responded 200 in 62.7421 ms
+15/03/2024 14:18:00 [ERR] Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'chat_app_service.Core.Hubs.MessageHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+15/03/2024 14:18:00 [ERR] Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'chat_app_service.Core.Hubs.MessageHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+15/03/2024 14:18:02 [INF] HTTP GET /message-hub?id=hX8zdrms5cFpKJdYNkIKiw responded 101 in 1445.6983 ms
+15/03/2024 14:18:02 [INF] HTTP GET /message-hub?id=EYA9ttKJ2NSwor7wOTZJsg responded 101 in 1454.8773 ms
+15/03/2024 14:18:39 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6242 ms
+15/03/2024 14:18:39 [INF] HTTP GET /users?userId=1 responded 200 in 12.5699 ms
+15/03/2024 14:18:39 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.9222 ms
+15/03/2024 14:18:39 [INF] HTTP GET /Groups/1 responded 200 in 12.5866 ms
+15/03/2024 14:18:40 [ERR] Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'chat_app_service.Core.Hubs.MessageHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+15/03/2024 14:18:41 [INF] HTTP GET /message-hub?id=mYFB_1TYpivUjEyp4WcAHQ responded 101 in 668.6503 ms
+15/03/2024 14:19:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 8.9547 ms
+15/03/2024 14:19:18 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6319 ms
+15/03/2024 14:19:19 [ERR] Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'chat_app_service.Core.Hubs.MessageHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method29(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+15/03/2024 14:19:19 [INF] HTTP GET /message-hub?id=P0Cw3YX0DkqqzUgbYf0ALw responded 101 in 929.6062 ms
+15/03/2024 14:19:19 [ERR] Error when dispatching 'OnConnectedAsync' on hub.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Microsoft.AspNetCore.Identity.IdentityUser]' while attempting to activate 'chat_app_service.Core.Hubs.MessageHub'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method29(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubActivator`1.Create()
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.OnConnectedAsync(HubConnectionContext connection)
+   at Microsoft.AspNetCore.SignalR.HubConnectionHandler`1.RunHubAsync(HubConnectionContext connection)
+15/03/2024 14:19:19 [INF] HTTP GET /message-hub?id=ysi8POwGHLqwsPBi3N8o4A responded 101 in 41.5788 ms
+15/03/2024 14:19:19 [INF] HTTP GET /users?userId=1 responded 200 in 1476.0835 ms
+15/03/2024 14:19:19 [INF] HTTP GET /Groups/1 responded 200 in 1379.2450 ms
+15/03/2024 14:41:01 [INF] HTTP GET /users?userId=1 responded 200 in 1649.8505 ms
+15/03/2024 14:41:20 [INF] HTTP GET /message-hub/negotiate?negotiateVersion=1 responded 405 in 1.3493 ms
+15/03/2024 14:43:35 [INF] HTTP GET /users?userId=1 responded 200 in 39.8219 ms
+15/03/2024 14:45:15 [INF] HTTP GET /message-hub/negotiate?negotiateVersion=1 responded 405 in 2.1890 ms
+15/03/2024 14:46:49 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 18.5583 ms
+15/03/2024 14:46:49 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 25.0996 ms
+15/03/2024 14:46:49 [INF] HTTP GET /users?userId=1 responded 200 in 466.5187 ms
+15/03/2024 14:46:49 [INF] HTTP GET /Groups/1 responded 200 in 1639.3721 ms
+15/03/2024 14:47:13 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 25.5095 ms
+15/03/2024 14:47:14 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.6361 ms
+15/03/2024 14:47:20 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.9036 ms
+15/03/2024 14:47:22 [INF] HTTP GET /message-hub?id=mDMVub8ZMlZtPbCSuQDesQ responded 101 in 7431.7986 ms
+15/03/2024 14:47:22 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5975 ms
+15/03/2024 14:47:23 [INF] HTTP GET /users?userId=1 responded 200 in 2286.0532 ms
+15/03/2024 14:47:23 [INF] HTTP GET /Groups/1 responded 200 in 2436.1836 ms
+15/03/2024 14:48:03 [INF] HTTP GET /user/1 responded 200 in 55.0451 ms
+15/03/2024 14:48:08 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7100 ms
+15/03/2024 14:48:08 [INF] HTTP GET /Messages/1 responded 200 in 246.7297 ms
+15/03/2024 14:49:26 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6149 ms
+15/03/2024 14:49:28 [INF] HTTP GET /users?userId=1 responded 200 in 11.6719 ms
+15/03/2024 14:49:28 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 3.2984 ms
+15/03/2024 14:49:28 [INF] HTTP GET /Groups/1 responded 200 in 22.9674 ms
+15/03/2024 14:50:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4896 ms
+15/03/2024 14:50:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3722 ms
+15/03/2024 14:50:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3336 ms
+15/03/2024 14:50:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3516 ms
+15/03/2024 14:50:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2984 ms
+15/03/2024 14:50:37 [INF] HTTP GET /message-hub?id=mAQOImMDteD9s6lBnftdyg responded 101 in 68382.6754 ms
+15/03/2024 14:50:37 [INF] HTTP GET /message-hub?id=dhyMgnDvxnULYbEiicHXzw responded 101 in 69101.4980 ms
+15/03/2024 14:50:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2433 ms
+15/03/2024 14:50:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2751 ms
+15/03/2024 14:50:37 [INF] HTTP GET /Messages/1 responded 200 in 15.4636 ms
+15/03/2024 14:50:47 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2959 ms
+15/03/2024 14:51:03 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3496 ms
+15/03/2024 14:54:10 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 19.8264 ms
+15/03/2024 14:54:11 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.2373 ms
+15/03/2024 14:54:45 [INF] HTTP POST /login responded 200 in 1638.1796 ms
+15/03/2024 14:59:42 [INF] HTTP GET /message-hub?id=7FOC9bE2p9xpcQeytCFT3A responded 101 in 330514.1253 ms
+15/03/2024 14:59:46 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 12.9190 ms
+15/03/2024 15:00:12 [INF] HTTP POST /login responded 200 in 1469.2842 ms
+15/03/2024 15:00:39 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 4.4574 ms
+15/03/2024 15:00:39 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5393 ms
+15/03/2024 15:00:39 [INF] HTTP GET /message-hub?id=30Dqpnayo9Fm34KkVnInvg responded 101 in 52223.0146 ms
+15/03/2024 15:00:40 [INF] HTTP GET /users?userId=1 responded 200 in 53.4462 ms
+15/03/2024 15:00:40 [INF] HTTP GET /Groups/1 responded 200 in 180.6994 ms
+15/03/2024 15:00:51 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5595 ms
+15/03/2024 15:00:52 [INF] HTTP GET /users?userId=1 responded 200 in 44.3890 ms
+15/03/2024 15:00:52 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.8048 ms
+15/03/2024 15:00:52 [INF] HTTP GET /Groups/1 responded 200 in 20.4278 ms
+15/03/2024 15:01:29 [INF] HTTP GET /message-hub?id=VrXE0yAe1B-O6Jcpaawjxg responded 101 in 36639.5582 ms
+15/03/2024 15:01:29 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6313 ms
+15/03/2024 15:01:30 [INF] HTTP GET /message-hub?id=5N2ANsoZzfZR6Q99z5WfUg responded 101 in 29243.9015 ms
+15/03/2024 15:01:30 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.8258 ms
+15/03/2024 15:01:30 [INF] HTTP GET /users?userId=1 responded 200 in 771.2453 ms
+15/03/2024 15:01:30 [INF] HTTP GET /Groups/1 responded 200 in 16.9226 ms
+15/03/2024 15:03:36 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 2.9229 ms
+15/03/2024 15:03:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1008.4717 ms
+15/03/2024 15:03:37 [INF] HTTP GET /message-hub?id=K3Z8kseFuj-mek_F4p7w-g responded 101 in 127138.5450 ms
+15/03/2024 15:03:38 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1023.6952 ms
+15/03/2024 15:03:38 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1023.2776 ms
+15/03/2024 15:03:38 [INF] HTTP GET /message-hub?id=-GcGw8k25nrtE71QYcCKTg responded 101 in 125077.1602 ms
+15/03/2024 15:06:41 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2272 ms
+15/03/2024 15:06:41 [INF] HTTP GET /Messages/1 responded 200 in 47.8978 ms
+15/03/2024 15:13:12 [INF] HTTP GET /message-hub?id=XbnW4UMUC03YSAdFoWMkzQ responded 101 in 390440.1520 ms
+15/03/2024 15:15:26 [INF] HTTP GET /Groups/1 responded 200 in 40.2748 ms
+15/03/2024 15:15:26 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2550 ms
+15/03/2024 15:15:26 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.1902 ms
+15/03/2024 15:15:26 [INF] HTTP GET /users?userId=1 responded 200 in 68.3323 ms
+15/03/2024 15:15:51 [INF] HTTP GET /message-hub?id=tC1WzkwsMN_MrHgG9NQ7TA&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImV4cCI6MTcxMDU2MTg3NH0.imh1wwnxKXrY7ro2Ncyj-Ci7ZNFUL22Ub6vKIhPYbc0 responded 101 in 24096.4641 ms
+15/03/2024 15:15:51 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3856 ms
+15/03/2024 15:15:51 [INF] HTTP GET /Groups/1 responded 200 in 11.9693 ms
+15/03/2024 15:15:53 [INF] HTTP GET /users?userId=1 responded 200 in 6.4390 ms
+15/03/2024 15:15:53 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3517 ms
+15/03/2024 15:16:02 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3250 ms
+15/03/2024 15:16:03 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.3805 ms
+15/03/2024 15:16:03 [INF] HTTP GET /users?userId=1 responded 200 in 6.8084 ms
+15/03/2024 15:16:03 [INF] HTTP GET /Groups/1 responded 200 in 13.3288 ms
+15/03/2024 15:17:05 [INF] HTTP GET /message-hub?id=VhN-H-_47RO58Tfv9TlCMQ&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImV4cCI6MTcxMDU2MTg3NH0.imh1wwnxKXrY7ro2Ncyj-Ci7ZNFUL22Ub6vKIhPYbc0 responded 101 in 62192.5002 ms
+15/03/2024 15:17:06 [INF] HTTP GET /message-hub?id=mSk6F5MpZy1g_r9jXq5zUw&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImV4cCI6MTcxMDU2MTg3NH0.imh1wwnxKXrY7ro2Ncyj-Ci7ZNFUL22Ub6vKIhPYbc0 responded 101 in 63066.1360 ms
+15/03/2024 15:17:06 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5402 ms
+15/03/2024 15:17:06 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3505 ms
+15/03/2024 15:17:06 [INF] HTTP GET /users?userId=1 responded 200 in 9.5430 ms
+15/03/2024 15:17:06 [INF] HTTP GET /Groups/1 responded 200 in 17.3039 ms
+15/03/2024 15:17:06 [INF] HTTP GET /user/1 responded 200 in 18.6861 ms
+15/03/2024 15:17:21 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4165 ms
+15/03/2024 15:17:21 [INF] HTTP GET /users?userId=1 responded 200 in 106.5262 ms
+15/03/2024 15:17:21 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4227 ms
+15/03/2024 15:17:21 [INF] HTTP GET /Groups/1 responded 200 in 15.3884 ms
+15/03/2024 15:17:24 [INF] HTTP GET /CheckIfUsersMessaged/2/1 responded 200 in 60.5397 ms
+15/03/2024 15:17:24 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3102 ms
+15/03/2024 15:17:29 [INF] HTTP GET /user/1 responded 200 in 7.3493 ms
+15/03/2024 15:17:57 [INF] HTTP POST /login responded 200 in 153.1767 ms
+15/03/2024 15:17:57 [INF] HTTP GET /users?userId=1 responded 200 in 7.6827 ms
+15/03/2024 15:17:58 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4088 ms
+15/03/2024 15:17:58 [INF] HTTP GET /Groups/1 responded 200 in 12.8209 ms
+15/03/2024 15:18:13 [INF] HTTP GET /message-hub?id=_2e0yPCgL9_h0VsakXMWgg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImV4cCI6MTcxMDU2MTg3NH0.imh1wwnxKXrY7ro2Ncyj-Ci7ZNFUL22Ub6vKIhPYbc0 responded 101 in 51892.9898 ms
+15/03/2024 15:18:13 [INF] HTTP GET /message-hub?id=DZy7EbBMaySQXFfOls793g&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImV4cCI6MTcxMDU2MTg3NH0.imh1wwnxKXrY7ro2Ncyj-Ci7ZNFUL22Ub6vKIhPYbc0 responded 101 in 48537.2293 ms
+15/03/2024 15:18:13 [INF] HTTP GET /message-hub?id=M6_pvwj_MDNbm0sObWhOmg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDU3NzA3N30.5XOn0VSy13goIir30_jGrwPP-ICNI_ysphsVHTSmpmU responded 101 in 14266.5072 ms
+15/03/2024 15:18:13 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2515 ms
+15/03/2024 15:18:13 [INF] HTTP GET /CheckIfUsersMessaged/2/1 responded 200 in 12.8085 ms
+15/03/2024 15:18:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.6334 ms
+15/03/2024 15:18:17 [INF] HTTP GET /users?userId=1 responded 200 in 6.7897 ms
+15/03/2024 15:18:18 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7776 ms
+15/03/2024 15:18:18 [INF] HTTP GET /Groups/1 responded 200 in 12.4257 ms
+15/03/2024 15:19:21 [INF] HTTP GET /message-hub?id=dI4qvITgxQhvmQPF3RiY5w&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDU3NzA3N30.5XOn0VSy13goIir30_jGrwPP-ICNI_ysphsVHTSmpmU responded 101 in 62205.0614 ms
+15/03/2024 15:19:21 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3313 ms
+15/03/2024 15:19:22 [INF] HTTP GET /message-hub?id=z2dPWmIUReSNSEtzn35EaQ&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDU3NzA3N30.5XOn0VSy13goIir30_jGrwPP-ICNI_ysphsVHTSmpmU responded 101 in 62960.2545 ms
+15/03/2024 15:19:22 [INF] HTTP GET /users?userId=1 responded 200 in 10.9445 ms
+15/03/2024 15:19:22 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5713 ms
+15/03/2024 15:19:22 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5401 ms
+15/03/2024 15:19:22 [INF] HTTP GET /Groups/1 responded 200 in 968.2081 ms
+15/03/2024 15:20:18 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5117 ms
+15/03/2024 15:20:18 [INF] HTTP GET /users?userId=1 responded 200 in 10.1127 ms
+15/03/2024 15:20:18 [INF] HTTP GET /Groups/1 responded 200 in 15.8013 ms
+15/03/2024 15:20:18 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2814 ms
+15/03/2024 15:21:05 [INF] HTTP GET /message-hub?id=fHTPHy3aBR5eLYbQ9tahJg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDU3NzA3N30.5XOn0VSy13goIir30_jGrwPP-ICNI_ysphsVHTSmpmU responded 101 in 46306.7226 ms
+15/03/2024 15:21:07 [INF] HTTP GET /message-hub?id=OBhSwiQRQgHuw6GYputtqA&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDU3NzA3N30.5XOn0VSy13goIir30_jGrwPP-ICNI_ysphsVHTSmpmU responded 101 in 48142.0301 ms
+15/03/2024 15:21:07 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1835.9141 ms
+15/03/2024 15:21:07 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.0475 ms
+15/03/2024 15:21:07 [INF] HTTP GET /users?userId=1 responded 200 in 8.6156 ms
+15/03/2024 15:21:07 [INF] HTTP GET /Groups/1 responded 200 in 15.8828 ms
+15/03/2024 15:22:13 [INF] HTTP GET /users?userId=1 responded 200 in 1105.0088 ms
+15/03/2024 15:26:23 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 4.2603 ms
+15/03/2024 15:26:23 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 5.6483 ms
+15/03/2024 15:26:31 [INF] HTTP GET /users?userId=1 responded 200 in 7929.4066 ms
+15/03/2024 15:26:31 [INF] HTTP GET /Groups/1 responded 200 in 1532.8372 ms
+15/03/2024 15:27:21 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.1357 ms
+15/03/2024 15:27:22 [INF] HTTP GET /users?userId=1 responded 200 in 130.1663 ms
+15/03/2024 15:27:22 [INF] HTTP GET /Groups/1 responded 200 in 15.7715 ms
+15/03/2024 15:27:22 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7000 ms
+15/03/2024 15:27:30 [INF] HTTP GET /message-hub?id=y232LPKQmerCYyPRa-x2nw&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDU3NzA3N30.5XOn0VSy13goIir30_jGrwPP-ICNI_ysphsVHTSmpmU responded 101 in 8792.1228 ms
+15/03/2024 15:27:30 [INF] HTTP GET /message-hub?id=Q7TdcVGgiWFi-7GXB8D6Cw&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDU3NzA3N30.5XOn0VSy13goIir30_jGrwPP-ICNI_ysphsVHTSmpmU responded 101 in 8558.2788 ms
+15/03/2024 15:27:34 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2761 ms
+15/03/2024 15:27:35 [INF] HTTP GET /Groups/1 responded 200 in 9.2282 ms
+15/03/2024 15:27:38 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3948 ms
+15/03/2024 15:27:38 [INF] HTTP GET /users?userId=1 responded 200 in 8.5976 ms
+15/03/2024 15:29:20 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 5.1118 ms
+15/03/2024 15:29:20 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 5.0919 ms
+15/03/2024 15:30:00 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 4.6242 ms
+15/03/2024 15:30:00 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 5.4270 ms
+15/03/2024 15:30:05 [INF] HTTP GET /users?userId=1 responded 200 in 5116.3291 ms
+15/03/2024 15:30:05 [INF] HTTP GET /Groups/1 responded 200 in 1729.3767 ms
+15/03/2024 15:31:00 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 2.4351 ms
+15/03/2024 15:31:00 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5319 ms
+15/03/2024 15:31:02 [INF] HTTP GET /users?userId=1 responded 200 in 57.9665 ms
+15/03/2024 15:31:02 [INF] HTTP GET /Groups/1 responded 200 in 1973.3022 ms
+15/03/2024 15:32:12 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.9640 ms
+15/03/2024 15:32:12 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5311 ms
+15/03/2024 15:32:12 [INF] HTTP GET /users?userId=1 responded 200 in 5837.2323 ms
+15/03/2024 15:32:14 [INF] HTTP GET /Groups/1 responded 200 in 15.0545 ms
+15/03/2024 15:32:39 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5752 ms
+15/03/2024 15:32:39 [INF] HTTP GET /Messages/1 responded 200 in 46.2295 ms
+15/03/2024 15:33:04 [INF] HTTP POST /Message responded 200 in 200.5129 ms
+15/03/2024 15:33:27 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7629 ms
+15/03/2024 15:33:27 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6774 ms
+15/03/2024 15:33:27 [INF] HTTP GET /users?userId=1 responded 200 in 1799.5987 ms
+15/03/2024 15:33:29 [INF] HTTP GET /Groups/1 responded 200 in 13.3334 ms
+15/03/2024 15:34:24 [INF] HTTP GET /users?userId=1 responded 200 in 1657.3115 ms
+15/03/2024 15:34:24 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5443 ms
+15/03/2024 15:34:24 [INF] HTTP GET /Groups/1 responded 200 in 23.7073 ms
+15/03/2024 15:35:31 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 9.4474 ms
+15/03/2024 15:35:34 [INF] HTTP GET /users?userId=1 responded 200 in 3503.6758 ms
+15/03/2024 15:35:35 [INF] HTTP GET /Groups/1 responded 200 in 3318.0409 ms
+15/03/2024 15:36:28 [INF] HTTP GET /message-hub?id=GY7t0cntgbQ5s987Iz9URw&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDU3NzA3N30.5XOn0VSy13goIir30_jGrwPP-ICNI_ysphsVHTSmpmU responded 101 in 54097.1464 ms
+15/03/2024 15:36:37 [INF] HTTP GET /users?userId=1 responded 200 in 51.4214 ms
+15/03/2024 15:36:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 2.1646 ms
+15/03/2024 15:36:37 [INF] HTTP GET /Groups/1 responded 200 in 17.0298 ms
+15/03/2024 15:37:38 [INF] HTTP GET /message-hub?id=h08kespqwoa3xSJYU-hxHQ&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDU3NzA3N30.5XOn0VSy13goIir30_jGrwPP-ICNI_ysphsVHTSmpmU responded 101 in 10193.8828 ms
+15/03/2024 15:37:56 [INF] HTTP GET /user/1 responded 200 in 18.5160 ms
