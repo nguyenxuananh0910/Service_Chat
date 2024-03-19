@@ -12,4 +12,5 @@ public class PostSendMessageReq
 
     public int? Type { get; set; }
 
+
 }

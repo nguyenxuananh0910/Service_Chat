@@ -315,3 +315,12 @@ D:\service\Service_Chat\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Common.dll
 D:\service\Service_Chat\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
 D:\service\Service_Chat\bin\Debug\net8.0\Microsoft.Extensions.Features.dll
 D:\service\Service_Chat\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\service\Service_Chat\bin\Debug\net8.0\send-notification-3738e-firebase-adminsdk-i48xu-8da7ca0b2e.json
+D:\service\Service_Chat\bin\Debug\net8.0\FirebaseAdmin.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Google.Api.Gax.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Google.Api.Gax.Rest.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Google.Apis.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Google.Apis.Auth.PlatformServices.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Google.Apis.Auth.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Google.Apis.Core.dll
+D:\service\Service_Chat\bin\Debug\net8.0\Newtonsoft.Json.dll

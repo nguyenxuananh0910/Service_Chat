@@ -87,6 +87,10 @@ public class UserRepository : IUserService
             }
 
             var token = CreateToken(user.Username ?? "", user.Userid.ToString() ?? "");
+            // Update the user's msgToken
+            user.MsgToken = req.MsgToken;
+
+            await _databaseContext.SaveChangesAsync();
 
             var userLogin = new LoginDTO()
             {

@@ -1,0 +1,437 @@
+19/03/2024 10:06:02 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 7.7449 ms
+19/03/2024 10:06:02 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 8.3390 ms
+19/03/2024 10:06:04 [INF] HTTP GET /users?userId=1 responded 200 in 1939.3082 ms
+19/03/2024 10:06:04 [INF] HTTP GET /Groups/1 responded 200 in 2603.5195 ms
+19/03/2024 10:06:18 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5617 ms
+19/03/2024 10:06:18 [INF] HTTP GET /Messages/27 responded 200 in 67.6099 ms
+19/03/2024 10:07:10 [INF] HTTP POST /Message responded 200 in 20838.9967 ms
+19/03/2024 10:07:41 [INF] HTTP POST /Message responded 200 in 404.7953 ms
+19/03/2024 10:07:52 [INF] HTTP GET /Messages/27 responded 200 in 22.7366 ms
+19/03/2024 10:07:52 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4794 ms
+19/03/2024 10:08:33 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 9.4604 ms
+19/03/2024 10:08:33 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6912 ms
+19/03/2024 10:08:33 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2409 ms
+19/03/2024 10:08:33 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2182 ms
+19/03/2024 10:08:34 [INF] HTTP GET /Messages/27 responded 200 in 852.4634 ms
+19/03/2024 10:08:34 [INF] HTTP GET /users?userId=1 responded 200 in 857.3447 ms
+19/03/2024 10:08:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 9.9429 ms
+19/03/2024 10:08:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 9.9717 ms
+19/03/2024 10:08:37 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 9.9575 ms
+19/03/2024 10:09:54 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 5.3634 ms
+19/03/2024 10:09:54 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 5.3512 ms
+19/03/2024 10:09:54 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 5.3568 ms
+19/03/2024 10:09:57 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 9.1196 ms
+19/03/2024 10:09:57 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 9.1052 ms
+19/03/2024 10:09:57 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 9.1230 ms
+19/03/2024 10:10:14 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 7.0998 ms
+19/03/2024 10:10:14 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 7.1066 ms
+19/03/2024 10:10:14 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 7.1249 ms
+19/03/2024 10:10:36 [INF] HTTP GET /message-hub?id=IMiyiB-ez31E4kaewnpIgg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 21717.8895 ms
+19/03/2024 10:10:36 [INF] HTTP GET /message-hub?id=YOecnK0s-JfdvH7r8E43Og&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 21718.2525 ms
+19/03/2024 10:10:36 [INF] HTTP GET /message-hub?id=fuOsS5XcvCGvl70JUV_0Ww&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 21717.2624 ms
+19/03/2024 10:10:39 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5701 ms
+19/03/2024 10:10:39 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4609 ms
+19/03/2024 10:10:39 [INF] HTTP GET /users?userId=1 responded 200 in 84.0559 ms
+19/03/2024 10:10:39 [INF] HTTP GET /users?userId=1 responded 200 in 8.2446 ms
+19/03/2024 10:10:39 [INF] HTTP GET /users?userId=1 responded 200 in 7.0613 ms
+19/03/2024 10:10:40 [INF] HTTP GET /Groups/1 responded 200 in 160.8775 ms
+19/03/2024 10:11:12 [INF] HTTP POST /Message responded 200 in 21404.4654 ms
+19/03/2024 10:23:45 [INF] HTTP GET /message-hub?id=A9JuqF3YOdaBHliETgrRqA&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 785412.7767 ms
+19/03/2024 10:23:45 [INF] HTTP GET /message-hub?id=YDADoLmPA3mgdNQpWwVrdg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 785320.2649 ms
+19/03/2024 10:23:47 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4272 ms
+19/03/2024 10:23:47 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5920 ms
+19/03/2024 10:23:47 [INF] HTTP GET /users?userId=1 responded 200 in 7.6043 ms
+19/03/2024 10:23:47 [INF] HTTP GET /Groups/1 responded 200 in 29.3466 ms
+19/03/2024 10:23:47 [INF] HTTP GET /users?userId=1 responded 200 in 5.8794 ms
+19/03/2024 10:23:47 [INF] HTTP GET /users?userId=1 responded 200 in 7.3221 ms
+19/03/2024 10:28:01 [INF] HTTP GET /message-hub?id=WS73CbkJpHge85MPc-zRcg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 253962.0784 ms
+19/03/2024 10:28:01 [INF] HTTP GET /message-hub?id=49rMu4FUgHUVL8WTzXlGAw&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 254162.6662 ms
+19/03/2024 10:28:17 [INF] HTTP GET /users?userId=1 responded 200 in 4.8525 ms
+19/03/2024 10:28:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2686 ms
+19/03/2024 10:28:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4451 ms
+19/03/2024 10:28:18 [INF] HTTP GET /Groups/1 responded 200 in 14.1122 ms
+19/03/2024 10:28:18 [INF] HTTP GET /users?userId=1 responded 200 in 6.3120 ms
+19/03/2024 10:28:18 [INF] HTTP GET /users?userId=1 responded 200 in 6.1275 ms
+19/03/2024 10:28:43 [INF] HTTP GET /message-hub?id=meMSZF8u3RX1XIrabJVq9Q&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 25072.6392 ms
+19/03/2024 10:28:43 [INF] HTTP GET /message-hub?id=GGnZp0KuCHa7BKLSaahXug&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 25073.4527 ms
+19/03/2024 10:28:49 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2332 ms
+19/03/2024 10:28:49 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.1824 ms
+19/03/2024 10:28:49 [INF] HTTP GET /users?userId=1 responded 200 in 4.9545 ms
+19/03/2024 10:28:49 [INF] HTTP GET /Groups/1 responded 200 in 12.5640 ms
+19/03/2024 10:29:38 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2128 ms
+19/03/2024 10:29:38 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2359 ms
+19/03/2024 10:29:38 [INF] HTTP GET /users?userId=1 responded 200 in 8.3559 ms
+19/03/2024 10:29:38 [INF] HTTP GET /Groups/1 responded 200 in 60.6121 ms
+19/03/2024 10:29:39 [INF] HTTP GET /users?userId=1 responded 200 in 6.7065 ms
+19/03/2024 10:29:39 [INF] HTTP GET /users?userId=1 responded 200 in 16.6646 ms
+19/03/2024 10:41:51 [INF] HTTP GET /message-hub?id=RAjETZLm9dmcNvGXiCk89w&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 731886.2788 ms
+19/03/2024 10:41:51 [INF] HTTP GET /message-hub?id=T9o9p3Bn-wfQxy7cDPpnLA&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 731898.6523 ms
+19/03/2024 10:43:06 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4554 ms
+19/03/2024 10:43:06 [INF] HTTP GET /users?userId=1 responded 200 in 12.6415 ms
+19/03/2024 10:43:06 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3851 ms
+19/03/2024 10:43:07 [INF] HTTP GET /Groups/1 responded 200 in 13.2276 ms
+19/03/2024 10:43:07 [INF] HTTP GET /users?userId=1 responded 200 in 9.1770 ms
+19/03/2024 10:43:07 [INF] HTTP GET /users?userId=1 responded 200 in 7.0356 ms
+19/03/2024 10:48:01 [INF] HTTP GET /message-hub?id=CjPHFwy3IlJTUkPkysLbgQ&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 294801.9243 ms
+19/03/2024 10:48:01 [INF] HTTP GET /message-hub?id=ezPGY3cZLNTkvOXgJWxIJg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 294691.8664 ms
+19/03/2024 10:48:05 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2463 ms
+19/03/2024 10:48:06 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2939 ms
+19/03/2024 10:48:06 [INF] HTTP GET /users?userId=1 responded 200 in 8.1727 ms
+19/03/2024 10:48:06 [INF] HTTP GET /Groups/1 responded 200 in 26.9038 ms
+19/03/2024 10:48:06 [INF] HTTP GET /users?userId=1 responded 200 in 7.4765 ms
+19/03/2024 10:48:06 [INF] HTTP GET /users?userId=1 responded 200 in 8.3292 ms
+19/03/2024 10:48:51 [INF] HTTP GET /message-hub?id=IN8IQW0IpOOTYYgcmaaxzw&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 45208.5087 ms
+19/03/2024 10:48:51 [INF] HTTP GET /message-hub?id=GSpU5i1zBGOYPk83x6dNDg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 45207.4386 ms
+19/03/2024 10:49:07 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2128 ms
+19/03/2024 10:49:08 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2608 ms
+19/03/2024 10:49:08 [INF] HTTP GET /users?userId=1 responded 200 in 4.8193 ms
+19/03/2024 10:49:08 [INF] HTTP GET /Groups/1 responded 200 in 15.4555 ms
+19/03/2024 10:49:08 [INF] HTTP GET /users?userId=1 responded 200 in 5.4553 ms
+19/03/2024 10:49:08 [INF] HTTP GET /users?userId=1 responded 200 in 21.2226 ms
+19/03/2024 10:51:13 [INF] HTTP GET /message-hub?id=DV2-AA7WOr7RPBMq7q0zXA&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 125115.4628 ms
+19/03/2024 10:51:13 [INF] HTTP GET /message-hub?id=CpuZ9uQOhqCQZHKaRrvpBQ&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 125125.5223 ms
+19/03/2024 10:51:18 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2740 ms
+19/03/2024 10:51:19 [INF] HTTP GET /users?userId=1 responded 200 in 6.1568 ms
+19/03/2024 10:51:19 [INF] HTTP GET /users?userId=1 responded 200 in 5.0209 ms
+19/03/2024 10:51:20 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.1583 ms
+19/03/2024 10:51:20 [INF] HTTP GET /Groups/1 responded 200 in 16.4100 ms
+19/03/2024 10:51:22 [INF] HTTP GET /users?userId=1 responded 200 in 11.8129 ms
+19/03/2024 11:01:08 [INF] HTTP GET /message-hub?id=vqZQ11-JMV8eX0GmQ7ELjQ&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 589224.8194 ms
+19/03/2024 11:01:08 [INF] HTTP GET /message-hub?id=5wv4g0Nx6h-IihQCRRTMBQ&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 587582.0100 ms
+19/03/2024 11:01:24 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2425 ms
+19/03/2024 11:01:24 [INF] HTTP GET /users?userId=1 responded 200 in 12.0760 ms
+19/03/2024 11:01:24 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2847 ms
+19/03/2024 11:01:25 [INF] HTTP GET /Groups/1 responded 200 in 20.1771 ms
+19/03/2024 11:01:25 [INF] HTTP GET /users?userId=1 responded 200 in 5.3731 ms
+19/03/2024 11:01:25 [INF] HTTP GET /users?userId=1 responded 200 in 7.5966 ms
+19/03/2024 11:01:37 [INF] HTTP GET /message-hub?id=oz4dS95xyZIsrNHA0cXvnA&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 12586.2724 ms
+19/03/2024 11:01:37 [INF] HTTP GET /message-hub?id=-xkCg9bxVnCet4xy9b0y1Q&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 12571.2680 ms
+19/03/2024 11:14:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.1670 ms
+19/03/2024 11:14:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2123 ms
+19/03/2024 11:14:17 [INF] HTTP GET /users?userId=1 responded 200 in 33.6618 ms
+19/03/2024 11:14:17 [INF] HTTP GET /Groups/1 responded 200 in 61.5293 ms
+19/03/2024 11:14:17 [INF] HTTP GET /users?userId=1 responded 200 in 5.7138 ms
+19/03/2024 11:14:17 [INF] HTTP GET /users?userId=1 responded 200 in 9.1608 ms
+19/03/2024 11:17:19 [INF] HTTP GET /message-hub?id=d-J-3-1vTPmN4Z_-2CcHFg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 181850.6831 ms
+19/03/2024 11:17:19 [INF] HTTP GET /message-hub?id=eZ77g-ki13PrVqMJAzrT4w&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 181828.5646 ms
+19/03/2024 11:17:51 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2207 ms
+19/03/2024 11:17:51 [INF] HTTP GET /users?userId=1 responded 200 in 8.2243 ms
+19/03/2024 11:17:52 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2107 ms
+19/03/2024 11:17:52 [INF] HTTP GET /Groups/1 responded 200 in 12.1356 ms
+19/03/2024 11:17:52 [INF] HTTP GET /users?userId=1 responded 200 in 6.8880 ms
+19/03/2024 11:17:53 [INF] HTTP GET /users?userId=1 responded 200 in 5.1766 ms
+19/03/2024 11:25:39 [INF] HTTP GET /message-hub?id=SAWqtvCoyhpxzYq8DMsN1g&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 465567.0422 ms
+19/03/2024 11:25:39 [INF] HTTP GET /message-hub?id=nGwH6lx0sVYZLeDOUrS0eg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 467656.4164 ms
+19/03/2024 11:25:45 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.1325 ms
+19/03/2024 11:25:46 [INF] HTTP GET /users?userId=1 responded 200 in 7.0084 ms
+19/03/2024 11:25:46 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.1891 ms
+19/03/2024 11:25:46 [INF] HTTP GET /Groups/1 responded 200 in 17.0033 ms
+19/03/2024 11:25:47 [INF] HTTP GET /users?userId=1 responded 200 in 9.1455 ms
+19/03/2024 11:25:47 [INF] HTTP GET /users?userId=1 responded 200 in 51.4147 ms
+19/03/2024 11:26:00 [INF] HTTP POST /Message responded 200 in 2299.1357 ms
+19/03/2024 11:26:21 [INF] HTTP POST /Message responded 200 in 263.0989 ms
+19/03/2024 11:27:25 [INF] HTTP POST /Message responded 200 in 352.5963 ms
+19/03/2024 11:27:40 [INF] HTTP GET /message-hub?id=xkT67K8hqdIus3i9ZRiN_Q&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 113964.0166 ms
+19/03/2024 11:27:40 [INF] HTTP GET /message-hub?id=sESJfr0X6O7U-1sQbegagw&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 113710.5541 ms
+19/03/2024 11:27:46 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6194 ms
+19/03/2024 11:27:46 [INF] HTTP GET /users?userId=1 responded 200 in 18.0405 ms
+19/03/2024 11:27:48 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.8040 ms
+19/03/2024 11:27:48 [INF] HTTP GET /Groups/1 responded 200 in 16.2253 ms
+19/03/2024 11:27:48 [INF] HTTP GET /users?userId=1 responded 200 in 9.4905 ms
+19/03/2024 11:27:48 [INF] HTTP GET /users?userId=1 responded 200 in 6.5990 ms
+19/03/2024 11:27:57 [INF] HTTP POST /Message responded 200 in 131.9932 ms
+19/03/2024 11:33:47 [INF] HTTP GET /message-hub?id=nBosSdF3_UJUknn0rp7HLw&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 359174.2727 ms
+19/03/2024 11:34:03 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 12.9299 ms
+19/03/2024 11:34:03 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 12.9373 ms
+19/03/2024 11:34:33 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4929 ms
+19/03/2024 11:34:34 [INF] HTTP GET /users?userId=1 responded 200 in 86.9935 ms
+19/03/2024 11:39:49 [INF] HTTP GET /message-hub?id=TKE9Z9l-0ubkFnK6b2gydg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 315095.0946 ms
+19/03/2024 11:39:49 [INF] HTTP GET /message-hub?id=kyvlm2h5Eh7m-gaxxPe9hg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 344628.0133 ms
+19/03/2024 11:39:54 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 6.8658 ms
+19/03/2024 11:39:54 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 6.8653 ms
+19/03/2024 11:40:05 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6948 ms
+19/03/2024 11:40:05 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5030 ms
+19/03/2024 11:40:10 [INF] HTTP POST /login responded 200 in 1443.5105 ms
+19/03/2024 11:40:10 [INF] HTTP GET /users?userId=1 responded 200 in 77.7664 ms
+19/03/2024 11:40:10 [INF] HTTP GET /users?userId=1 responded 200 in 10.1559 ms
+19/03/2024 11:40:27 [INF] HTTP GET /user/1 responded 200 in 22.0466 ms
+19/03/2024 11:40:37 [INF] HTTP POST /login responded 200 in 304.3520 ms
+19/03/2024 11:40:42 [INF] HTTP GET /user/1 responded 200 in 10.3251 ms
+19/03/2024 11:43:34 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 9.5471 ms
+19/03/2024 11:43:34 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 9.5652 ms
+19/03/2024 11:43:36 [INF] HTTP GET /users?userId=1 responded 200 in 83.2815 ms
+19/03/2024 11:43:36 [INF] HTTP GET /users?userId=1 responded 200 in 16.6687 ms
+19/03/2024 11:51:53 [INF] HTTP GET /message-hub?id=Q7dfawXRVGCFR9YMD44F2g&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 498786.2491 ms
+19/03/2024 11:51:53 [INF] HTTP GET /message-hub?id=s5waqRC6VHOHqhZG8-M1xg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 498786.2468 ms
+19/03/2024 11:52:12 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5631 ms
+19/03/2024 11:52:13 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3700 ms
+19/03/2024 11:52:13 [INF] HTTP GET /users?userId=1 responded 200 in 8.0048 ms
+19/03/2024 11:52:13 [INF] HTTP GET /Groups/1 responded 200 in 218.3135 ms
+19/03/2024 11:52:15 [INF] HTTP GET /user/1 responded 200 in 12.8109 ms
+19/03/2024 11:52:18 [ERR] HTTP POST /login responded 500 in 20.2323 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.Login(PostLoginReq req) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 82
+   at chat_app_service.Routers.UserRouter.<>c.<<MapUserRoute>b__0_1>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 40
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+19/03/2024 11:52:32 [INF] HTTP GET /message-hub?id=Kdc71ciNm_zvBOk2uFtUaA&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkwMjcyMn0.GviQLhGZD5DapLw-AxKE6mz8QTL7_kYbrOz2N3tLVfA responded 101 in 19318.1105 ms
+19/03/2024 11:52:35 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3864 ms
+19/03/2024 11:52:38 [ERR] HTTP POST /login responded 500 in 9.1432 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.Login(PostLoginReq req) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 82
+   at chat_app_service.Routers.UserRouter.<>c.<<MapUserRoute>b__0_1>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 40
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+19/03/2024 11:53:36 [INF] HTTP GET /message-hub?id=dQpjr8keAInKHZtyNXh-Ng responded 101 in 60315.5707 ms
+19/03/2024 11:53:40 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6130 ms
+19/03/2024 11:53:52 [INF] HTTP GET /message-hub?id=Bp1PrEujD1aiu4uaWcsjxw responded 101 in 11650.2769 ms
+19/03/2024 11:53:55 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3019 ms
+19/03/2024 11:56:04 [INF] HTTP GET /message-hub?id=8hGjM55D1fd0qSXPMWJb3w responded 101 in 128631.1490 ms
+19/03/2024 11:56:21 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4381 ms
+19/03/2024 11:56:43 [ERR] HTTP POST /login responded 500 in 11.9287 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.Login(PostLoginReq req) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 82
+   at chat_app_service.Routers.UserRouter.<>c.<<MapUserRoute>b__0_1>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 40
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+19/03/2024 11:57:28 [INF] HTTP GET /message-hub?id=xNbA95cgjm_DC6pBSocL5w responded 101 in 65716.3321 ms
+19/03/2024 11:58:20 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2441 ms
+19/03/2024 11:58:44 [ERR] HTTP POST /login responded 500 in 8.9102 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.Login(PostLoginReq req) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 82
+   at chat_app_service.Routers.UserRouter.<>c.<<MapUserRoute>b__0_1>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 40
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+19/03/2024 11:58:52 [ERR] HTTP POST /login responded 500 in 4.6045 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.Login(PostLoginReq req) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 82
+   at chat_app_service.Routers.UserRouter.<>c.<<MapUserRoute>b__0_1>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 40
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+19/03/2024 11:59:56 [INF] HTTP GET /message-hub?id=Nipb-EmpfTRqTGnnBCHzlw responded 101 in 95076.5306 ms
+19/03/2024 13:19:24 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 11.3084 ms
+19/03/2024 13:21:41 [ERR] HTTP POST /login responded 500 in 1858.3811 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.Login(PostLoginReq req) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 82
+   at chat_app_service.Routers.UserRouter.<>c.<<MapUserRoute>b__0_1>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 40
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+19/03/2024 13:22:49 [ERR] HTTP POST /login responded 500 in 248.8982 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.Login(PostLoginReq req) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 82
+   at chat_app_service.Routers.UserRouter.<>c.<<MapUserRoute>b__0_1>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 40
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+19/03/2024 13:24:17 [ERR] HTTP POST /login responded 500 in 51.0805 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.Login(PostLoginReq req) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 82
+   at chat_app_service.Routers.UserRouter.<>c.<<MapUserRoute>b__0_1>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 40
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+19/03/2024 13:24:55 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5446 ms
+19/03/2024 13:26:15 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2846 ms
+19/03/2024 13:26:47 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5180 ms
+19/03/2024 13:26:56 [ERR] HTTP POST /login responded 500 in 14.9585 ms
+Microsoft.AspNetCore.Http.BadHttpRequestException: User Không tồn tại
+   at chat_app_service.Infrastructure.Repositories.UserRepository.Login(PostLoginReq req) in D:\service\Service_Chat\Infrastructure\Repositories\UserRepository.cs:line 82
+   at chat_app_service.Routers.UserRouter.<>c.<<MapUserRoute>b__0_1>d.MoveNext() in D:\service\Service_Chat\Routers\UserRouter.cs:line 40
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39
+19/03/2024 13:27:15 [INF] HTTP GET /message-hub?id=w4wC8RopIqap_U-NULyXtA responded 101 in 27759.5437 ms
+19/03/2024 13:27:19 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3707 ms
+19/03/2024 13:27:22 [INF] HTTP POST /login responded 200 in 690.7291 ms
+19/03/2024 13:27:22 [INF] HTTP GET /users?userId=1 responded 200 in 29.0802 ms
+19/03/2024 13:27:23 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2767 ms
+19/03/2024 13:27:23 [INF] HTTP GET /Groups/1 responded 200 in 134.7527 ms
+19/03/2024 13:27:23 [INF] HTTP GET /users?userId=1 responded 200 in 6.4192 ms
+19/03/2024 13:29:08 [INF] HTTP GET /message-hub?id=BPHhkMhGwL3oKXgEOZi0gQ responded 101 in 107222.7532 ms
+19/03/2024 13:29:08 [INF] HTTP GET /message-hub?id=oF82H7jwbMiEgQE6QEUCjg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNjA0Mn0.YHyUGt5jslFGOWGZlPIoqANgZ52hEHYATHvBdC-uVBU responded 101 in 105140.9796 ms
+19/03/2024 13:29:25 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 5.4869 ms
+19/03/2024 13:29:25 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 5.1418 ms
+19/03/2024 13:29:27 [INF] HTTP GET /users?userId=1 responded 200 in 1498.1256 ms
+19/03/2024 13:29:27 [INF] HTTP GET /Groups/1 responded 200 in 1479.3159 ms
+19/03/2024 13:29:27 [INF] HTTP GET /users?userId=1 responded 200 in 21.5986 ms
+19/03/2024 13:29:27 [INF] HTTP GET /users?userId=1 responded 200 in 9.3325 ms
+19/03/2024 13:29:48 [INF] HTTP POST /Message responded 200 in 3630.8498 ms
+19/03/2024 13:31:33 [INF] HTTP POST /Message responded 200 in 8585.2643 ms
+19/03/2024 13:35:52 [INF] HTTP GET /message-hub?id=VxDWXnPM0N14PP6LZCWgpw&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNjA0Mn0.YHyUGt5jslFGOWGZlPIoqANgZ52hEHYATHvBdC-uVBU responded 101 in 386047.6091 ms
+19/03/2024 13:35:52 [INF] HTTP GET /message-hub?id=3QRngWvuda0_xlL0IhlB2w&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNjA0Mn0.YHyUGt5jslFGOWGZlPIoqANgZ52hEHYATHvBdC-uVBU responded 101 in 385725.6900 ms
+19/03/2024 13:45:09 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.1533 ms
+19/03/2024 13:45:16 [INF] HTTP POST /login responded 200 in 351.2382 ms
+19/03/2024 13:45:17 [INF] HTTP GET /users?userId=1 responded 200 in 8.6439 ms
+19/03/2024 13:45:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5883 ms
+19/03/2024 13:45:17 [INF] HTTP GET /Groups/1 responded 200 in 14.0345 ms
+19/03/2024 13:45:20 [INF] HTTP GET /users?userId=1 responded 200 in 6.6833 ms
+19/03/2024 13:46:12 [INF] HTTP GET /message-hub?id=9ebHpqMtlfGNBCLUulBLVQ responded 101 in 60626.3737 ms
+19/03/2024 13:46:12 [INF] HTTP GET /message-hub?id=16gI-psRO6vAPj74vjuGFg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzExNn0.os7Iwf9jNro_iK70Sz96zwFZklAqAJupb8F0bvjDZTs responded 101 in 52815.1107 ms
+19/03/2024 13:46:54 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7561 ms
+19/03/2024 13:47:06 [INF] HTTP GET /message-hub?id=GU4MBIIApcBY7VGq_jv6Pw responded 101 in 11413.0876 ms
+19/03/2024 13:47:51 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4115 ms
+19/03/2024 13:53:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5329 ms
+19/03/2024 13:53:30 [INF] HTTP POST /login responded 200 in 401.5554 ms
+19/03/2024 13:53:30 [INF] HTTP GET /users?userId=1 responded 200 in 21.6209 ms
+19/03/2024 13:53:31 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3394 ms
+19/03/2024 13:53:31 [INF] HTTP GET /Groups/1 responded 200 in 12.9807 ms
+19/03/2024 13:53:31 [INF] HTTP GET /users?userId=1 responded 200 in 7.4262 ms
+19/03/2024 13:53:46 [INF] HTTP POST /Message responded 200 in 3204.8701 ms
+19/03/2024 13:53:58 [INF] HTTP POST /Message responded 200 in 314.0023 ms
+19/03/2024 13:54:53 [INF] HTTP GET /message-hub?id=lkWtbZEVI_3yz3Hly6ewVw responded 101 in 94357.0174 ms
+19/03/2024 13:54:53 [INF] HTTP GET /message-hub?id=70TOybWtJzFhrrQMi9wPaQ&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 82605.6975 ms
+19/03/2024 13:55:02 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3957 ms
+19/03/2024 13:55:03 [INF] HTTP GET /users?userId=1 responded 200 in 12.1253 ms
+19/03/2024 13:55:06 [INF] HTTP GET /users?userId=1 responded 200 in 8.0461 ms
+19/03/2024 13:55:07 [INF] HTTP GET /Groups/1 responded 200 in 26.5214 ms
+19/03/2024 13:55:07 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6590 ms
+19/03/2024 13:55:07 [INF] HTTP GET /users?userId=1 responded 200 in 5.9636 ms
+19/03/2024 13:55:14 [INF] HTTP POST /Message responded 200 in 433.4016 ms
+19/03/2024 13:55:27 [INF] HTTP POST /Message responded 200 in 1366.2397 ms
+19/03/2024 13:57:09 [INF] HTTP GET /message-hub?id=dLD9rOdHmWPSiv78j2yXvQ&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 122329.2029 ms
+19/03/2024 13:57:09 [INF] HTTP GET /message-hub?id=62S0nOva6p1Fwmh9AicU6g&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 126291.8025 ms
+19/03/2024 13:57:12 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6401 ms
+19/03/2024 13:57:12 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5812 ms
+19/03/2024 13:57:12 [INF] HTTP GET /users?userId=1 responded 200 in 8.7952 ms
+19/03/2024 13:57:12 [INF] HTTP GET /Groups/1 responded 200 in 12.9055 ms
+19/03/2024 13:57:13 [INF] HTTP GET /users?userId=1 responded 200 in 7.5238 ms
+19/03/2024 13:57:13 [INF] HTTP GET /users?userId=1 responded 200 in 5.5506 ms
+19/03/2024 13:57:16 [INF] HTTP POST /Message responded 200 in 543.8314 ms
+19/03/2024 13:57:53 [INF] HTTP POST /Message responded 200 in 337.4865 ms
+19/03/2024 14:01:58 [INF] HTTP GET /message-hub?id=z9BrED7Be6Af2s0-UViLtg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 285997.2399 ms
+19/03/2024 14:01:58 [INF] HTTP GET /message-hub?id=hSoYYeJWziQNwOhsWjfv0Q&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 285983.3598 ms
+19/03/2024 14:02:02 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5040 ms
+19/03/2024 14:02:02 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3810 ms
+19/03/2024 14:02:02 [INF] HTTP GET /users?userId=1 responded 200 in 8.6882 ms
+19/03/2024 14:02:02 [INF] HTTP GET /Groups/1 responded 200 in 15.1110 ms
+19/03/2024 14:02:03 [INF] HTTP GET /users?userId=1 responded 200 in 12.4747 ms
+19/03/2024 14:02:03 [INF] HTTP GET /users?userId=1 responded 200 in 9.3715 ms
+19/03/2024 14:02:09 [INF] HTTP POST /Message responded 200 in 1204.9075 ms
+19/03/2024 14:04:40 [INF] HTTP GET /message-hub?id=zBCyx6kXXCUXxX_maSAmRA&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 157474.6780 ms
+19/03/2024 14:04:40 [INF] HTTP GET /message-hub?id=Wod0NFjj-dum83GoV_PBJA&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 157138.6151 ms
+19/03/2024 14:04:43 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4199 ms
+19/03/2024 14:04:44 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6709 ms
+19/03/2024 14:04:44 [INF] HTTP GET /users?userId=1 responded 200 in 7.8592 ms
+19/03/2024 14:04:44 [INF] HTTP GET /Groups/1 responded 200 in 371.3423 ms
+19/03/2024 14:04:45 [INF] HTTP GET /users?userId=1 responded 200 in 7.8903 ms
+19/03/2024 14:04:45 [INF] HTTP GET /users?userId=1 responded 200 in 7.8446 ms
+19/03/2024 14:04:51 [INF] HTTP POST /Message responded 200 in 530.4064 ms
+19/03/2024 14:19:06 [INF] HTTP POST /Message responded 200 in 623.0679 ms
+19/03/2024 14:19:19 [INF] HTTP GET /message-hub?id=J2G8JdPZFc7cP7rb9m7a2w&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 875779.2426 ms
+19/03/2024 14:19:20 [INF] HTTP GET /message-hub?id=UcXvRjD2qN2qlwnwgWN1Ng&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 875797.2585 ms
+19/03/2024 14:19:23 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3673 ms
+19/03/2024 14:19:23 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.1540 ms
+19/03/2024 14:19:23 [INF] HTTP GET /users?userId=1 responded 200 in 4.9912 ms
+19/03/2024 14:19:23 [INF] HTTP GET /Groups/1 responded 200 in 23.0518 ms
+19/03/2024 14:19:23 [INF] HTTP GET /users?userId=1 responded 200 in 49.4898 ms
+19/03/2024 14:19:23 [INF] HTTP GET /users?userId=1 responded 200 in 29.5463 ms
+19/03/2024 14:19:37 [INF] HTTP POST /Message responded 200 in 361.5576 ms
+19/03/2024 14:20:12 [INF] HTTP GET /message-hub?id=-H_Di_R1wCMcM2Pvidj2Ng&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 49036.5253 ms
+19/03/2024 14:20:12 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4434 ms
+19/03/2024 14:20:12 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5285 ms
+19/03/2024 14:20:12 [INF] HTTP GET /message-hub?id=HErlnEwEUuKJ-8sWOnPKWg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 49076.8311 ms
+19/03/2024 14:20:12 [INF] HTTP GET /users?userId=1 responded 200 in 15.5537 ms
+19/03/2024 14:20:12 [INF] HTTP GET /users?userId=1 responded 200 in 27.2939 ms
+19/03/2024 14:21:56 [INF] HTTP GET /message-hub?id=ffCUY-odhI68Y_ixaxqOXg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 103685.3716 ms
+19/03/2024 14:21:56 [INF] HTTP GET /message-hub?id=O3K6L8oCHvAnfpkWoDNb7Q&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 103703.3282 ms
+19/03/2024 14:22:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.4483 ms
+19/03/2024 14:22:17 [INF] HTTP GET /users?userId=1 responded 200 in 7.9661 ms
+19/03/2024 14:22:17 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.2208 ms
+19/03/2024 14:22:17 [INF] HTTP GET /Groups/1 responded 200 in 9.5787 ms
+19/03/2024 14:22:18 [INF] HTTP GET /users?userId=1 responded 200 in 11.3278 ms
+19/03/2024 14:22:18 [INF] HTTP GET /users?userId=1 responded 200 in 5.9500 ms
+19/03/2024 14:22:19 [INF] HTTP POST /Message responded 200 in 475.8738 ms
+19/03/2024 14:23:27 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6397 ms
+19/03/2024 14:23:27 [INF] HTTP GET /Messages/27 responded 200 in 64.2572 ms
+19/03/2024 14:23:56 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 5.4322 ms
+19/03/2024 14:23:56 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3656 ms
+19/03/2024 14:23:56 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.2166 ms
+19/03/2024 14:23:56 [INF] HTTP GET /users?userId=1 responded 200 in 960.8547 ms
+19/03/2024 14:23:58 [INF] HTTP GET /message-hub?id=GWEhZOLLJ8ilFPzBQm4THw&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 404 in 8.4486 ms
+19/03/2024 14:23:58 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.8540 ms
+19/03/2024 14:23:58 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 4.1205 ms
+19/03/2024 14:23:59 [INF] HTTP GET /users?userId=1 responded 200 in 1421.0916 ms
+19/03/2024 14:23:59 [INF] HTTP GET /users?userId=1 responded 200 in 60.6272 ms
+19/03/2024 14:23:59 [INF] HTTP GET /users?userId=1 responded 200 in 14.5260 ms
+19/03/2024 14:24:01 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.6607 ms
+19/03/2024 14:24:24 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 8.2488 ms
+19/03/2024 14:24:24 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 8.2478 ms
+19/03/2024 14:24:24 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5787 ms
+19/03/2024 14:24:24 [INF] HTTP GET /users?userId=1 responded 200 in 907.1007 ms
+19/03/2024 14:24:27 [INF] HTTP GET /users?userId=1 responded 200 in 1199.3492 ms
+19/03/2024 14:24:27 [INF] HTTP GET /users?userId=1 responded 200 in 1199.3628 ms
+19/03/2024 14:24:27 [INF] HTTP GET /users?userId=1 responded 200 in 1199.3571 ms
+19/03/2024 14:24:27 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 6.0835 ms
+19/03/2024 14:24:27 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 6.4915 ms
+19/03/2024 14:24:27 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 6.0850 ms
+19/03/2024 14:24:35 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 21.2658 ms
+19/03/2024 14:24:35 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 21.2263 ms
+19/03/2024 14:24:35 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 21.2430 ms
+19/03/2024 14:24:44 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7945 ms
+19/03/2024 14:24:47 [INF] HTTP GET /users?userId=1 responded 200 in 2020.1195 ms
+19/03/2024 14:24:47 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.5951 ms
+19/03/2024 14:24:47 [INF] HTTP GET /users?userId=1 responded 200 in 24.2178 ms
+19/03/2024 14:24:47 [INF] HTTP GET /Groups/1 responded 200 in 2242.0072 ms
+19/03/2024 14:24:50 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.7061 ms
+19/03/2024 14:24:50 [INF] HTTP GET /Messages/27 responded 200 in 91.2528 ms
+19/03/2024 14:24:50 [INF] HTTP GET /users?userId=1 responded 200 in 9.7012 ms
+19/03/2024 14:25:03 [INF] HTTP POST /Message responded 200 in 1940.3947 ms
+19/03/2024 14:32:09 [INF] HTTP POST /Message responded 200 in 706.5133 ms
+19/03/2024 14:32:16 [INF] HTTP GET /user/1 responded 200 in 45.9388 ms
+19/03/2024 14:35:49 [INF] HTTP POST /Message responded 200 in 618.6694 ms
+19/03/2024 14:36:13 [INF] HTTP GET /message-hub?id=ON5yNmCAx3tEcJHPqj2DOg&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 687045.4561 ms
+19/03/2024 14:36:13 [INF] HTTP GET /message-hub?id=5xedIaspyAhSdeO-gYfptQ&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 683097.8485 ms
+19/03/2024 14:36:31 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4151 ms
+19/03/2024 14:36:31 [INF] HTTP GET /users?userId=1 responded 200 in 9.7055 ms
+19/03/2024 14:36:31 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 1.2318 ms
+19/03/2024 14:36:31 [INF] HTTP GET /Groups/1 responded 200 in 18.2937 ms
+19/03/2024 14:36:35 [INF] HTTP POST /Message responded 200 in 225.5253 ms
+19/03/2024 14:37:01 [INF] HTTP POST /Message responded 200 in 160.6826 ms
+19/03/2024 14:37:18 [INF] HTTP POST /Message responded 200 in 473.0297 ms
+19/03/2024 14:37:22 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.4340 ms
+19/03/2024 14:37:22 [INF] HTTP GET /Messages/27 responded 200 in 46.2352 ms
+19/03/2024 14:37:32 [INF] HTTP POST /message-hub/negotiate?negotiateVersion=1 responded 200 in 0.3771 ms
+19/03/2024 14:37:32 [INF] HTTP GET /Messages/27 responded 200 in 18.7806 ms
+19/03/2024 14:38:18 [INF] HTTP GET /message-hub?id=oYJptsB7YtW99eLQW1SxSA&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 46093.9574 ms
+19/03/2024 14:38:18 [INF] HTTP GET /message-hub?id=IZhZot7ROghzw4H1Z7-HjA&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 107096.8137 ms
+19/03/2024 14:38:18 [INF] HTTP GET /users?userId=1 responded 200 in 16.4439 ms
+19/03/2024 14:38:18 [INF] HTTP GET /message-hub?id=c2nzsb3eM1Ovp5ThHCWZow&access_token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiWHVhbkFuaCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMSIsImV4cCI6MTcxMDkxNzYxMH0.b3fK7J4KS1OSUzZ7urtyKc2hmPF5pR4VEh7egZbsmj4 responded 101 in 56568.2449 ms
+19/03/2024 14:38:18 [ERR] HTTP POST /Message responded 500 in 37.0489 ms
+System.ArgumentException: Exactly one of Token, Topic or Condition is required.
+   at FirebaseAdmin.Messaging.Message.CopyAndValidate()
+   at FirebaseAdmin.Messaging.FirebaseMessagingClient.SendAsync(Message message, Boolean dryRun, CancellationToken cancellationToken)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message, Boolean dryRun, CancellationToken cancellationToken)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message, Boolean dryRun)
+   at FirebaseAdmin.Messaging.FirebaseMessaging.SendAsync(Message message)
+   at chat_app_service.Infrastructure.Repositories.NotificationRepository.SendNotificationAsync(String deviceToken, String title, String body) in D:\service\Service_Chat\Infrastructure\Repositories\NotificationRepository.cs:line 19
+   at chat_app_service.Infrastructure.Repositories.MessageRepository.SendMessage(PostSendMessageReq req) in D:\service\Service_Chat\Infrastructure\Repositories\MessageRepository.cs:line 65
+   at chat_app_service.Routers.MessageRouter.<>c.<<MapMessageRouter>b__0_0>d.MoveNext() in D:\service\Service_Chat\Routers\MessageRouter.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass102_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at CustomExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\service\Service_Chat\Core\Middlewares\ExceptionHandlerMiddleware.cs:line 39

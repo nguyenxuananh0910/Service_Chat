@@ -12,4 +12,5 @@ public class UserDTO
 
     public bool? Status { get; set; }
 
+
 }

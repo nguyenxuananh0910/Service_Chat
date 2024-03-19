@@ -16,11 +16,13 @@ public class MessageRepository : IMessageService
     private readonly AppChatDbContext _databaseContext;
     private readonly IMapper _mapper;
     private readonly IHubContext<MessageHub> _hubContext;
-    public MessageRepository(AppChatDbContext databaseContext, IMapper mapper, IHubContext<MessageHub> hubContext)
+    private readonly NotificationRepository _notificationService;
+    public MessageRepository(AppChatDbContext databaseContext, IMapper mapper, IHubContext<MessageHub> hubContext, NotificationRepository notificationService)
     {
         _databaseContext = databaseContext;
         _mapper = mapper;
         _hubContext = hubContext;
+        _notificationService = notificationService;
     }
 
     public async Task<MessageDTO> SendMessage(PostSendMessageReq req)
@@ -41,10 +43,27 @@ public class MessageRepository : IMessageService
             };
 
             await _hubContext.Clients.All.SendAsync("ReceiveMessage", message);
+
             _databaseContext.Messages.Add(message);
             await _databaseContext.SaveChangesAsync();
 
+            /// send notification
+            var groupMembers = await _databaseContext.GroupMembers
+            .AsNoTracking()
+            .Where(e => e.GroupId == req.GroupId)
+            .Select(e => e.Userid)
+            .ToListAsync();
 
+            groupMembers.Remove(req.SenderId ?? -1);
+
+            foreach (var userId in groupMembers)
+            {
+                var user = await _databaseContext.Users.AsNoTracking()
+                    .Where(e => e.Userid == userId)
+                    .FirstOrDefaultAsync();
+
+                await _notificationService.SendNotificationAsync(user!.MsgToken ?? "", user.Fullname ?? "", req.Content ?? "");
+            }
 
             /// add last message
             var group = await _databaseContext.Groups.FindAsync(message.GroupId);
@@ -108,13 +127,17 @@ public class MessageRepository : IMessageService
                 await _databaseContext.SaveChangesAsync();
                 await transaction.CommitAsync();
 
-                var newGroup = await _databaseContext.Groups.AsNoTracking()
+                var getGroup = await _databaseContext.Groups.AsNoTracking()
                 .Where(g => g.GroupMembers.Any(gm => gm.GroupId == group.GroupId))
                 .Include(g => g.LastMessage)
                 .Include(g => g.GroupMembers)
                 .ThenInclude(gm => gm.User).FirstOrDefaultAsync();
 
-                return _mapper.Map<GroupDTO>(GroupToDTO(newGroup!));
+                var newGroup = _mapper.Map<GroupDTO>(GroupToDTO(getGroup!));
+
+                await _hubContext.Clients.All.SendAsync("ReceiveGroupCreated", newGroup);
+
+                return newGroup;
             }
             catch
             {

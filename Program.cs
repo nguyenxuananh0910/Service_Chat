@@ -3,6 +3,8 @@ using chat_app_service.Core.Hubs;
 using chat_app_service.Domain.Exceptions;
 using chat_app_service.Infrastructure.Databases;
 using chat_app_service.Routers;
+using FirebaseAdmin;
+using Google.Apis.Auth.OAuth2;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Http.Json;
 using Microsoft.EntityFrameworkCore;
@@ -118,6 +120,11 @@ builder.Services.AddAuthentication(x =>
 
 });
 
+// FireBase cofig
+FirebaseApp.Create(new AppOptions()
+{
+    Credential = GoogleCredential.FromFile(Path.Combine(Directory.GetCurrentDirectory(), "D:\\service\\Service_Chat\\send-notification-3738e-firebase-adminsdk-i48xu-8da7ca0b2e.json")),
+});
 
 //Add all service dependencies
 builder.Services.AddPersistence(); //dependency injection for persistence

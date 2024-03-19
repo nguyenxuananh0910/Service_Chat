@@ -19,6 +19,8 @@ public partial class User
 
     public DateTime? CreatedAt { get; set; }
 
+    public string? MsgToken { get; set; }
+
     public virtual ICollection<GroupMember> GroupMembers { get; set; } = new List<GroupMember>();
 
     public virtual ICollection<Group> Groups { get; set; } = new List<Group>();

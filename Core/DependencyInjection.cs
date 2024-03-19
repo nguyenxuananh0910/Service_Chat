@@ -34,6 +34,7 @@ public static class DependencyInjection
         services.AddScoped<IUserService, UserRepository>();
         services.AddScoped<IMessageService, MessageRepository>();
         services.AddSingleton<IUserIdProvider, NameUserIdProvider>();
+        services.AddScoped<NotificationRepository>();
 
         //services.AddSingleton<MessageHub>();
 

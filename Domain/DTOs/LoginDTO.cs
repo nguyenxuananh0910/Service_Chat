@@ -11,4 +11,5 @@ public class LoginDTO
     public string? Email { get; set; }
 
     public string token { get; set; } = string.Empty;
+
 }

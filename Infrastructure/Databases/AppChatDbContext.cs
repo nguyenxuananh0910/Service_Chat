@@ -114,6 +114,7 @@ public partial class AppChatDbContext : DbContext
             entity.Property(e => e.Fullname)
                 .HasMaxLength(100)
                 .HasColumnName("fullname");
+            entity.Property(e => e.MsgToken).IsUnicode(false);
             entity.Property(e => e.Password)
                 .HasMaxLength(255)
                 .HasColumnName("password");
